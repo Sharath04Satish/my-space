@@ -1,0 +1,33 @@
+---
+import Layout from "../layouts/Layout.astro";
+import { Image } from "astro:assets";
+import portrait from "../assets/about.jpg"; // resized + converted to WebP by Astro at build time
+---
+
+<Layout title="About — Sharath Satish" active="about">
+  <section class="about">
+    <div class="portrait">
+      <!-- The photo is landscape; the frame is tall. object-position keeps the face centred in the crop. -->
+      <Image
+        src={portrait}
+        alt="Portrait of Sharath Satish by the sea"
+        widths={[420, 840, 1260]}
+        sizes="(max-width: 720px) 100vw, 420px"
+        format="webp"
+        quality={82}
+        loading="eager"
+        style="object-position: 28% 50%"
+      />
+    </div>
+    <div>
+      <h1>Well, hello there!</h1>
+      <h2>I'm Sharath Satish</h2>
+      <p>I’m less interested in the postcard view than in everything around it: the moments between the start and the finish, and people being themselves, unburdened by the need to pose.</p>
+      <div class="kv">
+        <div><b>Based in</b><span>Utah, USA</span></div>
+        <div><b>Cameras</b><span>Fujifilm XE4 | Canon AT-1</span></div>
+        <div><b>Contact</b><span>hello@example.com</span></div>
+      </div>
+    </div>
+  </section>
+</Layout>

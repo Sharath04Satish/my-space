@@ -1,0 +1,46 @@
+# ── Dependencies ──────────────────────────────────────────
+node_modules/
+
+# ── Build output & generated files ────────────────────────
+dist/
+.astro/
+
+# ── Photo pipeline ────────────────────────────────────────
+# Your full-resolution originals: huge, and never deployed
+photos/
+# Generated web copies + upload state (rebuild any time with `npm run photos`)
+.cache/
+# Symlink to .cache/images used for local preview
+public/img
+# Stray originals dropped in the project root (the About photo lives in src/assets/)
+/*.jpg
+/*.jpeg
+/*.JPG
+/*.JPEG
+/*.png
+/*.tif
+/*.tiff
+
+# ── Secrets & local config ────────────────────────────────
+# R2 keys live here. Never commit them. (.env.example is the safe template, so it stays tracked.)
+.env
+.env.*
+!.env.example
+.dev.vars
+
+# ── Hosting tool caches ───────────────────────────────────
+.wrangler/
+.netlify/
+.vercel/
+
+# ── Logs ──────────────────────────────────────────────────
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# ── OS & editor ───────────────────────────────────────────
+.DS_Store
+Thumbs.db
+.idea/

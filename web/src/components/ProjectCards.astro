@@ -1,0 +1,22 @@
+---
+import { imageUrl } from "../lib/images";
+import type { Project } from "../lib/data";
+
+interface Props { projects: Project[]; showCount?: boolean }
+const { projects, showCount = false } = Astro.props;
+---
+
+<div class="cards">
+  {projects.map((p) => {
+    const cover = p.photos.find((ph) => ph.file === p.cover) ?? p.photos[0];
+    return (
+    <a class="card" href={`/collections/${p.slug}`}>
+      <div class="cover">
+        {cover && <img src={imageUrl(p.slug, cover, 1200)} alt="" loading="lazy" />}
+      </div>
+      <h3>{p.title}</h3>
+      <span>{[p.place, p.year].filter(Boolean).join(" · ")}{showCount && p.photos.length ? ` · ${p.photos.length} photos` : ""}</span>
+    </a>
+    );
+  })}
+</div>

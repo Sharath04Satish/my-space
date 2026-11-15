@@ -1,0 +1,13 @@
+---
+import Layout from "../layouts/Layout.astro";
+import Gallery from "../components/Gallery";
+import { highlights } from "../lib/data";
+---
+
+<Layout title="Sharath Satish — Photography" active="highlights">
+  <section class="intro">
+    <h1>Light, weather, and the quiet in between.</h1>
+    <p>A small selection of the photographs I’m proudest of, from the road, the city, and the people along the way.</p>
+  </section>
+  <Gallery client:load photos={highlights} layout="stack" showProject />
+</Layout>
