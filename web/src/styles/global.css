@@ -26,9 +26,14 @@ nav a:hover,nav a.on{color:var(--fg)}
 .masonry{columns:3;column-gap:var(--gap)}
 .ph{display:block;aspect-ratio:var(--ar);position:relative;overflow:hidden;cursor:zoom-in;background:var(--placeholder);break-inside:avoid;margin:0 0 var(--gap)}
 .ph.hero{margin-bottom:var(--gap)}
-/* Highlights: landscapes full-width; portraits two per row, same height (widths follow aspect ratio) */
+/* Ordered masonry ("columns" layout): each column is its own stack; photos keep their natural proportions */
+.mcols{display:flex;align-items:flex-start;gap:var(--gap)}
+.mcol{flex:1 1 0;min-width:0;display:flex;flex-direction:column;gap:var(--gap)}
+.mcol .ph{margin:0}
+/* Highlights: two per row. A pair shares one height (widths follow aspect ratio), so rows line up and nothing is cropped.
+   A lone photo is centred at half width. */
 .stack-row{display:flex;align-items:flex-start;gap:var(--gap);margin-bottom:var(--gap)}
-.stack-row .ph{margin:0;min-width:0;flex:1 1 100%}
+.stack-row .ph{margin:0;min-width:0}
 .stack-row.pair .ph{flex:var(--ar) 1 0}
 .stack-row.single{justify-content:center}
 .stack-row.single .ph{flex:0 0 calc(50% - var(--gap) / 2)}

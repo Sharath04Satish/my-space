@@ -2,7 +2,7 @@
 
 A personal photography portfolio built with [Astro](https://astro.build) and React.
 
-- **Highlights** (`/`): photos picked by hand across all collections. Landscapes run full-width; portraits sit two per row.
+- **Highlights** (`/`): photos picked by hand across all collections, with the first photo full-width, then a two-column masonry grid (list order reads left to right).
 - **Collections** (`/collections`): a two-per-row grid of collections, each with its own page (`/collections/<name>`).
 - **Collection page**: a full-width lead photo, then a three-column grid where every photo keeps its own proportions.
 - **Full-screen view**: click any photo. It works for landscape and portrait, with arrow-key / swipe navigation, and shows the photo's top three colours as small squares (click one to copy its hex code).
@@ -80,7 +80,12 @@ To add a new collection, create `photos/<new-name>/`, add photos, and run `npm r
 
 `project` is the collection's folder / URL name (the field keeps its old name). An entry that doesn't match a real photo is silently skipped, so check the page after saving.
 
-Layout rules: a landscape photo gets its own full-width row. Two portraits in a row (squares count as portraits) share a row at equal height. A portrait with a landscape on both sides sits centred at half width. List order is never changed to make pairs.
+Layout: the home page uses `HIGHLIGHTS_LAYOUT` at the top of `src/pages/index.astro`. Two options:
+
+- `"columns"` (current): the first photo in the list runs full-width (only if it is a landscape; otherwise there is no banner), then a two-column masonry. Each photo goes into whichever column is currently shorter, so the list reads left to right across the page and the columns end at about the same height. Photos keep their natural proportions.
+- `"stack"`: two per row. Neighbouring photos of the same shape (landscape + landscape, or portrait + portrait; squares count as portraits) share a row at equal height, so rows line up and nothing is cropped. A photo with no same-shaped neighbour sits alone, centred at half width. To avoid lone photos, arrange the list so same-shaped photos come in even-sized runs.
+
+In both, the list order is never changed. (The collection pages use a different layout: a full-width lead photo, then a three-column CSS masonry.)
 
 ## Where photos are served from
 
@@ -116,6 +121,5 @@ src/
 
 ## Status and what's next
 
-- Collections with photos: And it was all Yellow, These Mountains Narrate Stories, The Land of Enchantment, The Land of 14ers, The Golden State.
-- Still empty: The Canyons, The Big 5, The Least Populated State in the US, From the sets of Madagascar, City and Architecture, The Evergreen State.
+- All 11 collections now have photos.
 - **Not yet done:** the R2 upload has been exercised only with `--dry-run`, never against a real bucket. There is no deployment set up yet (Cloudflare Pages is the plan). The contact line on the About page is still a placeholder, and the Instagram / Email links in the footer don't go anywhere yet. Very long collections would benefit from loading photos as you scroll.
