@@ -1,18 +1,131 @@
 ---
 import Layout from "../layouts/Layout.astro";
-import Gallery from "../components/Gallery";
-import { highlights } from "../lib/data";
+import { projects } from "../lib/data";
+import { imageUrl, srcSet } from "../lib/images";
 
-// How the highlights are laid out:
-//   "columns" = 2-column masonry, list order reads left-to-right across the page
-//   "stack"   = two per row, same-shaped photos paired at equal height
-const HIGHLIGHTS_LAYOUT: "columns" | "stack" = "columns";
+// The landing photo comes in two versions: a wide one for desktop and tablets, and one for phones
+// (720px wide and below). A tall photo suits a phone far better than a panorama, which would become a thin strip.
+// To change either, edit its collection folder name and photo file name (as listed in src/data/projects/*.json).
+const DESKTOP = { collection: "these-mountains-narrate-stories", file: "dscf0827" };
+const PHONE = { collection: "the-evergreen-state", file: "dscf9596" };
+
+const pick = ({ collection, file }: { collection: string; file: string }) => ({
+  collection,
+  photo: projects.find((p) => p.slug === collection)!.photos.find((ph) => ph.file === file)!,
+});
+const d = pick(DESKTOP);
+const m = pick(PHONE);
+const ratio = (ph: { w: number; h: number }) => (ph.w / ph.h).toFixed(4);
 ---
 
-<Layout title="Sharath Satish — Photography" active="highlights">
-  <section class="intro">
-    <h1>The quiet in between.</h1>
-    <p>Take your time to capture something beautiful.</p>
-  </section>
-  <Gallery client:load photos={highlights} layout={HIGHLIGHTS_LAYOUT} columns={2} showProject />
+<Layout title="Sharath Satish" description="Sharath Satish: photography, and soon writing.">
+  <main class="landing">
+    <figure class="frame" style={`--ar-desktop:${ratio(d.photo)};--ar-phone:${ratio(m.photo)}`}>
+      <!-- One <picture>: phones download only the phone photo, everyone else only the desktop one.
+           (alt text is shared by both, so it describes the page's featured photograph in general terms.) -->
+      <picture>
+        <source
+          media="(max-width: 720px)"
+          srcset={srcSet(m.collection, m.photo)}
+          sizes="92vw"
+          width={m.photo.w}
+          height={m.photo.h}
+        />
+        <img
+          src={imageUrl(d.collection, d.photo, 2400)}
+          srcset={srcSet(d.collection, d.photo)}
+          sizes="(min-width: 1200px) 1030px, 92vw"
+          width={d.photo.w}
+          height={d.photo.h}
+          alt="A featured photograph by Sharath Satish"
+          loading="eager"
+          fetchpriority="high"
+          decoding="async"
+        />
+      </picture>
+    </figure>
+
+    <p class="tagline">A quick brown fox jumps over the lazy dog.</p>
+
+    <svg class="squiggle" viewBox="0 0 220 24" role="presentation" aria-hidden="true" focusable="false">
+      <path
+        pathLength="1"
+        d="M2 12 q9 -10 18 0 t18 0 t18 0 t18 0 t18 0 t18 0 t18 0 t18 0 t18 0 t18 0 t18 0 t18 0"
+      ></path>
+    </svg>
+  </main>
 </Layout>
+
+<style>
+  .landing {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: clamp(28px, 6vw, 72px) 32px clamp(24px, 5vw, 56px);
+  }
+
+  /* Off-white photo frame: a wide border with a thin edge and a soft shadow so it reads as an object, even on a white page */
+  .frame {
+    margin: 0;
+    /* 1072px = the photo's original 1030px width + 2 × 20px of frame + 2px edge, so a thinner frame leaves the photo the same size */
+    width: min(100%, 1072px);
+    padding: clamp(8px, 1.6vw, 20px);
+    background: #f4efe3;
+    border: 1px solid #e3dccb;
+    border-radius: 2px;
+    box-shadow:
+      0 1px 2px rgba(60, 50, 30, 0.1),
+      0 18px 40px -12px rgba(60, 50, 30, 0.28);
+  }
+  /* The photo sits slightly recessed inside the frame, like a picture behind a mat */
+  .frame img {
+    display: block;
+    width: 100%;
+    height: auto;
+    aspect-ratio: var(--ar-desktop);
+    box-shadow:
+      inset 0 0 0 1px rgba(0, 0, 0, 0.12),
+      0 0 0 1px rgba(60, 50, 30, 0.12);
+  }
+
+  .tagline {
+    margin: clamp(26px, 4vw, 44px) 0 0;
+    max-width: 100%;
+    text-align: center;
+    text-wrap: balance; /* if it must wrap (phones), split the lines evenly instead of leaving a stray word */
+    font-family: "Cormorant Garamond", Georgia, serif;
+    font-size: clamp(24px, 3.4vw, 36px);
+    line-height: 1.25;
+    color: var(--fg);
+  }
+
+  .squiggle {
+    width: clamp(150px, 20vw, 220px);
+    height: auto;
+    margin-top: 14px;
+    overflow: visible;
+  }
+  .squiggle path {
+    fill: none;
+    stroke: #4a8c58;
+    stroke-width: 2.6;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-dasharray: 1;
+    stroke-dashoffset: 1;
+    animation: draw 1.4s 0.3s ease-out forwards;
+  }
+  @keyframes draw {
+    to { stroke-dashoffset: 0; }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .squiggle path { animation: none; stroke-dashoffset: 0; }
+  }
+
+  @media (max-width: 720px) {
+    .landing { padding: 16px 18px 24px; }
+    .frame img { aspect-ratio: var(--ar-phone); }
+    .tagline { margin-top: 18px; font-size: clamp(17px, 4.8vw, 22px); }
+    .squiggle { margin-top: 8px; width: 120px; }
+  }
+</style>

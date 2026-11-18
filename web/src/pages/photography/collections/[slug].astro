@@ -1,7 +1,7 @@
 ---
-import Layout from "../../layouts/Layout.astro";
-import Gallery from "../../components/Gallery";
-import { projects, toGallery } from "../../lib/data";
+import Layout from "../../../layouts/Layout.astro";
+import Gallery from "../../../components/Gallery";
+import { projects, toGallery } from "../../../lib/data";
 
 export function getStaticPaths() {
   return projects.map((project, i) => ({
@@ -17,7 +17,7 @@ export function getStaticPaths() {
 const { project, prev, next } = Astro.props;
 ---
 
-<Layout title={`${project.title} — Sharath Satish`} description={project.blurb} active="collections">
+<Layout title={`${project.title} — Sharath Satish`} description={project.blurb} active="photography" sub="collections">
   <div class="p-head">
     <div>
       <div class="meta">{project.place} · {project.year}</div>
@@ -29,7 +29,7 @@ const { project, prev, next } = Astro.props;
     ? <Gallery client:load photos={toGallery(project)} />
     : <p class="soon">Photos coming soon.</p>}
   <div class="p-nav">
-    <a href={`/collections/${prev.slug}`}><small>← Previous</small>{prev.title}</a>
-    <a href={`/collections/${next.slug}`} style="text-align:right"><small>Next →</small>{next.title}</a>
+    <a href={`/photography/collections/${prev.slug}`}><small>← Previous</small>{prev.title}</a>
+    <a href={`/photography/collections/${next.slug}`} style="text-align:right"><small>Next →</small>{next.title}</a>
   </div>
 </Layout>

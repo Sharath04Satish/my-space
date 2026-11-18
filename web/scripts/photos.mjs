@@ -12,6 +12,10 @@
  *   .cache/images/<project>/      generated WebP variants (gitignored; uploaded to R2)
  *   src/data/projects/<project>.json   manifest (committed). Titles/blurb you edit are preserved.
  *
+ *   photos/gear/*.jpg             RESERVED for the Gear page. Same resizing, but no collection is created:
+ *                                 image info goes to src/data/gear-images.json (generated, don't edit).
+ *                                 Names/details are in src/data/gear.json (yours to edit).
+ *
  * Re-runs are incremental: a file is only processed again if its size or mtime changed
  * (and then only re-encoded if its content hash changed).
  */
@@ -19,11 +23,19 @@ import fs from "node:fs";
 import path from "node:path";
 import crypto from "node:crypto";
 import sharp from "sharp";
+import exifr from "exifr";
 
 const PHOTOS = path.resolve(process.env.PHOTOS_DIR ?? "photos");
 const OUT = path.resolve(process.env.IMAGES_DIR ?? ".cache/images");
 const MANIFESTS = path.resolve(process.env.MANIFEST_DIR ?? "src/data/projects");
 const STATE_FILE = path.join(path.dirname(OUT), "state.json");
+// photos/gear/ is reserved for the Gear page (cameras, lenses). It never becomes a collection.
+const GEAR = "gear";
+// Camera to show for film scans (their EXIF only names the lab scanner, not your camera). Override with FILM_SCAN_CAMERA in .env.
+const FILM_SCAN_CAMERA = process.env.FILM_SCAN_CAMERA ?? "Canon AT-1";
+// Bump to re-read EXIF for every photo (cheap: it never re-encodes images)
+const EXIF_VERSION = 1;
+const GEAR_IMAGES = path.resolve(process.env.GEAR_IMAGES_FILE ?? "src/data/gear-images.json");
 
 const WIDTHS = [600, 1200, 2400]; // keep in sync with src/lib/images.ts
 const QUALITY = 82;
@@ -73,6 +85,65 @@ function topColors(data, n = 3) {
   return out.map((c) => "#" + c.map((v) => v.toString(16).padStart(2, "0")).join(""));
 }
 
+// ---------- EXIF ----------
+/**
+ * Read a short, safe list of camera settings from an original. Only these fields are ever kept:
+ * location (GPS), serial numbers, owner names etc. are deliberately NOT copied anywhere.
+ * Reads just the head of the file (EXIF lives there) and parses from memory; exifr's own file
+ * handling errors out on Node 26 ("FileHandle closed during garbage collection").
+ */
+const EXIF_TAGS = ["Make", "Model", "LensModel", "FocalLength", "FocalLengthIn35mmFormat", "FNumber", "ExposureTime", "ISO", "DateTimeOriginal", "ExposureCompensation"];
+
+function head(file, bytes = 512 * 1024) {
+  const fd = fs.openSync(file, "r");
+  try {
+    const buf = Buffer.alloc(Math.min(bytes, fs.fstatSync(fd).size));
+    fs.readSync(fd, buf, 0, buf.length, 0);
+    return buf;
+  } finally {
+    fs.closeSync(fd);
+  }
+}
+
+const prettyMake = (m) => (m && m === m.toUpperCase() ? m[0] + m.slice(1).toLowerCase() : m);
+/** "XF16-50mmF2.8-4.8 R LM WR" -> "XF 16-50mm f/2.8-4.8 R LM WR"; drops a redundant "Fujifilm Fujinon " prefix */
+const prettyLens = (l) =>
+  l
+    .replace(/^Fujifilm\s+Fujinon\s+/i, "")
+    .replace(/^(X[CF])(\d+(?:-\d+)?mm)F([\d.]+(?:-[\d.]+)?)/, "$1 $2 f/$3")
+    .trim();
+const round = (n, d = 1) => Math.round(n * 10 ** d) / 10 ** d;
+
+async function readExif(file) {
+  let t;
+  try {
+    t = await exifr.parse(head(file), { pick: EXIF_TAGS, reviveValues: true });
+  } catch {
+    return null;
+  }
+  if (!t || !(t.Make || t.Model)) return null;
+
+  // Lab scanners (Noritsu etc.) describe the scanner, not the camera: show your film camera instead.
+  if (/noritsu|frontier|fujifilm sp|scanner/i.test(`${t.Make ?? ""} ${t.Model ?? ""}`) && !t.LensModel) {
+    return { camera: FILM_SCAN_CAMERA, film: true };
+  }
+
+  const make = prettyMake(t.Make);
+  const model = t.Model ?? "";
+  const out = {};
+  out.camera = model.toLowerCase().startsWith((make ?? "").toLowerCase()) || !make ? model : `${make} ${model}`;
+  if (t.LensModel) out.lens = prettyLens(String(t.LensModel));
+  if (t.FocalLength) out.focal = round(t.FocalLength, 0);
+  if (t.FocalLengthIn35mmFormat) out.focal35 = round(t.FocalLengthIn35mmFormat, 0);
+  if (t.FNumber) out.f = round(t.FNumber, 1);
+  if (t.ExposureTime) out.shutter = t.ExposureTime >= 1 ? `${round(t.ExposureTime, 1)}s` : `1/${Math.round(1 / t.ExposureTime)}s`;
+  if (t.ISO) out.iso = t.ISO;
+  if (typeof t.ExposureCompensation === "number" && Math.abs(t.ExposureCompensation) >= 0.05) out.ev = round(t.ExposureCompensation, 1);
+  // Cameras store local time with no time zone; exifr labels it UTC, so take the date as written (no shifting)
+  if (t.DateTimeOriginal instanceof Date && !Number.isNaN(+t.DateTimeOriginal)) out.date = t.DateTimeOriginal.toISOString().slice(0, 10);
+  return out;
+}
+
 // ---------- processing one original ----------
 async function processOne(src, project, name, hash) {
   const meta = await sharp(src, { failOn: "none" }).metadata();
@@ -110,7 +181,7 @@ async function build() {
   const state = readJson(STATE_FILE, { sources: {}, uploaded: {} });
   const projects = fs.readdirSync(PHOTOS, { withFileTypes: true }).filter((d) => d.isDirectory() && !d.name.startsWith("."));
   const seen = new Set();
-  let processed = 0, reused = 0;
+  let processed = 0, reused = 0, exifRead = 0;
 
   for (const dir of projects) {
     const slug = slugify(dir.name);
@@ -143,6 +214,30 @@ async function build() {
       console.log(`  ✓ ${rel}  ${r.w}×${r.h}  ${r.widths.join("/")}px  ${r.colors.join(" ")}  (${((Date.now() - t0) / 1000).toFixed(1)}s)`);
     });
 
+    // ----- the reserved "gear" folder is not a collection: record image info for the Gear page and move on -----
+    if (slug === GEAR) {
+      const images = {};
+      for (const f of files) {
+        const n = slugify(path.basename(f, path.extname(f)));
+        const s = state.sources[`${slug}/${n}`];
+        images[n] = { w: s.w, h: s.h, widths: s.widths, v: s.v, blur: s.blur };
+      }
+      writeJson(GEAR_IMAGES, images);
+      console.log(`${slug}: ${files.length} gear photo(s)  (not a collection; names and details live in src/data/gear.json)`);
+      continue;
+    }
+
+    // ----- EXIF: read once per photo (and again whenever EXIF_VERSION changes); never touches the image copies -----
+    for (const f of files) {
+      const n = slugify(path.basename(f, path.extname(f)));
+      const s = state.sources[`${slug}/${n}`];
+      if (s && s.exifV !== EXIF_VERSION) {
+        s.exif = await readExif(path.join(PHOTOS, dir.name, f));
+        s.exifV = EXIF_VERSION;
+        exifRead++;
+      }
+    }
+
     // ----- manifest: keep your edits (titles, blurb...), add new photos, drop removed ones -----
     const mf = path.join(MANIFESTS, `${slug}.json`);
     const existing = readJson(mf, null);
@@ -154,7 +249,7 @@ async function build() {
     meta.photos = [...kept, ...added].map((n) => {
       const s = state.sources[`${slug}/${n}`];
       const old = byName.get(n);
-      return { file: n, title: old?.title ?? titleCase(n), w: s.w, h: s.h, widths: s.widths, v: s.v, colors: s.colors, blur: s.blur };
+      return { file: n, title: old?.title ?? titleCase(n), w: s.w, h: s.h, widths: s.widths, v: s.v, colors: s.colors, blur: s.blur, ...(s.exif ? { exif: s.exif } : {}) };
     });
     writeJson(mf, meta);
     console.log(`${slug}: ${meta.photos.length} photos${added.length ? ` (${added.length} new)` : ""}${existing ? "" : "  ← new manifest, edit title/place/blurb in " + path.relative(process.cwd(), mf)}`);
@@ -177,7 +272,7 @@ async function build() {
     fs.mkdirSync(OUT, { recursive: true });
     fs.symlinkSync(path.relative(path.dirname(link), OUT), link);
   }
-  console.log(`\nDone: ${processed} processed, ${reused} unchanged.`);
+  console.log(`\nDone: ${processed} processed, ${reused} unchanged${exifRead ? `, EXIF read for ${exifRead}` : ""}.`);
   if (processed && !process.env.PUBLIC_IMAGE_BASE) console.log('Tip: set PUBLIC_IMAGE_BASE=/img in .env to see these locally (see .env.example).');
 }
 

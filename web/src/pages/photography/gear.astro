@@ -1,0 +1,47 @@
+---
+import Layout from "../../layouts/Layout.astro";
+import { cameras, lenses, GEAR_FOLDER } from "../../lib/gear";
+import { imageUrl, srcSet } from "../../lib/images";
+
+const sections = [
+  { title: "Cameras", items: cameras },
+  { title: "Lenses", items: lenses },
+];
+---
+
+<Layout title="Gear — Sharath Satish" description="The cameras and lenses I shoot with." active="photography" sub="gear">
+  <section class="intro">
+    <h1>Gear</h1>
+    <p>The cameras and lenses I shoot with.</p>
+  </section>
+
+  {sections.map((section) => (
+    <section class="gear-section" aria-labelledby={`gear-${section.title.toLowerCase()}`}>
+      <h2 id={`gear-${section.title.toLowerCase()}`}>{section.title}</h2>
+      <div class="gear-grid">
+        {section.items.map((item) => (
+          <article class="gear-card">
+            <div class="gear-photo">
+              {item.photo && (
+                <img
+                  src={imageUrl(GEAR_FOLDER, item.photo, 1200)}
+                  srcset={srcSet(GEAR_FOLDER, item.photo)}
+                  sizes="(min-width: 900px) 33vw, (min-width: 560px) 50vw, 100vw"
+                  width={item.photo.w}
+                  height={item.photo.h}
+                  alt={item.name}
+                  loading="lazy"
+                  decoding="async"
+                  style={item.photo.blur ? `background: center/cover url(${item.photo.blur})` : undefined}
+                />
+              )}
+            </div>
+            <h3>{item.name}</h3>
+            {item.detail && <span class="gear-detail">{item.detail}</span>}
+            {item.note && <p class="gear-note">{item.note}</p>}
+          </article>
+        ))}
+      </div>
+    </section>
+  ))}
+</Layout>

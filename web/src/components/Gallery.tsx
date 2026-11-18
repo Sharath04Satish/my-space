@@ -70,7 +70,7 @@ export default function Gallery({ photos, layout = "masonry", columns = 2, hero 
     <figure
       key={p.project + p.file}
       className={"ph" + (isHero ? " hero" : "")}
-      style={{ ["--ar" as string]: (p.w / p.h).toFixed(3) }}
+      style={{ ["--ar" as string]: (p.w / p.h).toFixed(3), backgroundImage: p.blur ? `url(${p.blur})` : undefined }}
       onClick={() => setOpen(i)}
     >
       <img
@@ -82,8 +82,9 @@ export default function Gallery({ photos, layout = "masonry", columns = 2, hero 
         alt={p.title}
         loading={isHero || i < 4 ? "eager" : "lazy"}
         decoding="async"
-        className="loaded"
-        style={p.blur ? { background: `center/cover url(${p.blur})` } : undefined}
+        // fade in once loaded; the blur on the frame shows until then. (ref covers images that finished before hydration)
+        ref={(el) => { if (el && el.complete && el.naturalWidth) el.classList.add("loaded"); }}
+        onLoad={(e) => e.currentTarget.classList.add("loaded")}
       />
       <figcaption className="cap">
         {p.title}

@@ -1,0 +1,18 @@
+---
+import Layout from "../../layouts/Layout.astro";
+import Gallery from "../../components/Gallery";
+import { highlights } from "../../lib/data";
+
+// How the highlights are laid out:
+//   "columns" = 2-column masonry, list order reads left-to-right across the page
+//   "stack"   = two per row, same-shaped photos paired at equal height
+const HIGHLIGHTS_LAYOUT: "columns" | "stack" = "columns";
+---
+
+<Layout title="Sharath Satish — Photography" active="photography" sub="highlights">
+  <section class="intro">
+    <h1>The quiet in between.</h1>
+    <p>Take your time to capture something beautiful.</p>
+  </section>
+  <Gallery client:load photos={highlights} layout={HIGHLIGHTS_LAYOUT} columns={2} showProject />
+</Layout>

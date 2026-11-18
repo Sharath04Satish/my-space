@@ -22,7 +22,17 @@
         "#280000",
         "#891904"
       ],
-      "blur": "data:image/webp;base64,UklGRpoAAABXRUJQVlA4II4AAADwBACdASoYABMAPu1qr1AppaQiqAqpMB2JYgCdMw4zuAodPowUXJQGnFuWRveNWIAA/qFhSMUvfiixQyu0gDIQnHEQ6IAxZE3kc17hgHO+QJgnK9nk+o6bP+BszR77eq30Cyhmg1yxxPvm4Jk+7UBoSvENezLBIh7Y2EZt77j7/ctR1muUqd9mPYwP30AA"
+      "blur": "data:image/webp;base64,UklGRpoAAABXRUJQVlA4II4AAADwBACdASoYABMAPu1qr1AppaQiqAqpMB2JYgCdMw4zuAodPowUXJQGnFuWRveNWIAA/qFhSMUvfiixQyu0gDIQnHEQ6IAxZE3kc17hgHO+QJgnK9nk+o6bP+BszR77eq30Cyhmg1yxxPvm4Jk+7UBoSvENezLBIh7Y2EZt77j7/ctR1muUqd9mPYwP30AA",
+      "exif": {
+        "camera": "Fujifilm X-E4",
+        "lens": "XC 15-45mm f/3.5-5.6 OIS PZ",
+        "focal": 31,
+        "focal35": 47,
+        "f": 10,
+        "shutter": "1/40s",
+        "iso": 1000,
+        "date": "2024-03-08"
+      }
     },
     {
       "file": "dscf2246",
@@ -40,7 +50,18 @@
         "#474747",
         "#676767"
       ],
-      "blur": "data:image/webp;base64,UklGRkoAAABXRUJQVlA4ID4AAAAwAwCdASoYAA0APu1iqk4ppaQiMAgBMB2JaQAAetEgF5kAAP7wB1cuYJPoQ1vPw+y25I/YkGlCZfYAIAAAAA=="
+      "blur": "data:image/webp;base64,UklGRkoAAABXRUJQVlA4ID4AAAAwAwCdASoYAA0APu1iqk4ppaQiMAgBMB2JaQAAetEgF5kAAP7wB1cuYJPoQ1vPw+y25I/YkGlCZfYAIAAAAA==",
+      "exif": {
+        "camera": "Fujifilm X-E4",
+        "lens": "XC 15-45mm f/3.5-5.6 OIS PZ",
+        "focal": 39,
+        "focal35": 58,
+        "f": 10,
+        "shutter": "1/240s",
+        "iso": 800,
+        "ev": -1,
+        "date": "2024-03-08"
+      }
     },
     {
       "file": "dscf2346",
@@ -58,7 +79,18 @@
         "#c66b77",
         "#974b57"
       ],
-      "blur": "data:image/webp;base64,UklGRnwAAABXRUJQVlA4IHAAAABwBACdASoYABAAPu1iqU2ppaOiMAgBMB2JZgCdL1ABWkzzU7kQwPBs2W+zQAD+5bTPjs88Mu9TmjKT06bdN+IfNHL81HNnGPgQ48gvWQD+7Ldk1970WW5UElOEG39UOyCsDHi5Ajy1JTr7QfmoaKAA"
+      "blur": "data:image/webp;base64,UklGRnwAAABXRUJQVlA4IHAAAABwBACdASoYABAAPu1iqU2ppaOiMAgBMB2JZgCdL1ABWkzzU7kQwPBs2W+zQAD+5bTPjs88Mu9TmjKT06bdN+IfNHL81HNnGPgQ48gvWQD+7Ldk1970WW5UElOEG39UOyCsDHi5Ajy1JTr7QfmoaKAA",
+      "exif": {
+        "camera": "Fujifilm X-E4",
+        "lens": "XC 15-45mm f/3.5-5.6 OIS PZ",
+        "focal": 19,
+        "focal35": 28,
+        "f": 10,
+        "shutter": "1/6s",
+        "iso": 1000,
+        "ev": 0.3,
+        "date": "2024-03-08"
+      }
     },
     {
       "file": "dscf2390",
@@ -76,7 +108,17 @@
         "#572638",
         "#874868"
       ],
-      "blur": "data:image/webp;base64,UklGRqIAAABXRUJQVlA4IJYAAABQBACdASoYABAAPu1iqU2ppaOiMAgBMB2JbAC1FwABhp5SrYP0p22Gz3TgAP7c5x7tjcwQBGmw1OHktQ6Q/Xw90PJGj9UB108m8gM3bpkM2gcjxtIobGigoNqO66nzOwc4+evkaNLdrEi10UWv3GsdG3e/Ee6dVzQc6z8sIypDuDwtThqnyWp9rY2ln7sTRkXUtSwAAAA="
+      "blur": "data:image/webp;base64,UklGRqIAAABXRUJQVlA4IJYAAABQBACdASoYABAAPu1iqU2ppaOiMAgBMB2JbAC1FwABhp5SrYP0p22Gz3TgAP7c5x7tjcwQBGmw1OHktQ6Q/Xw90PJGj9UB108m8gM3bpkM2gcjxtIobGigoNqO66nzOwc4+evkaNLdrEi10UWv3GsdG3e/Ee6dVzQc6z8sIypDuDwtThqnyWp9rY2ln7sTRkXUtSwAAAA=",
+      "exif": {
+        "camera": "Fujifilm X-E4",
+        "lens": "XC 15-45mm f/3.5-5.6 OIS PZ",
+        "focal": 21,
+        "focal35": 31,
+        "f": 10,
+        "shutter": "1/60s",
+        "iso": 1600,
+        "date": "2024-03-08"
+      }
     },
     {
       "file": "antelope-canyons-10",
@@ -94,7 +136,17 @@
         "#570a05",
         "#48a8f7"
       ],
-      "blur": "data:image/webp;base64,UklGRrAAAABXRUJQVlA4IKQAAABQBACdASoYABAAPu1iqU2ppaOiMAgBMB2JbACdC0gANQjXKehPIOtUZdgAAP7wy6W4Tu10SRk0jJDHi7GxjWNg/DZg0oBuVWknHsA7XUKemWITCpFyzzhHTXRRsKHBuVv3h+G1uJbNOijCfrneb+9e8VFZETOU/5pE4aznrXkn/0DJBSlnT3Z3gLX6j7aTkWgqYefF9TtiUmqh+/ewu/SqtcAAAA=="
+      "blur": "data:image/webp;base64,UklGRrAAAABXRUJQVlA4IKQAAABQBACdASoYABAAPu1iqU2ppaOiMAgBMB2JbACdC0gANQjXKehPIOtUZdgAAP7wy6W4Tu10SRk0jJDHi7GxjWNg/DZg0oBuVWknHsA7XUKemWITCpFyzzhHTXRRsKHBuVv3h+G1uJbNOijCfrneb+9e8VFZETOU/5pE4aznrXkn/0DJBSlnT3Z3gLX6j7aTkWgqYefF9TtiUmqh+/ewu/SqtcAAAA==",
+      "exif": {
+        "camera": "Fujifilm X-E4",
+        "lens": "XC 15-45mm f/3.5-5.6 OIS PZ",
+        "focal": 15,
+        "focal35": 23,
+        "f": 10,
+        "shutter": "1/500s",
+        "iso": 1000,
+        "date": "2024-03-08"
+      }
     },
     {
       "file": "antelope-canyons-12",
@@ -112,7 +164,18 @@
         "#d67b86",
         "#f7a3a9"
       ],
-      "blur": "data:image/webp;base64,UklGRmwAAABXRUJQVlA4IGAAAACQBACdASoYABAAPu1iqU2ppaOiMAgBMB2JYgCdMoADaUXYAyThEdxDvVgI6IAA/svUnJjlN82D5Ad5Xtuwxgq8KX4y3uzfnS0GadmQeP+pYIf5m/HtK6sZKD4sjongAAA="
+      "blur": "data:image/webp;base64,UklGRmwAAABXRUJQVlA4IGAAAACQBACdASoYABAAPu1iqU2ppaOiMAgBMB2JYgCdMoADaUXYAyThEdxDvVgI6IAA/svUnJjlN82D5Ad5Xtuwxgq8KX4y3uzfnS0GadmQeP+pYIf5m/HtK6sZKD4sjongAAA=",
+      "exif": {
+        "camera": "Fujifilm X-E4",
+        "lens": "XC 15-45mm f/3.5-5.6 OIS PZ",
+        "focal": 30,
+        "focal35": 44,
+        "f": 10,
+        "shutter": "1/5s",
+        "iso": 1000,
+        "ev": 0.7,
+        "date": "2024-03-08"
+      }
     },
     {
       "file": "antelope-canyons-14",
@@ -130,7 +193,17 @@
         "#b8d6fe",
         "#882617"
       ],
-      "blur": "data:image/webp;base64,UklGRqIAAABXRUJQVlA4IJYAAAAwBACdASoYAAwAPu1iqk2ppaQiMAgBMB2JbACdMoACa67fOpdK8nzAdGAA/u6hVsDOkhw+reF/BT+Q3QbLqyWdBTAxn9tvLgbvOoPDUEdUydq+3Sa91qkOGN4GOXSyCdjYqqTsCeiLLDSX6kBdSp2cx1QJf3BFvP1l72O6C4cPXhmnkw6k3rRcN8HcF+PDGqOhww2pAAA="
+      "blur": "data:image/webp;base64,UklGRqIAAABXRUJQVlA4IJYAAAAwBACdASoYAAwAPu1iqk2ppaQiMAgBMB2JbACdMoACa67fOpdK8nzAdGAA/u6hVsDOkhw+reF/BT+Q3QbLqyWdBTAxn9tvLgbvOoPDUEdUydq+3Sa91qkOGN4GOXSyCdjYqqTsCeiLLDSX6kBdSp2cx1QJf3BFvP1l72O6C4cPXhmnkw6k3rRcN8HcF+PDGqOhww2pAAA=",
+      "exif": {
+        "camera": "Fujifilm X-E4",
+        "lens": "XC 15-45mm f/3.5-5.6 OIS PZ",
+        "focal": 31,
+        "focal35": 47,
+        "f": 10,
+        "shutter": "1/220s",
+        "iso": 1000,
+        "date": "2024-03-08"
+      }
     },
     {
       "file": "antelope-canyons-15",
@@ -148,7 +221,17 @@
         "#861a03",
         "#c63a09"
       ],
-      "blur": "data:image/webp;base64,UklGRqgAAABXRUJQVlA4IJwAAADQBACdASoYABEAPu1orlCppaQiqAqpMB2JZACsL6/AAAFIcmeB+cxMJKGUpmUigAD+8NR4WDi8KqicGCyrPqr9Z0+mDnBNm8rNhTSMHCmhHdtCqbqWo5m823DPjC2sWMNG9kdWZph5rHvyDQYRR5u0Kn55ZzEv0L98mYAFcqCM7E7Fw56y4xgJXm18w58jtMskElmNFVNxboLgAAA="
+      "blur": "data:image/webp;base64,UklGRqgAAABXRUJQVlA4IJwAAADQBACdASoYABEAPu1orlCppaQiqAqpMB2JZACsL6/AAAFIcmeB+cxMJKGUpmUigAD+8NR4WDi8KqicGCyrPqr9Z0+mDnBNm8rNhTSMHCmhHdtCqbqWo5m823DPjC2sWMNG9kdWZph5rHvyDQYRR5u0Kn55ZzEv0L98mYAFcqCM7E7Fw56y4xgJXm18w58jtMskElmNFVNxboLgAAA=",
+      "exif": {
+        "camera": "Fujifilm X-E4",
+        "lens": "XC 15-45mm f/3.5-5.6 OIS PZ",
+        "focal": 15,
+        "focal35": 23,
+        "f": 10,
+        "shutter": "1/12s",
+        "iso": 1000,
+        "date": "2024-03-08"
+      }
     },
     {
       "file": "antelope-canyons-16",
@@ -166,7 +249,18 @@
         "#270307",
         "#954846"
       ],
-      "blur": "data:image/webp;base64,UklGRm4AAABXRUJQVlA4IGIAAABQBACdASoYAA8APu1iqU2ppaOiMAgBMB2JaACsLwABTrWAs3BI5eo69VrAAP7se7frxP8u+Kng3PEF6JxGeY+ukfQ62Rqy0Xjnqkot8qCsG/anqGVWFkO/cTPf5XVbvvgAAA=="
+      "blur": "data:image/webp;base64,UklGRm4AAABXRUJQVlA4IGIAAABQBACdASoYAA8APu1iqU2ppaOiMAgBMB2JaACsLwABTrWAs3BI5eo69VrAAP7se7frxP8u+Kng3PEF6JxGeY+ukfQ62Rqy0Xjnqkot8qCsG/anqGVWFkO/cTPf5XVbvvgAAA==",
+      "exif": {
+        "camera": "Fujifilm X-E4",
+        "lens": "XC 15-45mm f/3.5-5.6 OIS PZ",
+        "focal": 31,
+        "focal35": 46,
+        "f": 11,
+        "shutter": "1/12s",
+        "iso": 1250,
+        "ev": -0.7,
+        "date": "2024-03-08"
+      }
     },
     {
       "file": "antelope-canyons-18",
@@ -184,7 +278,18 @@
         "#c85734",
         "#151d48"
       ],
-      "blur": "data:image/webp;base64,UklGRpQAAABXRUJQVlA4IIgAAADQBACdASoYABEAPu1gpk2ppSMsMAgBgB2JbACdMuId2DWnTn8a2W2eRMNSsfOyEAD+8rSTbi/Qp1TWQ10BnZeDAHquHpK8nYGisD/znnm/UsMvtVEHtJWxo2WI4PE2jUhV7TEocWkqUgqHfCLJkxkZWPUlWBDRB1ScVvqyTjQlc7qnsJH4AAAA"
+      "blur": "data:image/webp;base64,UklGRpQAAABXRUJQVlA4IIgAAADQBACdASoYABEAPu1gpk2ppSMsMAgBgB2JbACdMuId2DWnTn8a2W2eRMNSsfOyEAD+8rSTbi/Qp1TWQ10BnZeDAHquHpK8nYGisD/znnm/UsMvtVEHtJWxo2WI4PE2jUhV7TEocWkqUgqHfCLJkxkZWPUlWBDRB1ScVvqyTjQlc7qnsJH4AAAA",
+      "exif": {
+        "camera": "Fujifilm X-E4",
+        "lens": "XC 15-45mm f/3.5-5.6 OIS PZ",
+        "focal": 45,
+        "focal35": 68,
+        "f": 11,
+        "shutter": "1/20s",
+        "iso": 1250,
+        "ev": -0.7,
+        "date": "2024-03-08"
+      }
     },
     {
       "file": "antelope-canyons-19",
@@ -202,7 +307,17 @@
         "#561c25",
         "#b5462b"
       ],
-      "blur": "data:image/webp;base64,UklGRn4AAABXRUJQVlA4IHIAAADQAwCdASoYAA8APu1krU6ppaSiMAgBMB2JZgCdABj2IjWumyY904AA/u9UTRMIRmvT23o4yAXgz/5NMTeoNiTmz8cYOyVs2IXvaT4S8YGwMSfssQyQ38KiBkff+xiuFWUhkM3tEzxAmqXMwpkFOeuwkAA="
+      "blur": "data:image/webp;base64,UklGRn4AAABXRUJQVlA4IHIAAADQAwCdASoYAA8APu1krU6ppaSiMAgBMB2JZgCdABj2IjWumyY904AA/u9UTRMIRmvT23o4yAXgz/5NMTeoNiTmz8cYOyVs2IXvaT4S8YGwMSfssQyQ38KiBkff+xiuFWUhkM3tEzxAmqXMwpkFOeuwkAA=",
+      "exif": {
+        "camera": "Fujifilm X-E4",
+        "lens": "XC 15-45mm f/3.5-5.6 OIS PZ",
+        "focal": 31,
+        "focal35": 46,
+        "f": 10,
+        "shutter": "1/60s",
+        "iso": 1600,
+        "date": "2024-03-08"
+      }
     },
     {
       "file": "antelope-canyons-21",
@@ -220,7 +335,17 @@
         "#d7e7f6",
         "#683a36"
       ],
-      "blur": "data:image/webp;base64,UklGRq4AAABXRUJQVlA4IKIAAAAQBgCdASoYACEAPuFkpk2opiOiNVv4ARAcCWIAwQuhk4gHG1nKKH2unbpCEBSJsAJviYkX3t3it5AA/pBHjqyeJ7FXagHlIRgua93XfhWOodmYwtWxqVAsvh7gRJ0yJTFqt7YSMreZJT78VUzP1v79L4/ucfTe24DmaTx5Q7/TFpv3WlbA5fUmP27S0vNpEggdL03mMhMmxF1ziz0huDWAAAA="
+      "blur": "data:image/webp;base64,UklGRq4AAABXRUJQVlA4IKIAAAAQBgCdASoYACEAPuFkpk2opiOiNVv4ARAcCWIAwQuhk4gHG1nKKH2unbpCEBSJsAJviYkX3t3it5AA/pBHjqyeJ7FXagHlIRgua93XfhWOodmYwtWxqVAsvh7gRJ0yJTFqt7YSMreZJT78VUzP1v79L4/ucfTe24DmaTx5Q7/TFpv3WlbA5fUmP27S0vNpEggdL03mMhMmxF1ziz0huDWAAAA=",
+      "exif": {
+        "camera": "Fujifilm X-E4",
+        "lens": "XC 15-45mm f/3.5-5.6 OIS PZ",
+        "focal": 17,
+        "focal35": 26,
+        "f": 8,
+        "shutter": "1/500s",
+        "iso": 800,
+        "date": "2024-03-08"
+      }
     },
     {
       "file": "antelope-canyons-22",
@@ -238,7 +363,18 @@
         "#7a4349",
         "#8b7687"
       ],
-      "blur": "data:image/webp;base64,UklGRnYAAABXRUJQVlA4IGoAAABQBACdASoYAAoAPu1kqU2ppaQiMAgBMB2JaACdMoADQXqrM6RiGp4WLQ4AAP7q1kqkZ/aepblbiC//+W88fSKlUTBZGkBnaOQWjouJ0JouGcGeq56THdclvgAYJh5m96chdqw/ry+g0QAA"
+      "blur": "data:image/webp;base64,UklGRnYAAABXRUJQVlA4IGoAAABQBACdASoYAAoAPu1kqU2ppaQiMAgBMB2JaACdMoADQXqrM6RiGp4WLQ4AAP7q1kqkZ/aepblbiC//+W88fSKlUTBZGkBnaOQWjouJ0JouGcGeq56THdclvgAYJh5m96chdqw/ry+g0QAA",
+      "exif": {
+        "camera": "Fujifilm X-E4",
+        "lens": "XC 50-230mm f/4.5-6.7 OIS II",
+        "focal": 172,
+        "focal35": 257,
+        "f": 11,
+        "shutter": "1/2200s",
+        "iso": 500,
+        "ev": -0.7,
+        "date": "2024-03-08"
+      }
     },
     {
       "file": "antelope-canyons-23",
@@ -256,7 +392,18 @@
         "#864537",
         "#b7c9f4"
       ],
-      "blur": "data:image/webp;base64,UklGRn4AAABXRUJQVlA4IHIAAACQBACdASoYAA8APu1iqU2ppaQiMAgBMB2JaACdMoLT9A43d1u29kRMITRASwAA/sV3fkqp3yy/DkqfZADvsDauztzyKb0fsPQgdRrluT4x7fUVqfPJRM4w7V/TqXpcTL6Ngvz+Y8ABiSBpWTlZUcLgAAA="
+      "blur": "data:image/webp;base64,UklGRn4AAABXRUJQVlA4IHIAAACQBACdASoYAA8APu1iqU2ppaQiMAgBMB2JaACdMoLT9A43d1u29kRMITRASwAA/sV3fkqp3yy/DkqfZADvsDauztzyKb0fsPQgdRrluT4x7fUVqfPJRM4w7V/TqXpcTL6Ngvz+Y8ABiSBpWTlZUcLgAAA=",
+      "exif": {
+        "camera": "Fujifilm X-E4",
+        "lens": "XC 50-230mm f/4.5-6.7 OIS II",
+        "focal": 53,
+        "focal35": 80,
+        "f": 11,
+        "shutter": "1/1500s",
+        "iso": 500,
+        "ev": -0.3,
+        "date": "2024-03-08"
+      }
     },
     {
       "file": "antelope-canyons-26",
@@ -274,7 +421,17 @@
         "#161b28",
         "#b8dbf6"
       ],
-      "blur": "data:image/webp;base64,UklGRngAAABXRUJQVlA4IGwAAADwAwCdASoYAA4APu1iqU2ppaOiMAgBMB2JQBOgBEBQsx6m3KqWRxiAAP7UlCObfUyiRIwTqnwB9CS5ej/0/YvJe8g9/HtB43Eeu0QjDfcMDRzikJ1ZmFM29CiEseMXDO2Sk3F6G5NzDezIqgA="
+      "blur": "data:image/webp;base64,UklGRngAAABXRUJQVlA4IGwAAADwAwCdASoYAA4APu1iqU2ppaOiMAgBMB2JQBOgBEBQsx6m3KqWRxiAAP7UlCObfUyiRIwTqnwB9CS5ej/0/YvJe8g9/HtB43Eeu0QjDfcMDRzikJ1ZmFM29CiEseMXDO2Sk3F6G5NzDezIqgA=",
+      "exif": {
+        "camera": "Fujifilm X-E4",
+        "lens": "XC 15-45mm f/3.5-5.6 OIS PZ",
+        "focal": 24,
+        "focal35": 36,
+        "f": 10,
+        "shutter": "1/640s",
+        "iso": 640,
+        "date": "2024-03-07"
+      }
     },
     {
       "file": "antelope-canyons-31",
@@ -292,7 +449,18 @@
         "#b6b9c8",
         "#584654"
       ],
-      "blur": "data:image/webp;base64,UklGRooAAABXRUJQVlA4IH4AAADwBACdASoYABEAPu1qrVCppaQiqAqpMB2JQBWEH+Awwag5HRtJkhDovNgEu+atPvgA/rHszaAJ3c186E6pDGJOXQoT7H8RLlEeuSg51pZnoWWil7CEJXaO2pImft7IGLe+6qkAVidGSI9tNp7gzhsd3rwypMs5gS/AjHSw8AA="
+      "blur": "data:image/webp;base64,UklGRooAAABXRUJQVlA4IH4AAADwBACdASoYABEAPu1qrVCppaQiqAqpMB2JQBWEH+Awwag5HRtJkhDovNgEu+atPvgA/rHszaAJ3c186E6pDGJOXQoT7H8RLlEeuSg51pZnoWWil7CEJXaO2pImft7IGLe+6qkAVidGSI9tNp7gzhsd3rwypMs5gS/AjHSw8AA=",
+      "exif": {
+        "camera": "Fujifilm X-E4",
+        "lens": "XC 50-230mm f/4.5-6.7 OIS II",
+        "focal": 153,
+        "focal35": 229,
+        "f": 8,
+        "shutter": "1/4000s",
+        "iso": 800,
+        "ev": -0.7,
+        "date": "2024-03-06"
+      }
     },
     {
       "file": "antelope-canyons-32",
@@ -310,7 +478,18 @@
         "#f6f5f9",
         "#a7867a"
       ],
-      "blur": "data:image/webp;base64,UklGRsgAAABXRUJQVlA4ILwAAADQBQCdASoYACQAPu1srE8ppiQiKrgMATAdiWMAwzQhrpnplLEspwsprVZg8B+ZpxzdJcyYzQsAAP7v+/Mn2rmBDg4HK0QZ5HYaCSEWntkUpLBov74fZSXEooTTH2BNCWL4cjZLLpu3GapOrIOEmjRu11fOMFBJ1RDVpYNfASC/9KUKDE0TAJ8FXuWbLENNN41uwn0/2l3RCtE76HMFRDxE3FB5AkS1bXCM/fce63JaI+692RD87mm004AAAA=="
+      "blur": "data:image/webp;base64,UklGRsgAAABXRUJQVlA4ILwAAADQBQCdASoYACQAPu1srE8ppiQiKrgMATAdiWMAwzQhrpnplLEspwsprVZg8B+ZpxzdJcyYzQsAAP7v+/Mn2rmBDg4HK0QZ5HYaCSEWntkUpLBov74fZSXEooTTH2BNCWL4cjZLLpu3GapOrIOEmjRu11fOMFBJ1RDVpYNfASC/9KUKDE0TAJ8FXuWbLENNN41uwn0/2l3RCtE76HMFRDxE3FB5AkS1bXCM/fce63JaI+692RD87mm004AAAA==",
+      "exif": {
+        "camera": "Fujifilm X-E4",
+        "lens": "XC 50-230mm f/4.5-6.7 OIS II",
+        "focal": 71,
+        "focal35": 107,
+        "f": 7.1,
+        "shutter": "1/2500s",
+        "iso": 640,
+        "ev": -1,
+        "date": "2024-03-07"
+      }
     },
     {
       "file": "antelope-canyons-33",
@@ -328,7 +507,18 @@
         "#35282b",
         "#56566a"
       ],
-      "blur": "data:image/webp;base64,UklGRpoAAABXRUJQVlA4II4AAACwAwCdASoYABAAPu1iqU2ppaOiMAgBMB2JQAAIyOm1aMKSm7eaAAD+5Gjni2Ww/DiYTFrx1T2pkgdVEMAr1Fo6m+HpcmfJI0EV6MinadxGMy7IAADXaYQAUmH7XjS15wik7ksz7OaUAvqagcpx72V64dzkvL/hlzjLMvrTnoXGD7nDZ7RIuThTZO7eFigA"
+      "blur": "data:image/webp;base64,UklGRpoAAABXRUJQVlA4II4AAACwAwCdASoYABAAPu1iqU2ppaOiMAgBMB2JQAAIyOm1aMKSm7eaAAD+5Gjni2Ww/DiYTFrx1T2pkgdVEMAr1Fo6m+HpcmfJI0EV6MinadxGMy7IAADXaYQAUmH7XjS15wik7ksz7OaUAvqagcpx72V64dzkvL/hlzjLMvrTnoXGD7nDZ7RIuThTZO7eFigA",
+      "exif": {
+        "camera": "Fujifilm X-E4",
+        "lens": "XC 50-230mm f/4.5-6.7 OIS II",
+        "focal": 53,
+        "focal35": 80,
+        "f": 6.4,
+        "shutter": "1/1600s",
+        "iso": 640,
+        "ev": -1.3,
+        "date": "2024-03-07"
+      }
     },
     {
       "file": "antelope-canyons-36",
@@ -346,7 +536,18 @@
         "#775a57",
         "#a88479"
       ],
-      "blur": "data:image/webp;base64,UklGRmYAAABXRUJQVlA4IFoAAAAQBACdASoYABAAPu1iqU2ppaOiMAgBMB2JZQC7MoADJ7AeSfdshYCnuAD+0L0TdXhf1kYK6CGGX2xh6SeQU2mOprf/ADCCLDAHRsTTnWgPnREn8q8jN5MxAAA="
+      "blur": "data:image/webp;base64,UklGRmYAAABXRUJQVlA4IFoAAAAQBACdASoYABAAPu1iqU2ppaOiMAgBMB2JZQC7MoADJ7AeSfdshYCnuAD+0L0TdXhf1kYK6CGGX2xh6SeQU2mOprf/ADCCLDAHRsTTnWgPnREn8q8jN5MxAAA=",
+      "exif": {
+        "camera": "Fujifilm X-E4",
+        "lens": "XC 50-230mm f/4.5-6.7 OIS II",
+        "focal": 121,
+        "focal35": 181,
+        "f": 6.4,
+        "shutter": "1/1800s",
+        "iso": 800,
+        "ev": -1.3,
+        "date": "2024-03-07"
+      }
     },
     {
       "file": "antelope-canyons-4",
@@ -364,7 +565,18 @@
         "#a75769",
         "#6a1827"
       ],
-      "blur": "data:image/webp;base64,UklGRuYAAABXRUJQVlA4INoAAAAQBgCdASoYABkAPu1qq1EppaOiqAqpMB2JbACxG15EnhKFchsI4hoyMBRnrflpvC1Fo1L0IxU7+AAA/p9qVl0GhJzb2ukBqXaJlMmUyyViwmQA/7nH4DXKeAVYf5i8V/c3byRZnALxGJ5GpJUI7jM2L/n4NldT/fu0BW5xWWrpLomb/X8I/h1tAh21KZWOaozR9zP2+dp3cJpLSX2Le7TquB++Y2cNwDnFIw6pKCnOYxMA4jXqxh8uJ62k+egyPJ77J/u952+7tjbmp+DuMskFMdbt5ip21JaAAA=="
+      "blur": "data:image/webp;base64,UklGRuYAAABXRUJQVlA4INoAAAAQBgCdASoYABkAPu1qq1EppaOiqAqpMB2JbACxG15EnhKFchsI4hoyMBRnrflpvC1Fo1L0IxU7+AAA/p9qVl0GhJzb2ukBqXaJlMmUyyViwmQA/7nH4DXKeAVYf5i8V/c3byRZnALxGJ5GpJUI7jM2L/n4NldT/fu0BW5xWWrpLomb/X8I/h1tAh21KZWOaozR9zP2+dp3cJpLSX2Le7TquB++Y2cNwDnFIw6pKCnOYxMA4jXqxh8uJ62k+egyPJ77J/u952+7tjbmp+DuMskFMdbt5ip21JaAAA==",
+      "exif": {
+        "camera": "Fujifilm X-E4",
+        "lens": "XC 15-45mm f/3.5-5.6 OIS PZ",
+        "focal": 45,
+        "focal35": 68,
+        "f": 10,
+        "shutter": "1/10s",
+        "iso": 800,
+        "ev": 0.3,
+        "date": "2024-03-08"
+      }
     },
     {
       "file": "antelope-canyons-6",
@@ -382,7 +594,17 @@
         "#e96936",
         "#571b25"
       ],
-      "blur": "data:image/webp;base64,UklGRtwAAABXRUJQVlA4INAAAABQBQCdASoYAB4APu1srVCppaQiqAqpMB2JagC7AAcQB6GdT4Kh0yZ9xCZ3pg2iSTOS1uAA/gpgRpFDLwhOZrAlxJvRA2gq4IY7wfsm/Rj2BuxoNYZOa9o0wC3yD74e+vyXwtnFiB61/U+vpqghclzrerXjEzGsxTv3Mv1hOghZmfTpm+YkRiKTgRymmAQtqF7q9Kr827RQb/oiA5X5nuMA5fKWvpXyb8GXBckDQdr93nLm9aRepAWX2g3+/il3+pvTK2dbUL1noOunbidn6TAA"
+      "blur": "data:image/webp;base64,UklGRtwAAABXRUJQVlA4INAAAABQBQCdASoYAB4APu1srVCppaQiqAqpMB2JagC7AAcQB6GdT4Kh0yZ9xCZ3pg2iSTOS1uAA/gpgRpFDLwhOZrAlxJvRA2gq4IY7wfsm/Rj2BuxoNYZOa9o0wC3yD74e+vyXwtnFiB61/U+vpqghclzrerXjEzGsxTv3Mv1hOghZmfTpm+YkRiKTgRymmAQtqF7q9Kr827RQb/oiA5X5nuMA5fKWvpXyb8GXBckDQdr93nLm9aRepAWX2g3+/il3+pvTK2dbUL1noOunbidn6TAA",
+      "exif": {
+        "camera": "Fujifilm X-E4",
+        "lens": "XC 15-45mm f/3.5-5.6 OIS PZ",
+        "focal": 35,
+        "focal35": 53,
+        "f": 10,
+        "shutter": "1/25s",
+        "iso": 1000,
+        "date": "2024-03-08"
+      }
     },
     {
       "file": "antelope-canyons-7",
@@ -400,7 +622,18 @@
         "#d4edfe",
         "#672427"
       ],
-      "blur": "data:image/webp;base64,UklGRtAAAABXRUJQVlA4IMQAAAAQBQCdASoYABIAPu1osFAppaSiqAqpMB2JaACdL3WA3uqh2m1Q+6UUNvCG5aCETFVAAP7vEpcvTW54FwvQr7qMcH20ktONnCRO/nlTWmeT9OhrOC8zx5kDT07rIU4tmQNQQzZf54gQJaPe+n7R43XLI/MTxBpm/byOBw9KfJEmV1dK9opYmaNl9ujFjB7UCf5VkRXmVierOgOehHUd7ffHYgqkwI5L3Qs7UZxgOF4q3gsOF3xDS7nFxviHyF8s8IvuEdAA"
+      "blur": "data:image/webp;base64,UklGRtAAAABXRUJQVlA4IMQAAAAQBQCdASoYABIAPu1osFAppaSiqAqpMB2JaACdL3WA3uqh2m1Q+6UUNvCG5aCETFVAAP7vEpcvTW54FwvQr7qMcH20ktONnCRO/nlTWmeT9OhrOC8zx5kDT07rIU4tmQNQQzZf54gQJaPe+n7R43XLI/MTxBpm/byOBw9KfJEmV1dK9opYmaNl9ujFjB7UCf5VkRXmVierOgOehHUd7ffHYgqkwI5L3Qs7UZxgOF4q3gsOF3xDS7nFxviHyF8s8IvuEdAA",
+      "exif": {
+        "camera": "Fujifilm X-E4",
+        "lens": "XC 15-45mm f/3.5-5.6 OIS PZ",
+        "focal": 26,
+        "focal35": 40,
+        "f": 10,
+        "shutter": "1/30s",
+        "iso": 1000,
+        "ev": -0.3,
+        "date": "2024-03-08"
+      }
     }
   ]
 }

@@ -8,6 +8,8 @@
 export const WIDTHS = [600, 1200, 2400] as const;
 const BASE = (import.meta.env.PUBLIC_IMAGE_BASE as string | undefined)?.replace(/\/$/, "");
 
+import type { ExifInfo } from "./exif";
+
 export type Photo = {
   file: string;
   title: string;
@@ -19,6 +21,8 @@ export type Photo = {
   blur?: string;
   /** widths actually generated for this photo (smaller originals have fewer) */
   widths?: number[];
+  /** camera settings read from the original (see scripts/photos.mjs); optional */
+  exif?: ExifInfo;
   /** content hash prefix, appended as ?v= so a replaced photo busts the CDN cache */
   v?: string;
 };

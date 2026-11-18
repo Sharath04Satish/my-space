@@ -10,7 +10,7 @@ const { projects, showCount = false } = Astro.props;
   {projects.map((p) => {
     const cover = p.photos.find((ph) => ph.file === p.cover) ?? p.photos[0];
     return (
-    <a class="card" href={`/collections/${p.slug}`}>
+    <a class="card" href={`/photography/collections/${p.slug}`}>
       <div class="cover">
         {cover && <img src={imageUrl(p.slug, cover, 1200)} alt="" loading="lazy" />}
       </div>

@@ -5,16 +5,21 @@ import { ClientRouter } from "astro:transitions";
 interface Props {
   title: string;
   description?: string;
-  active?: "highlights" | "collections" | "about";
+  /** Top-level section of the site (the main nav) */
+  active?: "photography" | "about";
+  /** Tab inside the Photography section */
+  sub?: "highlights" | "collections" | "gear";
 }
-const { title, description = "Photography portfolio", active } = Astro.props;
+const { title, description = "Sharath Satish", active, sub } = Astro.props;
 ---
 
 <!doctype html>
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
+    <meta name="theme-color" content="#ffffff" />
+    <noscript><style>.ph img{opacity:1}</style></noscript>
     <meta name="description" content={description} />
     <link rel="icon" href="/favicon.svg" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -27,12 +32,19 @@ const { title, description = "Photography portfolio", active } = Astro.props;
     <header class="site">
       <a class="brand" href="/">Sharath Satish</a>
       <nav>
-        <a href="/" class={active === "highlights" ? "on" : ""}>Highlights</a>
-        <a href="/collections" class={active === "collections" ? "on" : ""}>Collections</a>
+        <a href="/photography" class={active === "photography" ? "on" : ""}>Photography</a>
         <a href="/about" class={active === "about" ? "on" : ""}>About</a>
       </nav>
     </header>
-    <slot />
+    {active === "photography" && (
+      <nav class="subnav" aria-label="Photography">
+        <a href="/photography" class={sub === "highlights" ? "on" : ""}>Highlights</a>
+        <a href="/photography/collections" class={sub === "collections" ? "on" : ""}>Collections</a>
+        <a href="/photography/gear" class={sub === "gear" ? "on" : ""}>Gear</a>
+      </nav>
+    )}
+    <!-- grows to fill the screen, which keeps the footer at the bottom even on short pages -->
+    <div class="page"><slot /></div>
     <footer>
       <span>© {new Date().getFullYear()} Sharath Satish</span>
     </footer>

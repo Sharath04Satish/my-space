@@ -1,11 +1,29 @@
-# Sharath Satish — Photography
+# Sharath Satish
 
-A personal photography portfolio built with [Astro](https://astro.build) and React.
+A personal website built with [Astro](https://astro.build) and React. Right now it holds a photography portfolio; the plan is to add a blog later (tech, everyday life, photography and more).
 
-- **Highlights** (`/`): photos picked by hand across all collections, with the first photo full-width, then a two-column masonry grid (list order reads left to right).
-- **Collections** (`/collections`): a two-per-row grid of collections, each with its own page (`/collections/<name>`).
+## Site map
+
+| URL | What it is |
+|---|---|
+| `/` | **Landing page**: a panoramic photo in an off-white frame, a line of text and a green squiggle. |
+| `/photography` | **Highlights**: photos picked by hand across all collections. |
+| `/photography/collections` | **Collections**: a two-per-row grid of collections. |
+| `/photography/collections/<name>` | One collection. |
+| `/photography/gear` | **Gear**: the cameras and lenses I shoot with, in two sections. |
+| `/about` | Portrait and short bio (about the person, so it sits outside Photography). |
+
+Old URLs still work: `/collections/...` and the earlier `/projects/...` redirect to `/photography/collections/...`.
+
+The top bar has **Photography** and **About**. Pages inside Photography also show **Highlights | Collections | Gear** tabs under it. A future blog would be another top-level section next to Photography.
+
+### What each page looks like
+
+- **Highlights** (`/photography`): photos picked by hand across all collections, with the first photo full-width, then a two-column masonry grid (list order reads left to right).
+- **Collections** (`/photography/collections`): a two-per-row grid of collections, each with its own page (`/photography/collections/<name>`).
 - **Collection page**: a full-width lead photo, then a three-column grid where every photo keeps its own proportions.
-- **Full-screen view**: click any photo. It works for landscape and portrait, with arrow-key / swipe navigation, and shows the photo's top three colours as small squares (click one to copy its hex code).
+- **Gear** (`/photography/gear`): two sections, Cameras and Lenses, each a grid of cards with a square photo, the name and a short detail line.
+- **Full-screen view**: click any photo. It works for landscape and portrait, with arrow-key / swipe navigation. Under the photo it always shows the title, the camera settings (see "Camera settings (EXIF)" below), and the photo's top three colours as small squares (click one to copy its hex code) next to the counter.
 - **About** (`/about`): portrait and short bio.
 
 Full-resolution originals never go on the site. A script makes web-sized copies, which are stored on Cloudflare R2.
@@ -62,7 +80,7 @@ One file per collection in `src/data/projects/`. (The folder keeps its old "proj
 - `cover`: the photo's `file` name to use as the collection's cover on the Collections page. Default: the first photo.
 - `blurb`: one line under the title on the collection page. Hidden if empty.
 - `photos`: shown in this order. Reorder by moving entries. The lead photo on a collection page is the first *landscape* one in the list.
-- `file`, `w`, `h`, `widths`, `v`, `colors`, `blur`: **written by `npm run photos`.** Don't hand-edit.
+- `file`, `w`, `h`, `widths`, `v`, `colors`, `blur`, `exif`: **written by `npm run photos`.** Don't hand-edit.
 - A photo's `file` is its filename in lowercase with anything that isn't a letter or number turned into a dash, minus the extension: `DSCF1278-2.jpg` becomes `dscf1278-2`.
 
 To add a new collection, create `photos/<new-name>/`, add photos, and run `npm run photos`. It creates the data file, then set its `title`, `place`, `year` and `order`.
@@ -80,12 +98,39 @@ To add a new collection, create `photos/<new-name>/`, add photos, and run `npm r
 
 `project` is the collection's folder / URL name (the field keeps its old name). An entry that doesn't match a real photo is silently skipped, so check the page after saving.
 
-Layout: the home page uses `HIGHLIGHTS_LAYOUT` at the top of `src/pages/index.astro`. Two options:
+Layout: the Highlights page uses `HIGHLIGHTS_LAYOUT` at the top of `src/pages/photography/index.astro`. Two options:
 
 - `"columns"` (current): the first photo in the list runs full-width (only if it is a landscape; otherwise there is no banner), then a two-column masonry. Each photo goes into whichever column is currently shorter, so the list reads left to right across the page and the columns end at about the same height. Photos keep their natural proportions.
 - `"stack"`: two per row. Neighbouring photos of the same shape (landscape + landscape, or portrait + portrait; squares count as portraits) share a row at equal height, so rows line up and nothing is cropped. A photo with no same-shaped neighbour sits alone, centred at half width. To avoid lone photos, arrange the list so same-shaped photos come in even-sized runs.
 
 In both, the list order is never changed. (The collection pages use a different layout: a full-width lead photo, then a three-column CSS masonry.)
+
+## Camera settings (EXIF)
+
+`npm run photos` reads each original's EXIF and saves a short, safe summary as `exif` in the collection's data file. The full-screen view shows it as one line, for example:
+
+> Fujifilm X-E4 · XF 16-50mm f/2.8-4.8 R LM WR · 47mm · f/7.1 · 1/220s · ISO 640 · +0.7 EV
+
+- **What is kept:** camera, lens, focal length, aperture, shutter speed, ISO, and exposure compensation (only if not zero). The date taken is also saved but not displayed. **Nothing else is copied: no GPS location, serial numbers or owner names.** (The resized website copies have all EXIF removed too.) A photo whose EXIF lacks something simply omits that part. (The 35mm-equivalent focal length is still saved as `focal35` in the data files but is not displayed; to show it again, see `exifParts` in `src/lib/exif.ts`.)
+- **Film scans:** a lab scanner's EXIF names the scanner, not your camera, and has no exposure data. Those photos show `Canon AT-1 · Scanned film` instead. The camera name comes from `FILM_SCAN_CAMERA` in `.env` (default `Canon AT-1`), and a photo counts as a scan when its EXIF is from a scanner (Noritsu and similar) with no lens recorded.
+- **When it is read:** once per photo, when it is first processed. Changing `EXIF_VERSION` in `scripts/photos.mjs` re-reads every photo's EXIF without re-encoding any images (about a second for hundreds of photos).
+- **Date taken** is saved in the data files (as `date`, exactly as the camera wrote it) but not shown. To show it again, add it back to `exifParts` in `src/lib/exif.ts`.
+- The reader (`exifr`) is given the first 512 KB of each file rather than the file path, because its own file handling errors out on Node 26.
+
+## Updating the Gear page
+
+Gear is not a collection. Its photos go in the reserved folder **`photos/gear/`**, and `npm run photos` handles it separately (same resizing, but it never creates a collection and never shows up on the Collections page).
+
+1. **Add a photo:** put it in `photos/gear/`, for example `photos/gear/X-T5.jpg`, and run `npm run photos`. A photo's key is its file name in lowercase without the extension (`X-T5.jpg` becomes `x-t5`).
+2. **Add or edit an entry** in `src/data/gear.json`, under `"cameras"` or `"lenses"`:
+
+```json
+{ "name": "Fujifilm X-E4", "detail": "Mirrorless · APS-C", "note": "", "photo": "x-e4" }
+```
+
+- `name`: shown under the photo. `detail`: small line below it. `note`: an optional sentence, hidden when empty. `photo`: the key from step 1 (optional; an entry without a photo shows a grey block).
+- Entries appear in the order listed, three per row on desktop.
+- `src/data/gear-images.json` is written by the script (sizes, blur preview). Don't edit it.
 
 ## Where photos are served from
 
@@ -100,22 +145,41 @@ Copy `.env.example` to `.env` and fill it in. It holds `PUBLIC_IMAGE_BASE` and t
 ## Project layout
 
 ```text
-photos/                 your originals (gitignored, never deployed)
+photos/                 your originals (gitignored, never deployed); photos/gear/ is reserved for the Gear page
 .cache/                 generated web copies and upload state (gitignored)
 scripts/photos.mjs      the photo pipeline (build / upload / sync)
 src/
-  pages/                index (highlights), collections/, about
+  pages/                index (landing page), about,
+                        photography/ (index = highlights, collections/, gear)
   components/           Gallery.tsx, Lightbox.tsx, ProjectCards.astro
   layouts/Layout.astro  header, footer, page transitions
-  lib/                  data.ts (loads the JSON), images.ts (URLs), colors.ts
-  data/                 highlights.json and projects/*.json
+  lib/                  data.ts (loads the JSON), gear.ts, images.ts (URLs), colors.ts
+  data/                 highlights.json, projects/*.json, gear.json (+ generated gear-images.json)
   assets/about.jpg      the About page portrait
   styles/global.css     all styling (colours are variables at the top)
 ```
 
+## Mobile
+
+The site is built phone-first in its details (all of this lives in `src/styles/global.css`, in the blocks marked "phones", "touch screens" and "mouse/trackpad only"):
+
+- **Breakpoints:** layouts switch to their phone form at 720px wide and below; very small phones (under 360px) get a slightly tighter header.
+- **Type scale (phones):** text is deliberately small so the photos get the screen: page titles 22-26px, body text 13-14px, labels and captions 10-11px, and tight spacing around the title block. This put the first photo about 21-26% of the way down the screen instead of 28-35%. The phone type sizes are all in the single `@media (max-width:720px)` block ("phones") in `src/styles/global.css`, so changing one number there changes it everywhere; desktop sizes are untouched.
+- **Tap targets:** on any touch screen (phones *and* tablets) the logo, main nav and Photography tabs are at least 44px tall, the size Apple and Google recommend for fingers. The three colour squares in the full-screen view grow to 28px.
+- **Hover only for mouse users:** the zoom-on-hover and caption effects only apply when the device really has hover (`(hover:hover)`). On a phone they would otherwise stick after a tap.
+- **Notch and home indicator:** the page uses `viewport-fit=cover` and `env(safe-area-inset-*)` so the header, footer and full-screen view clear the status bar, notch and home bar. (Desktop browsers and the in-app preview report zero insets, so this can only be seen on a real notched phone.)
+- **Phone layouts:** Gear is two per row, About has a square portrait with a tappable (`mailto:`) email, and the lead photo and photo grids sit tighter under the header.
+- **Header on phones:** it scrolls away with the page instead of staying pinned (on desktop and tablets it stays pinned), so photos get the whole screen while you scroll. Scroll back to the top, or tap the status bar on an iPhone, to reach the navigation again.
+- **Sideways phones / short windows (under 500px tall):** the header is not pinned either, and the full-screen view uses a compact one-row footer, so the photo gets about 80% of the screen height.
+- **Full-screen view gestures:** swipe left/right for the next/previous photo, swipe down to close, and a two-finger pinch is left to the browser so you can zoom into detail. Arrow keys and Esc still work on desktop.
+- **Loading:** each photo's tiny blur preview is painted on its frame (so there is never a blank gap), and the sharp photo fades in over it. The theme colour of the phone's browser bar is set to white.
+- **Reduced motion:** visitors who ask their device for less motion get no fades, zooms or the squiggle animation.
+
 ## Good to know
 
-- **Navigation** between pages uses Astro's client-side router and hover prefetching, so tab switches don't reload the page. `/projects/...` URLs redirect to `/collections/...`.
+- **Navigation** between pages uses Astro's client-side router and hover prefetching, so tab switches don't reload the page.
+- **The landing page** (`src/pages/index.astro`) shows one photo in a CSS "photo frame" (off-white border, thin edge, soft shadow), the sentence below it, and an SVG green squiggle that draws itself in on load (disabled for visitors who prefer reduced motion). **It has two photos:** a panorama for desktop and tablets, and a tall photo for phones (720px wide and below), chosen with a `<picture>` element so each device downloads only its own. To change them, edit the `DESKTOP` and `PHONE` values at the top of the file (collection folder name + photo file name). The two share one alt text ("A featured photograph by Sharath Satish"), because a `<picture>` can only have one. The text is the `.tagline` paragraph; the frame colour and squiggle green are `#f4efe3` and `#4a8c58` in the same file's `<style>`. The logo links to `/`.
+- **Adding a section** (for example a blog): create `src/pages/<section>/`, add it to the top nav and the `active` type in `src/layouts/Layout.astro`. The Highlights | Collections tabs only appear on Photography pages.
 - **The About photo** (`src/assets/about.jpg`) is resized by Astro at build time and cropped to a tall frame around the face. Replace the file to change it.
 - **Collections with no photos yet** show a grey cover and "Photos coming soon."
 

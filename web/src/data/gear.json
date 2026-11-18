@@ -1,0 +1,10 @@
+{
+  "cameras": [
+    { "name": "Fujifilm X-E4", "detail": "Mirrorless · APS-C", "note": "", "photo": "x-e4" },
+    { "name": "Canon AT-1", "detail": "35mm film SLR", "note": "", "photo": "at-1" }
+  ],
+  "lenses": [
+    { "name": "Fujifilm XF 27mm f/2.8 R WR", "detail": "Pancake prime", "note": "", "photo": "27mm" },
+    { "name": "Samyang 12mm f/2 NCS CS", "detail": "Ultra-wide prime · Fujifilm X mount", "note": "", "photo": "12mm" }
+  ]
+}

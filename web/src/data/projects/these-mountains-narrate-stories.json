@@ -4,8 +4,38 @@
   "place": "Salt Lake City",
   "year": 2026,
   "order": 11,
+  "cover": "dscf0827",
   "blurb": "",
   "photos": [
+    {
+      "file": "dscf0827",
+      "title": "Dscf0827",
+      "w": 6059,
+      "h": 2063,
+      "widths": [
+        600,
+        1200,
+        2400
+      ],
+      "v": "be1ee0cc",
+      "colors": [
+        "#78838a",
+        "#a8a6a6",
+        "#232d33"
+      ],
+      "blur": "data:image/webp;base64,UklGRnIAAABXRUJQVlA4IGYAAADQAwCdASoYAAgAPu1kqk4ppaQiMAgBMB2JZQAAXqHRNuVrAfqLfEAA/iedA7+kg6DVHSVafqQP9xF0b5JevNtTQi0jl7+Qam+PbV8OG2pdN3SOKMgZw4B02ASBHWDa0AHMKa62AAA=",
+      "exif": {
+        "camera": "Fujifilm X-E4",
+        "lens": "XC 50-230mm f/4.5-6.7 OIS II",
+        "focal": 121,
+        "focal35": 181,
+        "f": 7.1,
+        "shutter": "1/1600s",
+        "iso": 1000,
+        "ev": -0.3,
+        "date": "2023-10-03"
+      }
+    },
     {
       "file": "dscf4824",
       "title": "Dscf4824",
@@ -22,7 +52,18 @@
         "#a78a67",
         "#685935"
       ],
-      "blur": "data:image/webp;base64,UklGRoYAAABXRUJQVlA4IHoAAAAQBACdASoYAAsAPu1iqU2ppaQiMAgBMB2JZACdABinHH4G3ieUoXv3AAD+44RfVbOwJy0YgH10dcX1jKPu2UcbEGf8/kshdlKDyDv3rRdNT55oxff6uZEOLiP8oE1jIlMN8wyYZPO8RerUQu9vhEGcfftNimN/cX/AAA=="
+      "blur": "data:image/webp;base64,UklGRoYAAABXRUJQVlA4IHoAAAAQBACdASoYAAsAPu1iqU2ppaQiMAgBMB2JZACdABinHH4G3ieUoXv3AAD+44RfVbOwJy0YgH10dcX1jKPu2UcbEGf8/kshdlKDyDv3rRdNT55oxff6uZEOLiP8oE1jIlMN8wyYZPO8RerUQu9vhEGcfftNimN/cX/AAA==",
+      "exif": {
+        "camera": "Fujifilm X-E4",
+        "lens": "XC 15-45mm f/3.5-5.6 OIS PZ",
+        "focal": 20,
+        "focal35": 30,
+        "f": 9,
+        "shutter": "1/110s",
+        "iso": 320,
+        "ev": -1,
+        "date": "2024-09-01"
+      }
     },
     {
       "file": "dscf1278-2",
@@ -40,7 +81,18 @@
         "#385657",
         "#757a56"
       ],
-      "blur": "data:image/webp;base64,UklGRoYAAABXRUJQVlA4IHoAAAAwBACdASoYABAAPu1iqU2ppaOiMAgBMB2JQBWABH9bS9+PMQql6PtVp2AA/q0OBe/E733OFSr/4eKIxI/jl691jF5WtWPRlj1KAT1cXMcRc+JVbuAZGUm6EPt52hTPFLQhSJxJpLCDFJ3TwlWZCIIvYa7JdTvC6AAAAA=="
+      "blur": "data:image/webp;base64,UklGRoYAAABXRUJQVlA4IHoAAAAwBACdASoYABAAPu1iqU2ppaOiMAgBMB2JQBWABH9bS9+PMQql6PtVp2AA/q0OBe/E733OFSr/4eKIxI/jl691jF5WtWPRlj1KAT1cXMcRc+JVbuAZGUm6EPt52hTPFLQhSJxJpLCDFJ3TwlWZCIIvYa7JdTvC6AAAAA==",
+      "exif": {
+        "camera": "Fujifilm X-E4",
+        "lens": "XF 16-50mm f/2.8-4.8 R LM WR",
+        "focal": 41,
+        "focal35": 61,
+        "f": 4.5,
+        "shutter": "1/1600s",
+        "iso": 1000,
+        "ev": -0.3,
+        "date": "2026-07-05"
+      }
     },
     {
       "file": "dscf1282-2",
@@ -58,7 +110,17 @@
         "#277956",
         "#598978"
       ],
-      "blur": "data:image/webp;base64,UklGRmwAAABXRUJQVlA4IGAAAACQAwCdASoYAAkAPu1iqk2ppaQiMAgBMB2JaAAASoDv/Exg3kkGAP7sSrzzJuW48F4PIPG4fcDvYYEjv6TiClYG2C2rLAVBBOQrkpmDbKcOpOUeSak1EWr2JIbYTpjCgAA="
+      "blur": "data:image/webp;base64,UklGRmwAAABXRUJQVlA4IGAAAACQAwCdASoYAAkAPu1iqk2ppaQiMAgBMB2JaAAASoDv/Exg3kkGAP7sSrzzJuW48F4PIPG4fcDvYYEjv6TiClYG2C2rLAVBBOQrkpmDbKcOpOUeSak1EWr2JIbYTpjCgAA=",
+      "exif": {
+        "camera": "Fujifilm X-E4",
+        "lens": "XF 16-50mm f/2.8-4.8 R LM WR",
+        "focal": 50,
+        "focal35": 75,
+        "f": 4.8,
+        "shutter": "1/140s",
+        "iso": 640,
+        "date": "2026-07-05"
+      }
     },
     {
       "file": "dscf1294-2",
@@ -76,7 +138,18 @@
         "#485825",
         "#877919"
       ],
-      "blur": "data:image/webp;base64,UklGRsAAAABXRUJQVlA4ILQAAABQBQCdASoYABIAPu1qrlCppaQiqAqpMB2JbAC1GzL8qCULp2FF5+RZtmKAy50kxxlHxXAA/u6OwNIXA4hFmDnhuWNSQXpTr8f1jGaqvZtflU24t2F+r5k1Q8ebW+EmhEgPuwfWOyM0vaIT1scpO4PMwljKQXZs6O2aFE2r3WfAKC2EK+4uZxX6cTMcWBBQvzffJJJpR+ew8w4/iNIWZy3OGegMIQwyafRk3BPn26gQa8nAAAA="
+      "blur": "data:image/webp;base64,UklGRsAAAABXRUJQVlA4ILQAAABQBQCdASoYABIAPu1qrlCppaQiqAqpMB2JbAC1GzL8qCULp2FF5+RZtmKAy50kxxlHxXAA/u6OwNIXA4hFmDnhuWNSQXpTr8f1jGaqvZtflU24t2F+r5k1Q8ebW+EmhEgPuwfWOyM0vaIT1scpO4PMwljKQXZs6O2aFE2r3WfAKC2EK+4uZxX6cTMcWBBQvzffJJJpR+ew8w4/iNIWZy3OGegMIQwyafRk3BPn26gQa8nAAAA=",
+      "exif": {
+        "camera": "Fujifilm X-E4",
+        "lens": "XF 16-50mm f/2.8-4.8 R LM WR",
+        "focal": 41,
+        "focal35": 61,
+        "f": 5,
+        "shutter": "1/1900s",
+        "iso": 400,
+        "ev": -0.7,
+        "date": "2026-07-05"
+      }
     },
     {
       "file": "dscf1436",
@@ -94,7 +167,18 @@
         "#f9faf7",
         "#353c16"
       ],
-      "blur": "data:image/webp;base64,UklGRhABAABXRUJQVlA4IAQBAACQBgCdASoYACAAPu1kqU2ppaQiMAgBMB2JZgC7IQSqVjfyg616xu4agiurkRwL1t9kyIfup8X4+/BBQ4dQAP7rnPOBB+o/7r1KRR580XdDuk3mruo2CrwZmyLiPtSMdIQL7q00LgFpciS8b3wiVO9jpUVy9Ax+k1WgyhKntJ7RbxGT6hUcuNriyw/iL2NwPKNx2yAC40dsEmv/j9UBOyy+WL6t+is3ITkXtsYoAq6wwSilvDOG726eD8+MBLRglkSMYPsJ1fb0xYxjFOoJlmQv5l+FORQMy/yU+Md8A1aZAItFy58xETYsvSkw8NxVICZk1DoxtNWqJtgKFT6L3nbyvYAAAA=="
+      "blur": "data:image/webp;base64,UklGRhABAABXRUJQVlA4IAQBAACQBgCdASoYACAAPu1kqU2ppaQiMAgBMB2JZgC7IQSqVjfyg616xu4agiurkRwL1t9kyIfup8X4+/BBQ4dQAP7rnPOBB+o/7r1KRR580XdDuk3mruo2CrwZmyLiPtSMdIQL7q00LgFpciS8b3wiVO9jpUVy9Ax+k1WgyhKntJ7RbxGT6hUcuNriyw/iL2NwPKNx2yAC40dsEmv/j9UBOyy+WL6t+is3ITkXtsYoAq6wwSilvDOG726eD8+MBLRglkSMYPsJ1fb0xYxjFOoJlmQv5l+FORQMy/yU+Md8A1aZAItFy58xETYsvSkw8NxVICZk1DoxtNWqJtgKFT6L3nbyvYAAAA==",
+      "exif": {
+        "camera": "Fujifilm X-E4",
+        "lens": "XF 16-50mm f/2.8-4.8 R LM WR",
+        "focal": 49,
+        "focal35": 73,
+        "f": 6.4,
+        "shutter": "1/1600s",
+        "iso": 640,
+        "ev": 0.7,
+        "date": "2026-09-13"
+      }
     },
     {
       "file": "dscf1450",
@@ -112,7 +196,18 @@
         "#485727",
         "#c9b759"
       ],
-      "blur": "data:image/webp;base64,UklGRp4AAABXRUJQVlA4IJIAAADQAwCdASoYAA8APu1iqU2ppaOiMAgBMB2JaAC7ACL6WJq6FTpf1gAA/toVE0sRbzCa813ui90c+8hTVL4KiGlnD566im0ELvMOqOFBDdYsV0AMIoy+vZMo1HdSdDXWG3BtYrXiMcKDsyVWgtVxOEtsYMN4YhQv3ZPASEOzu7QvWk8cGVWxMwvkZAkLSw6DDAAAAA=="
+      "blur": "data:image/webp;base64,UklGRp4AAABXRUJQVlA4IJIAAADQAwCdASoYAA8APu1iqU2ppaOiMAgBMB2JaAC7ACL6WJq6FTpf1gAA/toVE0sRbzCa813ui90c+8hTVL4KiGlnD566im0ELvMOqOFBDdYsV0AMIoy+vZMo1HdSdDXWG3BtYrXiMcKDsyVWgtVxOEtsYMN4YhQv3ZPASEOzu7QvWk8cGVWxMwvkZAkLSw6DDAAAAA==",
+      "exif": {
+        "camera": "Fujifilm X-E4",
+        "lens": "XF 16-50mm f/2.8-4.8 R LM WR",
+        "focal": 50,
+        "focal35": 75,
+        "f": 7.1,
+        "shutter": "1/60s",
+        "iso": 800,
+        "ev": -0.7,
+        "date": "2026-09-13"
+      }
     },
     {
       "file": "dscf1452",
@@ -130,7 +225,18 @@
         "#74783a",
         "#95966a"
       ],
-      "blur": "data:image/webp;base64,UklGRogAAABXRUJQVlA4IHwAAAAwBACdASoYAAwAPu1iqU2ppaOiMAgBMB2JYgCdABuUcdcCk68Yn0sWgAAA/tqSB2mqOApV755UAiyi0L+oFoZ3aQc53ovVtHa9hhMEJIukA8+j4C+eT9/ihkVk1VTfMZd6iEKvq9h0nv8jNhku74ysoPHo4QwuvvtRYAAA"
+      "blur": "data:image/webp;base64,UklGRogAAABXRUJQVlA4IHwAAAAwBACdASoYAAwAPu1iqU2ppaOiMAgBMB2JYgCdABuUcdcCk68Yn0sWgAAA/tqSB2mqOApV755UAiyi0L+oFoZ3aQc53ovVtHa9hhMEJIukA8+j4C+eT9/ihkVk1VTfMZd6iEKvq9h0nv8jNhku74ysoPHo4QwuvvtRYAAA",
+      "exif": {
+        "camera": "Fujifilm X-E4",
+        "lens": "XF 16-50mm f/2.8-4.8 R LM WR",
+        "focal": 50,
+        "focal35": 75,
+        "f": 7.1,
+        "shutter": "1/110s",
+        "iso": 800,
+        "ev": -0.7,
+        "date": "2026-09-13"
+      }
     },
     {
       "file": "dscf1630",
@@ -148,7 +254,17 @@
         "#273847",
         "#8997a4"
       ],
-      "blur": "data:image/webp;base64,UklGRnQAAABXRUJQVlA4IGgAAAAwBACdASoYAAoAPu1iqk2ppaQiMAgBMB2JYwCdMoADNejNSQM3DbwTcAAA/qBWRD6H84P5RPyQ5psdCZiw7XhoqES+zkuZ/4cRtNYLu1KfHcqsy0rYJJMV5iVq4GXMJwGs/s+krMgAAA=="
+      "blur": "data:image/webp;base64,UklGRnQAAABXRUJQVlA4IGgAAAAwBACdASoYAAoAPu1iqk2ppaQiMAgBMB2JYwCdMoADNejNSQM3DbwTcAAA/qBWRD6H84P5RPyQ5psdCZiw7XhoqES+zkuZ/4cRtNYLu1KfHcqsy0rYJJMV5iVq4GXMJwGs/s+krMgAAA==",
+      "exif": {
+        "camera": "Fujifilm X-E4",
+        "lens": "XC 50-230mm f/4.5-6.7 OIS II",
+        "focal": 95,
+        "focal35": 143,
+        "f": 6.4,
+        "shutter": "1/2000s",
+        "iso": 800,
+        "date": "2024-02-28"
+      }
     },
     {
       "file": "dscf2586",
@@ -166,7 +282,18 @@
         "#282828",
         "#878787"
       ],
-      "blur": "data:image/webp;base64,UklGRlAAAABXRUJQVlA4IEQAAABQAwCdASoYAAkAPu1qrU8ppiQiMAgBMB2JaQAAW/GJC9GQEAD+rwEA+uPVXLRORBJ7ELRt6hycusskPpcr27L67ZAAAA=="
+      "blur": "data:image/webp;base64,UklGRlAAAABXRUJQVlA4IEQAAABQAwCdASoYAAkAPu1qrU8ppiQiMAgBMB2JaQAAW/GJC9GQEAD+rwEA+uPVXLRORBJ7ELRt6hycusskPpcr27L67ZAAAA==",
+      "exif": {
+        "camera": "Fujifilm X-E4",
+        "lens": "XC 50-230mm f/4.5-6.7 OIS II",
+        "focal": 136,
+        "focal35": 204,
+        "f": 14,
+        "shutter": "1/480s",
+        "iso": 500,
+        "ev": -0.7,
+        "date": "2024-03-11"
+      }
     },
     {
       "file": "dscf3033-2",
@@ -184,7 +311,18 @@
         "#b3b8bc",
         "#8d9298"
       ],
-      "blur": "data:image/webp;base64,UklGRl4AAABXRUJQVlA4IFIAAACwAwCdASoYAAsAPu1iqk2ppaQiMAgBMB2JaQDE2BbVHRORWwrJgAD92WVro2oJZpikZBBZq2mzGr/dDZ8Z5XYOW9af2Vp5puvbSK2AIJ1hAAAA"
+      "blur": "data:image/webp;base64,UklGRl4AAABXRUJQVlA4IFIAAACwAwCdASoYAAsAPu1iqk2ppaQiMAgBMB2JaQDE2BbVHRORWwrJgAD92WVro2oJZpikZBBZq2mzGr/dDZ8Z5XYOW9af2Vp5puvbSK2AIJ1hAAAA",
+      "exif": {
+        "camera": "Fujifilm X-E4",
+        "lens": "XC 50-230mm f/4.5-6.7 OIS II",
+        "focal": 153,
+        "focal35": 229,
+        "f": 6.4,
+        "shutter": "1/4000s",
+        "iso": 640,
+        "ev": -0.7,
+        "date": "2024-04-28"
+      }
     },
     {
       "file": "dscf3045-2",
@@ -202,7 +340,18 @@
         "#363636",
         "#787878"
       ],
-      "blur": "data:image/webp;base64,UklGRrIAAABXRUJQVlA4IKYAAAAwBQCdASoYAB4APu1epk2ppKMiMAgBMB2JaQALAAHSsyNii4iCtEj/j/oZgsGuEKJAAAD+dA+G2MJ02zcLwhXieSyaxehMDvLi3UitL4RjKJkf3Q2a4f0XavjNRA5arnx5y4B7wIHmKi+6iLN5BIIRanoQGSQx9vr5KTwkRsVuv4Ch5MgbNNN02NAZ78IqYJVeD4xjJRau9tywlnCw7HWgGxEogAAA"
+      "blur": "data:image/webp;base64,UklGRrIAAABXRUJQVlA4IKYAAAAwBQCdASoYAB4APu1epk2ppKMiMAgBMB2JaQALAAHSsyNii4iCtEj/j/oZgsGuEKJAAAD+dA+G2MJ02zcLwhXieSyaxehMDvLi3UitL4RjKJkf3Q2a4f0XavjNRA5arnx5y4B7wIHmKi+6iLN5BIIRanoQGSQx9vr5KTwkRsVuv4Ch5MgbNNN02NAZ78IqYJVeD4xjJRau9tywlnCw7HWgGxEogAAA",
+      "exif": {
+        "camera": "Fujifilm X-E4",
+        "lens": "XC 50-230mm f/4.5-6.7 OIS II",
+        "focal": 114,
+        "focal35": 171,
+        "f": 10,
+        "shutter": "1/2700s",
+        "iso": 500,
+        "ev": -1,
+        "date": "2024-04-28"
+      }
     },
     {
       "file": "dscf3400-2",
@@ -220,7 +369,17 @@
         "#19160a",
         "#886625"
       ],
-      "blur": "data:image/webp;base64,UklGRnAAAABXRUJQVlA4IGQAAADwAwCdASoYABAAPu1iqk4ppaQiMAgBMB2JQBadA9Hr2orIAmfOPjQAAP6ew2JS9YxC93pJie8yX9dJIKwHwXJdbbQRwECSMkjaviopf6NetmbK5+K43Z4XXxP07h4u55revAAA"
+      "blur": "data:image/webp;base64,UklGRnAAAABXRUJQVlA4IGQAAADwAwCdASoYABAAPu1iqk4ppaQiMAgBMB2JQBadA9Hr2orIAmfOPjQAAP6ew2JS9YxC93pJie8yX9dJIKwHwXJdbbQRwECSMkjaviopf6NetmbK5+K43Z4XXxP07h4u55revAAA",
+      "exif": {
+        "camera": "Fujifilm X-E4",
+        "lens": "XC 50-230mm f/4.5-6.7 OIS II",
+        "focal": 90,
+        "focal35": 135,
+        "f": 5.6,
+        "shutter": "1/125s",
+        "iso": 640,
+        "date": "2024-05-21"
+      }
     },
     {
       "file": "dscf3559-2",
@@ -238,7 +397,18 @@
         "#85aac8",
         "#575637"
       ],
-      "blur": "data:image/webp;base64,UklGRnwAAABXRUJQVlA4IHAAAAAwBACdASoYAA4APu1iqU2ppaOiMAgBMB2JZACdACHiFd72+9lyHH/9ngAA/dz3uLtkVDIsgCAxZZyhxxHiBrAf4X8XABu0Y+YdMjJqJJMRnIufieLNVleL86FDZEsvMd+SH8g4Ns2aEuwoE8vgAAAA"
+      "blur": "data:image/webp;base64,UklGRnwAAABXRUJQVlA4IHAAAAAwBACdASoYAA4APu1iqU2ppaOiMAgBMB2JZACdACHiFd72+9lyHH/9ngAA/dz3uLtkVDIsgCAxZZyhxxHiBrAf4X8XABu0Y+YdMjJqJJMRnIufieLNVleL86FDZEsvMd+SH8g4Ns2aEuwoE8vgAAAA",
+      "exif": {
+        "camera": "Fujifilm X-E4",
+        "lens": "XC 15-45mm f/3.5-5.6 OIS PZ",
+        "focal": 21,
+        "focal35": 31,
+        "f": 5.6,
+        "shutter": "1/2700s",
+        "iso": 1600,
+        "ev": 0.3,
+        "date": "2024-06-09"
+      }
     },
     {
       "file": "dscf3732-3",
@@ -256,7 +426,18 @@
         "#d7cad3",
         "#876757"
       ],
-      "blur": "data:image/webp;base64,UklGRmoAAABXRUJQVlA4IF4AAADQAwCdASoYAA0APu1iqk4ppaQiMAgBMB2JQBdgBDsFu9o3LqsHHjAA/ursKkzQjkbfTmIrPzvRhhKv7e8hZUGREsWrNYSx8DgkttjtTufO+QSEVHjz1wLeS7ZgY0AA"
+      "blur": "data:image/webp;base64,UklGRmoAAABXRUJQVlA4IF4AAADQAwCdASoYAA0APu1iqk4ppaQiMAgBMB2JQBdgBDsFu9o3LqsHHjAA/ursKkzQjkbfTmIrPzvRhhKv7e8hZUGREsWrNYSx8DgkttjtTufO+QSEVHjz1wLeS7ZgY0AA",
+      "exif": {
+        "camera": "Fujifilm X-E4",
+        "lens": "XC 15-45mm f/3.5-5.6 OIS PZ",
+        "focal": 45,
+        "focal35": 68,
+        "f": 6.4,
+        "shutter": "1/210s",
+        "iso": 800,
+        "ev": 0.3,
+        "date": "2024-06-23"
+      }
     },
     {
       "file": "dscf3744-2",
@@ -274,7 +455,18 @@
         "#b7b9d9",
         "#fde7db"
       ],
-      "blur": "data:image/webp;base64,UklGRmIAAABXRUJQVlA4IFYAAADwAwCdASoYAA8APu1mqk2ppaQiMAgBMB2JQBOmXkBp2syHRKeuEhwIAP5Z5lUkvfR4VrTrKtjkptI0c7P0nVpDDy5sicRRikZdnRh+0Q7mp5InRxIAAA=="
+      "blur": "data:image/webp;base64,UklGRmIAAABXRUJQVlA4IFYAAADwAwCdASoYAA8APu1mqk2ppaQiMAgBMB2JQBOmXkBp2syHRKeuEhwIAP5Z5lUkvfR4VrTrKtjkptI0c7P0nVpDDy5sicRRikZdnRh+0Q7mp5InRxIAAA==",
+      "exif": {
+        "camera": "Fujifilm X-E4",
+        "lens": "XC 15-45mm f/3.5-5.6 OIS PZ",
+        "focal": 45,
+        "focal35": 68,
+        "f": 6.4,
+        "shutter": "1/1000s",
+        "iso": 800,
+        "ev": 0.7,
+        "date": "2024-06-23"
+      }
     },
     {
       "file": "dscf3765",
@@ -292,7 +484,18 @@
         "#182b35",
         "#485458"
       ],
-      "blur": "data:image/webp;base64,UklGRmIAAABXRUJQVlA4IFYAAADwAwCdASoYAAwAPu1iqU2ppaOiMAgBMB2JYwCdMoACLhyvmk5IcCgAANaGBbxamWv5ZsFkCkRTBVoxvyd2kLLMwSOjpBvWvnqjD4RorhlaVCJXQwAAAA=="
+      "blur": "data:image/webp;base64,UklGRmIAAABXRUJQVlA4IFYAAADwAwCdASoYAAwAPu1iqU2ppaOiMAgBMB2JYwCdMoACLhyvmk5IcCgAANaGBbxamWv5ZsFkCkRTBVoxvyd2kLLMwSOjpBvWvnqjD4RorhlaVCJXQwAAAA==",
+      "exif": {
+        "camera": "Fujifilm X-E4",
+        "lens": "XC 50-230mm f/4.5-6.7 OIS II",
+        "focal": 107,
+        "focal35": 161,
+        "f": 5.6,
+        "shutter": "1/3200s",
+        "iso": 640,
+        "ev": -0.7,
+        "date": "2024-06-30"
+      }
     },
     {
       "file": "dscf3829",
@@ -310,7 +513,18 @@
         "#85bbe9",
         "#54696a"
       ],
-      "blur": "data:image/webp;base64,UklGRngAAABXRUJQVlA4IGwAAAAQBACdASoYAAsAPu1kqk2ppaQiMAgBMB2JQBOmUABwEOLEn5mA7z9lhAD+WJEdW0Kd8Pfu2+SS4O7ZApYfFm0+IBuXiXEhUc6Z3HSrMloVoeb1Xd8jQtRQehjvwjqgEELWejAZn8b23HiAAAA="
+      "blur": "data:image/webp;base64,UklGRngAAABXRUJQVlA4IGwAAAAQBACdASoYAAsAPu1kqk2ppaQiMAgBMB2JQBOmUABwEOLEn5mA7z9lhAD+WJEdW0Kd8Pfu2+SS4O7ZApYfFm0+IBuXiXEhUc6Z3HSrMloVoeb1Xd8jQtRQehjvwjqgEELWejAZn8b23HiAAAA=",
+      "exif": {
+        "camera": "Fujifilm X-E4",
+        "lens": "XC 15-45mm f/3.5-5.6 OIS PZ",
+        "focal": 27,
+        "focal35": 41,
+        "f": 8,
+        "shutter": "1/2400s",
+        "iso": 1000,
+        "ev": -0.7,
+        "date": "2024-07-07"
+      }
     },
     {
       "file": "dscf4889",
@@ -328,7 +542,18 @@
         "#fbfaf9",
         "#878845"
       ],
-      "blur": "data:image/webp;base64,UklGRpAAAABXRUJQVlA4IIQAAAAQBACdASoYAA0APu1iqU2ppaOiMAgBMB2JYgAAP78tf6+w3zeMJfpHEAD+OjoOt0pp7n1nd5QhnArJQ9x10qMQR+mJANFr/BOEXWq4irFWAYa/qVpZyr+DQv5Yq3yPRJXkeivzEQolAWyqWn66NkXSExa5viXaWN7HEVwgJB7dHJkAAAA="
+      "blur": "data:image/webp;base64,UklGRpAAAABXRUJQVlA4IIQAAAAQBACdASoYAA0APu1iqU2ppaOiMAgBMB2JYgAAP78tf6+w3zeMJfpHEAD+OjoOt0pp7n1nd5QhnArJQ9x10qMQR+mJANFr/BOEXWq4irFWAYa/qVpZyr+DQv5Yq3yPRJXkeivzEQolAWyqWn66NkXSExa5viXaWN7HEVwgJB7dHJkAAAA=",
+      "exif": {
+        "camera": "Fujifilm X-E4",
+        "lens": "XC 15-45mm f/3.5-5.6 OIS PZ",
+        "focal": 45,
+        "focal35": 68,
+        "f": 5.6,
+        "shutter": "1/1250s",
+        "iso": 800,
+        "ev": -0.7,
+        "date": "2024-09-01"
+      }
     },
     {
       "file": "dscf4918",
@@ -346,7 +571,18 @@
         "#776a65",
         "#a99747"
       ],
-      "blur": "data:image/webp;base64,UklGRpAAAABXRUJQVlA4IIQAAADQAwCdASoYAA8APu1iqk4ppaQiMAgBMB2JZACsACED9d7NKUzKp8AA/syVR0niC+6pqRJmV5X2dY7TRHI0SZkToOvPC1bNRbq4/Ve7ZdLm3VUSzQrGE3Smwe9hCojY/YWFPPeTMSF1CkQEoQa5BljFYt/8WRufDB77AX/sMStaUZ7psAA="
+      "blur": "data:image/webp;base64,UklGRpAAAABXRUJQVlA4IIQAAADQAwCdASoYAA8APu1iqk4ppaQiMAgBMB2JZACsACED9d7NKUzKp8AA/syVR0niC+6pqRJmV5X2dY7TRHI0SZkToOvPC1bNRbq4/Ve7ZdLm3VUSzQrGE3Smwe9hCojY/YWFPPeTMSF1CkQEoQa5BljFYt/8WRufDB77AX/sMStaUZ7psAA=",
+      "exif": {
+        "camera": "Fujifilm X-E4",
+        "lens": "XC 15-45mm f/3.5-5.6 OIS PZ",
+        "focal": 45,
+        "focal35": 68,
+        "f": 5.6,
+        "shutter": "1/950s",
+        "iso": 800,
+        "ev": -0.3,
+        "date": "2024-09-01"
+      }
     },
     {
       "file": "dscf4923",
@@ -364,7 +600,18 @@
         "#383618",
         "#685827"
       ],
-      "blur": "data:image/webp;base64,UklGRooAAABXRUJQVlA4IH4AAAAwBACdASoYAAwAPu1iqk2ppaQiMAgBMB2JaAC06B6uhjJA0LZ/bzQE2QAA/mbdC4SvNbUacBdGX3hUltPV1fuiN9fl7SnvLP7R2dbGc0pLYuFn9dKE534HcRaC6nVJ9+XKDjAu0Qp/lJ8J11DBQzWYXvgTHJ5mPW0VForQAAA="
+      "blur": "data:image/webp;base64,UklGRooAAABXRUJQVlA4IH4AAAAwBACdASoYAAwAPu1iqk2ppaQiMAgBMB2JaAC06B6uhjJA0LZ/bzQE2QAA/mbdC4SvNbUacBdGX3hUltPV1fuiN9fl7SnvLP7R2dbGc0pLYuFn9dKE534HcRaC6nVJ9+XKDjAu0Qp/lJ8J11DBQzWYXvgTHJ5mPW0VForQAAA=",
+      "exif": {
+        "camera": "Fujifilm X-E4",
+        "lens": "XC 15-45mm f/3.5-5.6 OIS PZ",
+        "focal": 45,
+        "focal35": 68,
+        "f": 5.6,
+        "shutter": "1/1900s",
+        "iso": 800,
+        "ev": -0.3,
+        "date": "2024-09-01"
+      }
     },
     {
       "file": "dscf4932",
@@ -382,7 +629,17 @@
         "#6a6527",
         "#d8c749"
       ],
-      "blur": "data:image/webp;base64,UklGRpgAAABXRUJQVlA4IIwAAAAQBACdASoYABAAPu1iqU2ppaOiMAgBMB2JaACw7BkxBIrO7a5dcpvbwAD+q3ZQaJpVc0nTyWsFL7GKmg29EU7XorSngDicRv+K2BrZoesKMquIh1y0/DxqFm6QIbyrDLMghS5LmffkIUytIRanD+R7OSNm5AEzRfXZ22iwK/lVEgshey4EsxXT7eAAAA=="
+      "blur": "data:image/webp;base64,UklGRpgAAABXRUJQVlA4IIwAAAAQBACdASoYABAAPu1iqU2ppaOiMAgBMB2JaACw7BkxBIrO7a5dcpvbwAD+q3ZQaJpVc0nTyWsFL7GKmg29EU7XorSngDicRv+K2BrZoesKMquIh1y0/DxqFm6QIbyrDLMghS5LmffkIUytIRanD+R7OSNm5AEzRfXZ22iwK/lVEgshey4EsxXT7eAAAA==",
+      "exif": {
+        "camera": "Fujifilm X-E4",
+        "lens": "XC 15-45mm f/3.5-5.6 OIS PZ",
+        "focal": 43,
+        "focal35": 65,
+        "f": 13,
+        "shutter": "1/220s",
+        "iso": 1000,
+        "date": "2024-09-01"
+      }
     },
     {
       "file": "dscf4942",
@@ -400,7 +657,18 @@
         "#979997",
         "#676b66"
       ],
-      "blur": "data:image/webp;base64,UklGRlwAAABXRUJQVlA4IFAAAADwAwCdASoYAAwAPu1iqk2ppaQiMAgBMB2JZQDA3CFrO1WiX2/G+fzgAP7LxNxGLQS+yfr/6XWdSGHLQKAhgjqy4zjwxoQV/gWQDuSjEyagAA=="
+      "blur": "data:image/webp;base64,UklGRlwAAABXRUJQVlA4IFAAAADwAwCdASoYAAwAPu1iqk2ppaQiMAgBMB2JZQDA3CFrO1WiX2/G+fzgAP7LxNxGLQS+yfr/6XWdSGHLQKAhgjqy4zjwxoQV/gWQDuSjEyagAA==",
+      "exif": {
+        "camera": "Fujifilm X-E4",
+        "lens": "XC 15-45mm f/3.5-5.6 OIS PZ",
+        "focal": 45,
+        "focal35": 68,
+        "f": 13,
+        "shutter": "1/90s",
+        "iso": 160,
+        "ev": -0.3,
+        "date": "2024-09-02"
+      }
     },
     {
       "file": "dscf6402",
@@ -418,7 +686,18 @@
         "#a7aba8",
         "#e6d4b9"
       ],
-      "blur": "data:image/webp;base64,UklGRoAAAABXRUJQVlA4IHQAAABwAwCdASoYAA0APu1kqk2ppaQiMAgBMB2JZQAAMj/XB04rP4AA/o0fADppQzODYx/stDNDNzyMYzNqsdEtFyvCSY8Fvx45Ns280n2xmo3AJaZa6jNPEcDBI2zQmIInWe3qMoFozkSbEbQwoYH7qt1UhigAAA=="
+      "blur": "data:image/webp;base64,UklGRoAAAABXRUJQVlA4IHQAAABwAwCdASoYAA0APu1kqk2ppaQiMAgBMB2JZQAAMj/XB04rP4AA/o0fADppQzODYx/stDNDNzyMYzNqsdEtFyvCSY8Fvx45Ns280n2xmo3AJaZa6jNPEcDBI2zQmIInWe3qMoFozkSbEbQwoYH7qt1UhigAAA==",
+      "exif": {
+        "camera": "Fujifilm X-E4",
+        "lens": "XC 50-230mm f/4.5-6.7 OIS II",
+        "focal": 95,
+        "focal35": 143,
+        "f": 8,
+        "shutter": "1/1250s",
+        "iso": 2000,
+        "ev": 0.7,
+        "date": "2024-11-06"
+      }
     },
     {
       "file": "dscf6408",
@@ -436,7 +715,18 @@
         "#d8c5a6",
         "#a59a88"
       ],
-      "blur": "data:image/webp;base64,UklGRl4AAABXRUJQVlA4IFIAAADQAwCdASoYAAkAPu1kq04ppaQiMAgBMB2JQBWABDsBSRaj7N+thIAA/pQHAjBzXcVTRFDfSWnI5qMZUQThejrdkqV1TzOmCU2Mu+/oV1obIAAA"
+      "blur": "data:image/webp;base64,UklGRl4AAABXRUJQVlA4IFIAAADQAwCdASoYAAkAPu1kq04ppaQiMAgBMB2JQBWABDsBSRaj7N+thIAA/pQHAjBzXcVTRFDfSWnI5qMZUQThejrdkqV1TzOmCU2Mu+/oV1obIAAA",
+      "exif": {
+        "camera": "Fujifilm X-E4",
+        "lens": "XC 50-230mm f/4.5-6.7 OIS II",
+        "focal": 60,
+        "focal35": 89,
+        "f": 6.4,
+        "shutter": "1/4000s",
+        "iso": 2000,
+        "ev": 0.7,
+        "date": "2024-11-06"
+      }
     },
     {
       "file": "dscf6423",
@@ -454,7 +744,18 @@
         "#554939",
         "#77756a"
       ],
-      "blur": "data:image/webp;base64,UklGRlgAAABXRUJQVlA4IEwAAACQAwCdASoYAA0APu1kqU2ppaQiMAgBMB2JZQC7AB5ptu4uyUwAAP5UZhjPWOzbfkW5aZK6WnUlQz/nUxi+yqzc8O8oEJ8qicXroAAA"
+      "blur": "data:image/webp;base64,UklGRlgAAABXRUJQVlA4IEwAAACQAwCdASoYAA0APu1kqU2ppaQiMAgBMB2JZQC7AB5ptu4uyUwAAP5UZhjPWOzbfkW5aZK6WnUlQz/nUxi+yqzc8O8oEJ8qicXroAAA",
+      "exif": {
+        "camera": "Fujifilm X-E4",
+        "lens": "XC 50-230mm f/4.5-6.7 OIS II",
+        "focal": 90,
+        "focal35": 135,
+        "f": 6.4,
+        "shutter": "1/400s",
+        "iso": 320,
+        "ev": 0.3,
+        "date": "2024-11-16"
+      }
     },
     {
       "file": "dscf6532",
@@ -472,7 +773,18 @@
         "#060b14",
         "#feb847"
       ],
-      "blur": "data:image/webp;base64,UklGRnYAAABXRUJQVlA4IGoAAAAQBACdASoYABEAPu1qq08ppiOmsBgIATAdiUAW9wI/J6UMJkC+u7frgAD+WXUjJj1y0MR3CvCp88FL/ZHD/ScXFM1TxHWUigj/yOwgpcJb056k5XFBxygmamgFvNbt/qcat0GXpHSBkgAA"
+      "blur": "data:image/webp;base64,UklGRnYAAABXRUJQVlA4IGoAAAAQBACdASoYABEAPu1qq08ppiOmsBgIATAdiUAW9wI/J6UMJkC+u7frgAD+WXUjJj1y0MR3CvCp88FL/ZHD/ScXFM1TxHWUigj/yOwgpcJb056k5XFBxygmamgFvNbt/qcat0GXpHSBkgAA",
+      "exif": {
+        "camera": "Fujifilm X-E4",
+        "lens": "XC 50-230mm f/4.5-6.7 OIS II",
+        "focal": 71,
+        "focal35": 107,
+        "f": 5.6,
+        "shutter": "1/450s",
+        "iso": 1000,
+        "ev": 1,
+        "date": "2024-12-11"
+      }
     },
     {
       "file": "dscf6894",
@@ -490,7 +802,18 @@
         "#9ab2c4",
         "#888588"
       ],
-      "blur": "data:image/webp;base64,UklGRpAAAABXRUJQVlA4IIQAAADwAwCdASoYABAAPu1iqU2ppaOiMAgBMB2JYwC7Ef/gNNv1Sj3r3AmAAP5YkigNxZSir+7ItmYLxZDinNjZ2HtiEPWgqNnskbBqP8lMnULzz27KN3HXjte2A9EnF2vxGwFfliulEXaeve5um5PnkCSNbMgx3xEO/OJOC/DGeANkAZhJgAA="
+      "blur": "data:image/webp;base64,UklGRpAAAABXRUJQVlA4IIQAAADwAwCdASoYABAAPu1iqU2ppaOiMAgBMB2JYwC7Ef/gNNv1Sj3r3AmAAP5YkigNxZSir+7ItmYLxZDinNjZ2HtiEPWgqNnskbBqP8lMnULzz27KN3HXjte2A9EnF2vxGwFfliulEXaeve5um5PnkCSNbMgx3xEO/OJOC/DGeANkAZhJgAA=",
+      "exif": {
+        "camera": "Fujifilm X-E4",
+        "lens": "XC 50-230mm f/4.5-6.7 OIS II",
+        "focal": 172,
+        "focal35": 257,
+        "f": 10,
+        "shutter": "1/500s",
+        "iso": 400,
+        "ev": -1.3,
+        "date": "2025-02-26"
+      }
     },
     {
       "file": "dscf6928-2",
@@ -508,7 +831,18 @@
         "#9ba5b9",
         "#787786"
       ],
-      "blur": "data:image/webp;base64,UklGRmQAAABXRUJQVlA4IFgAAADQAwCdASoYABAAPu1iqU2ppaQiMAgBMB2JZQAAW8E7D/74HaEb54AA/t9MazMYquwBhEtErvsX4Kr6MqbtTq5rvODpSOUUf8nxy7dV1Lh1WJntMfyaAAAA"
+      "blur": "data:image/webp;base64,UklGRmQAAABXRUJQVlA4IFgAAADQAwCdASoYABAAPu1iqU2ppaQiMAgBMB2JZQAAW8E7D/74HaEb54AA/t9MazMYquwBhEtErvsX4Kr6MqbtTq5rvODpSOUUf8nxy7dV1Lh1WJntMfyaAAAA",
+      "exif": {
+        "camera": "Fujifilm X-E4",
+        "lens": "XC 50-230mm f/4.5-6.7 OIS II",
+        "focal": 95,
+        "focal35": 143,
+        "f": 10,
+        "shutter": "1/280s",
+        "iso": 400,
+        "ev": 0.7,
+        "date": "2025-03-18"
+      }
     },
     {
       "file": "dscf7315",
@@ -526,7 +860,18 @@
         "#fffefe",
         "#565867"
       ],
-      "blur": "data:image/webp;base64,UklGRnYAAABXRUJQVlA4IGoAAAAwBACdASoYAA8APu1kqU2ppaOiMAgBMB2JYwC3uCPOnrVo2WbEDyGeJwAA/qJFvo91AwGHp0pWsCBmSV9uL3fRpGTuQXPZJzCVHlN95+qUAupQQ0NR8tDOiRKqwIOI9dI+jnFFdcAsAaAA"
+      "blur": "data:image/webp;base64,UklGRnYAAABXRUJQVlA4IGoAAAAwBACdASoYAA8APu1kqU2ppaOiMAgBMB2JYwC3uCPOnrVo2WbEDyGeJwAA/qJFvo91AwGHp0pWsCBmSV9uL3fRpGTuQXPZJzCVHlN95+qUAupQQ0NR8tDOiRKqwIOI9dI+jnFFdcAsAaAA",
+      "exif": {
+        "camera": "Fujifilm X-E4",
+        "lens": "XF 16-50mm f/2.8-4.8 R LM WR",
+        "focal": 50,
+        "focal35": 75,
+        "f": 5,
+        "shutter": "1/210s",
+        "iso": 320,
+        "ev": -0.7,
+        "date": "2025-05-02"
+      }
     },
     {
       "file": "dscf7783",
@@ -544,7 +889,18 @@
         "#a8d7f6",
         "#46471a"
       ],
-      "blur": "data:image/webp;base64,UklGRi4BAABXRUJQVlA4ICIBAAAQBwCdASoYACQAPu1mrlEppSQiqrgKATAdiUAVJO25zcapIfaW9+5ORkUEtMpm4ngH5dSPphbJ4R0LEwIL9zdrgAD+53+zeevbtYNrhNg4+Hn56LeObNUWlMyS9xRY8WLyN4eehZQjCr/lJFPq2GjtT3QPuWyM0JFzupACVVW92XlL74afYhUlUuupMkNptq6HY3fy1OKD+iSZle52DIUZE6c8O13iNPjbhQpRJEAEVY8l+i9u43qLWKogA5if6z2wrrOC+XDdL9Ht9L2ftYIYtEQ0cOWqptdIHp4YENlxvJYj/VwTsU/pHKBl1As1bJ/zBnXVhEFBhSt4zo1AjjdHR//PtBAFdUiiSdy+bPbHm0Aew1RgSLdk5cVnXEo/aAAAAA=="
+      "blur": "data:image/webp;base64,UklGRi4BAABXRUJQVlA4ICIBAAAQBwCdASoYACQAPu1mrlEppSQiqrgKATAdiUAVJO25zcapIfaW9+5ORkUEtMpm4ngH5dSPphbJ4R0LEwIL9zdrgAD+53+zeevbtYNrhNg4+Hn56LeObNUWlMyS9xRY8WLyN4eehZQjCr/lJFPq2GjtT3QPuWyM0JFzupACVVW92XlL74afYhUlUuupMkNptq6HY3fy1OKD+iSZle52DIUZE6c8O13iNPjbhQpRJEAEVY8l+i9u43qLWKogA5if6z2wrrOC+XDdL9Ht9L2ftYIYtEQ0cOWqptdIHp4YENlxvJYj/VwTsU/pHKBl1As1bJ/zBnXVhEFBhSt4zo1AjjdHR//PtBAFdUiiSdy+bPbHm0Aew1RgSLdk5cVnXEo/aAAAAA==",
+      "exif": {
+        "camera": "Fujifilm X-E4",
+        "lens": "XF 16-50mm f/2.8-4.8 R LM WR",
+        "focal": 50,
+        "focal35": 75,
+        "f": 4.8,
+        "shutter": "1/900s",
+        "iso": 320,
+        "ev": 0.3,
+        "date": "2025-08-03"
+      }
     },
     {
       "file": "dscf7787",
@@ -562,7 +918,18 @@
         "#444946",
         "#848c85"
       ],
-      "blur": "data:image/webp;base64,UklGRowAAABXRUJQVlA4IIAAAAAQBACdASoYABAAPu1iqU2ppaOiMAgBMB2JZQC06CIj46vf+P+Lt9zkAAD+5b2QGYJBePsAOVKBdJMSiVoiWVuphgfX8fjBpEbLjm1yUgJRGihArqU6V5JlsEbhjuQA0l+2KsCDYCm35UstdA95Z3NdnEicsZJKFpb828xrlgAAAA=="
+      "blur": "data:image/webp;base64,UklGRowAAABXRUJQVlA4IIAAAAAQBACdASoYABAAPu1iqU2ppaOiMAgBMB2JZQC06CIj46vf+P+Lt9zkAAD+5b2QGYJBePsAOVKBdJMSiVoiWVuphgfX8fjBpEbLjm1yUgJRGihArqU6V5JlsEbhjuQA0l+2KsCDYCm35UstdA95Z3NdnEicsZJKFpb828xrlgAAAA==",
+      "exif": {
+        "camera": "Fujifilm X-E4",
+        "lens": "XF 16-50mm f/2.8-4.8 R LM WR",
+        "focal": 50,
+        "focal35": 75,
+        "f": 11,
+        "shutter": "1/150s",
+        "iso": 1600,
+        "ev": 0.7,
+        "date": "2025-08-03"
+      }
     },
     {
       "file": "dscf7790",
@@ -580,7 +947,18 @@
         "#455847",
         "#7b8385"
       ],
-      "blur": "data:image/webp;base64,UklGRtwAAABXRUJQVlA4INAAAAAwBgCdASoYACQAPu1qrFEppaQipWzJMB2JZQC/sDYdP2rSH+q4IuFBi0BauWJivTR592qp9+hOXScAAP73goi7BdJdYq8eFxLlS2wkVVogPaavdSFagi90ysqi0vsp3R5xXC9z32dBuSJVod9KZVAezCqBUtC/+qJ2SIjhkaF9K3/+EQd6N+VU3hpGvyqH7MO5V6FzSvjn3Q+DM4Zvrq92TjdiM5T87iPXLecDe8IJF9aabEh+NlRonQ/cAwZLb4++W7au2AasLzBzJANvnkAA"
+      "blur": "data:image/webp;base64,UklGRtwAAABXRUJQVlA4INAAAAAwBgCdASoYACQAPu1qrFEppaQipWzJMB2JZQC/sDYdP2rSH+q4IuFBi0BauWJivTR592qp9+hOXScAAP73goi7BdJdYq8eFxLlS2wkVVogPaavdSFagi90ysqi0vsp3R5xXC9z32dBuSJVod9KZVAezCqBUtC/+qJ2SIjhkaF9K3/+EQd6N+VU3hpGvyqH7MO5V6FzSvjn3Q+DM4Zvrq92TjdiM5T87iPXLecDe8IJF9aabEh+NlRonQ/cAwZLb4++W7au2AasLzBzJANvnkAA",
+      "exif": {
+        "camera": "Fujifilm X-E4",
+        "lens": "XF 16-50mm f/2.8-4.8 R LM WR",
+        "focal": 30,
+        "focal35": 44,
+        "f": 6.4,
+        "shutter": "1/100s",
+        "iso": 400,
+        "ev": 1.3,
+        "date": "2025-08-03"
+      }
     },
     {
       "file": "dscf7792",
@@ -598,7 +976,18 @@
         "#c8e5ff",
         "#8899a7"
       ],
-      "blur": "data:image/webp;base64,UklGRtoAAABXRUJQVlA4IM4AAACQBgCdASoYACQAPulip02pJaOiMAqpIB0JQBg5g3SmeTHCYiw4KLCIVr+eTfleIeyZRS/MGPXPTqHi4a/oAP7csRcekPIlya85Ii87lIUbsTlxH/XJKD93aFoYZXYn77m2ral1C/d1kV9L1aJYBRpqhFnfDgvuebVJBTXEF4wLRB1Qmv2v9kIp1d0spE075Wu569WPCuUicQ0b9YNMGFMaheihWQiR+PdyopldA0ZX/ogXHxtg1gl6dy/UewTrvKTMojFY2Ib5Q3XTM4bgAA=="
+      "blur": "data:image/webp;base64,UklGRtoAAABXRUJQVlA4IM4AAACQBgCdASoYACQAPulip02pJaOiMAqpIB0JQBg5g3SmeTHCYiw4KLCIVr+eTfleIeyZRS/MGPXPTqHi4a/oAP7csRcekPIlya85Ii87lIUbsTlxH/XJKD93aFoYZXYn77m2ral1C/d1kV9L1aJYBRpqhFnfDgvuebVJBTXEF4wLRB1Qmv2v9kIp1d0spE075Wu569WPCuUicQ0b9YNMGFMaheihWQiR+PdyopldA0ZX/ogXHxtg1gl6dy/UewTrvKTMojFY2Ib5Q3XTM4bgAA==",
+      "exif": {
+        "camera": "Fujifilm X-E4",
+        "lens": "XF 16-50mm f/2.8-4.8 R LM WR",
+        "focal": 43,
+        "focal35": 65,
+        "f": 4.5,
+        "shutter": "1/600s",
+        "iso": 320,
+        "ev": 0.3,
+        "date": "2025-08-03"
+      }
     },
     {
       "file": "dscf7801",
@@ -616,7 +1005,18 @@
         "#474727",
         "#776746"
       ],
-      "blur": "data:image/webp;base64,UklGRuYAAABXRUJQVlA4INoAAADQBQCdASoYACQAPu1sr1GppaQipWsxMB2JYwDIXywCWB9vrW1T7N4/a2AYxX6qq+30ntaQViBgAP7Ssqh6fWF0XuuptSV3uvcCgVdxtFHW4EmhyGUzD8o88Q9fx+nXHaKOCKvdQghduBwZA+g24J60ppKkEQT5t68ckX+NHU719CF6rVUBS1wyM7mRfwtBem0pT7e46Lo/v/1C+W3PkzqCAT59G8QXukAJX28dyRSvU83MR76TmKCzobjZRqRlLtJXrZCLuNhwYeyBq3GPlp+F4FW9iWgONgAAAA=="
+      "blur": "data:image/webp;base64,UklGRuYAAABXRUJQVlA4INoAAADQBQCdASoYACQAPu1sr1GppaQipWsxMB2JYwDIXywCWB9vrW1T7N4/a2AYxX6qq+30ntaQViBgAP7Ssqh6fWF0XuuptSV3uvcCgVdxtFHW4EmhyGUzD8o88Q9fx+nXHaKOCKvdQghduBwZA+g24J60ppKkEQT5t68ckX+NHU719CF6rVUBS1wyM7mRfwtBem0pT7e46Lo/v/1C+W3PkzqCAT59G8QXukAJX28dyRSvU83MR76TmKCzobjZRqRlLtJXrZCLuNhwYeyBq3GPlp+F4FW9iWgONgAAAA==",
+      "exif": {
+        "camera": "Fujifilm X-E4",
+        "lens": "XF 16-50mm f/2.8-4.8 R LM WR",
+        "focal": 50,
+        "focal35": 75,
+        "f": 4.8,
+        "shutter": "1/250s",
+        "iso": 320,
+        "ev": 0.7,
+        "date": "2025-08-03"
+      }
     },
     {
       "file": "dscf7818",
@@ -634,7 +1034,18 @@
         "#374649",
         "#cce2f7"
       ],
-      "blur": "data:image/webp;base64,UklGRuYAAABXRUJQVlA4INoAAAAQBgCdASoYACQAPu1wsVKppiSipWmZMB2JZQDKAAg7Ia5DZg5d5DVS4z0X7vYZCSRiSFlZmHUwE5AA/kmE1ayueBbqfe4/5R/GVUiBUarka0GBvq8LQHcM+ac5+8hbcJtPlhvdmephzlcuHf+d+i9UPbXKmw8GGWAHWuO1czpASKHrAUTF2MXQ1W6aabJPeP44y5zFRsjrztl0Pqd9UUMEDpyQmDesffYhL/jJuy8PgkAq8qroSGLzdCVEqV3i0BxHko6iNg59dAy1lG9ormsDrQfGBZIcIa4AAA=="
+      "blur": "data:image/webp;base64,UklGRuYAAABXRUJQVlA4INoAAAAQBgCdASoYACQAPu1wsVKppiSipWmZMB2JZQDKAAg7Ia5DZg5d5DVS4z0X7vYZCSRiSFlZmHUwE5AA/kmE1ayueBbqfe4/5R/GVUiBUarka0GBvq8LQHcM+ac5+8hbcJtPlhvdmephzlcuHf+d+i9UPbXKmw8GGWAHWuO1czpASKHrAUTF2MXQ1W6aabJPeP44y5zFRsjrztl0Pqd9UUMEDpyQmDesffYhL/jJuy8PgkAq8qroSGLzdCVEqV3i0BxHko6iNg59dAy1lG9ormsDrQfGBZIcIa4AAA==",
+      "exif": {
+        "camera": "Fujifilm X-E4",
+        "lens": "XF 16-50mm f/2.8-4.8 R LM WR",
+        "focal": 24,
+        "focal35": 36,
+        "f": 5,
+        "shutter": "1/220s",
+        "iso": 320,
+        "ev": 1.7,
+        "date": "2025-08-03"
+      }
     },
     {
       "file": "dscf7851",
@@ -652,7 +1063,18 @@
         "#768685",
         "#a7b6b6"
       ],
-      "blur": "data:image/webp;base64,UklGRmAAAABXRUJQVlA4IFQAAACwAwCdASoYAAkAPu1kq04ppaQiMAgBMB2JQBhUERhWgLjWBCdNgAD+JjiF8yJ4b5LI5Nw/ytxO4F+BI549UftBZMuB5ItiYVexGHq7RPUT3yCxAAA="
+      "blur": "data:image/webp;base64,UklGRmAAAABXRUJQVlA4IFQAAACwAwCdASoYAAkAPu1kq04ppaQiMAgBMB2JQBhUERhWgLjWBCdNgAD+JjiF8yJ4b5LI5Nw/ytxO4F+BI549UftBZMuB5ItiYVexGHq7RPUT3yCxAAA=",
+      "exif": {
+        "camera": "Fujifilm X-E4",
+        "lens": "XF 16-50mm f/2.8-4.8 R LM WR",
+        "focal": 35,
+        "focal35": 53,
+        "f": 10,
+        "shutter": "1/480s",
+        "iso": 320,
+        "ev": 0.3,
+        "date": "2025-08-31"
+      }
     },
     {
       "file": "dscf7871",
@@ -670,7 +1092,18 @@
         "#d6c9a6",
         "#0c1916"
       ],
-      "blur": "data:image/webp;base64,UklGRm4AAABXRUJQVlA4IGIAAABQBACdASoYABAAPu1krU6ppaSiMAgBMB2JYwCdACICrQgjPbvx6HBn2/oAAP7TH7lsTvKRXNFMuhbMr34XkgRrp3Xm5rNyn40Vdk9gzaEM8wve0BQQGJPVx7DQjwYbWFhAAA=="
+      "blur": "data:image/webp;base64,UklGRm4AAABXRUJQVlA4IGIAAABQBACdASoYABAAPu1krU6ppaSiMAgBMB2JYwCdACICrQgjPbvx6HBn2/oAAP7TH7lsTvKRXNFMuhbMr34XkgRrp3Xm5rNyn40Vdk9gzaEM8wve0BQQGJPVx7DQjwYbWFhAAA==",
+      "exif": {
+        "camera": "Fujifilm X-E4",
+        "lens": "XF 16-50mm f/2.8-4.8 R LM WR",
+        "focal": 50,
+        "focal35": 75,
+        "f": 10,
+        "shutter": "1/300s",
+        "iso": 320,
+        "ev": -1,
+        "date": "2025-08-31"
+      }
     },
     {
       "file": "dscf7879",
@@ -688,7 +1121,18 @@
         "#48362b",
         "#dab9b7"
       ],
-      "blur": "data:image/webp;base64,UklGRmwAAABXRUJQVlA4IGAAAADQAwCdASoYAA0APu1mqk4ppaOiMAgBMB2JYwC06CHiFaMIrtkqimAA/tNNJrl8hJerE9J6Tv3FuAz1bJ88Unyn5eSBycxiVzjVwPoBovPLuZBwsCrbM2O9FVAkIVghwAA="
+      "blur": "data:image/webp;base64,UklGRmwAAABXRUJQVlA4IGAAAADQAwCdASoYAA0APu1mqk4ppaOiMAgBMB2JYwC06CHiFaMIrtkqimAA/tNNJrl8hJerE9J6Tv3FuAz1bJ88Unyn5eSBycxiVzjVwPoBovPLuZBwsCrbM2O9FVAkIVghwAA=",
+      "exif": {
+        "camera": "Fujifilm X-E4",
+        "lens": "XF 16-50mm f/2.8-4.8 R LM WR",
+        "focal": 50,
+        "focal35": 75,
+        "f": 4.8,
+        "shutter": "1/140s",
+        "iso": 800,
+        "ev": -0.7,
+        "date": "2025-08-31"
+      }
     },
     {
       "file": "dscf7977",
@@ -706,7 +1150,17 @@
         "#575737",
         "#878756"
       ],
-      "blur": "data:image/webp;base64,UklGRgoBAABXRUJQVlA4IP4AAACwBgCdASoYACQAPu1mqVCppSOiqrgMATAdiWMAxN2yAInjM37/xRtZ8shA42op18+ivVwL+WvxqAS04EuEgAD+zGOeLsOjdn15CU6JLVqp+Ufdsf+VYcFl9qUXE7Jj8gCK2zhpolO8/JtyH8f0SXDzwpeMllgafqFb9xY615JxKyEB+nhfgeXz+0WeYs0e+pa3A962rR0C6A6hYo1k28GuS9YYqeV7UjF27r4mKjnRGDHsSP09Zzms0j7gCU411/Qkdsic1LB0evikjZdAGHs4HITLDZTQ9X2LyrtE8BLeudFeQTdtxFA9pw26pNLN0iMDCdeiNWAAAuMKIcQQAA=="
+      "blur": "data:image/webp;base64,UklGRgoBAABXRUJQVlA4IP4AAACwBgCdASoYACQAPu1mqVCppSOiqrgMATAdiWMAxN2yAInjM37/xRtZ8shA42op18+ivVwL+WvxqAS04EuEgAD+zGOeLsOjdn15CU6JLVqp+Ufdsf+VYcFl9qUXE7Jj8gCK2zhpolO8/JtyH8f0SXDzwpeMllgafqFb9xY615JxKyEB+nhfgeXz+0WeYs0e+pa3A962rR0C6A6hYo1k28GuS9YYqeV7UjF27r4mKjnRGDHsSP09Zzms0j7gCU411/Qkdsic1LB0evikjZdAGHs4HITLDZTQ9X2LyrtE8BLeudFeQTdtxFA9pw26pNLN0iMDCdeiNWAAAuMKIcQQAA==",
+      "exif": {
+        "camera": "Fujifilm X-E4",
+        "lens": "XF 16-50mm f/2.8-4.8 R LM WR",
+        "focal": 50,
+        "focal35": 75,
+        "f": 4.8,
+        "shutter": "1/150s",
+        "iso": 320,
+        "date": "2025-10-12"
+      }
     },
     {
       "file": "dscf7981-2",
@@ -724,7 +1178,18 @@
         "#595737",
         "#757767"
       ],
-      "blur": "data:image/webp;base64,UklGRqgAAABXRUJQVlA4IJwAAAAQBQCdASoYABEAPu1sq1EppaOiqAqpMB2JYwCAAAPEqrYcPlFKsiXau/suT1jjb3oAAP66O2MjTntClj2sifvW2GGCIMGuFdnZUnuWVNXWjfgs8he4ey6DxfJ/ZWtw6pGBKjMHUk48c/1x4Dukmgd3Z+yeVPTuNWrSN5r26j7njIxOH1fX/QrcyFOB9K423dcROBD48QDBVeKYAAA="
+      "blur": "data:image/webp;base64,UklGRqgAAABXRUJQVlA4IJwAAAAQBQCdASoYABEAPu1sq1EppaOiqAqpMB2JYwCAAAPEqrYcPlFKsiXau/suT1jjb3oAAP66O2MjTntClj2sifvW2GGCIMGuFdnZUnuWVNXWjfgs8he4ey6DxfJ/ZWtw6pGBKjMHUk48c/1x4Dukmgd3Z+yeVPTuNWrSN5r26j7njIxOH1fX/QrcyFOB9K423dcROBD48QDBVeKYAAA=",
+      "exif": {
+        "camera": "Fujifilm X-E4",
+        "lens": "XF 16-50mm f/2.8-4.8 R LM WR",
+        "focal": 16,
+        "focal35": 24,
+        "f": 10,
+        "shutter": "1/55s",
+        "iso": 800,
+        "ev": -0.3,
+        "date": "2025-10-12"
+      }
     },
     {
       "file": "dscf7987",
@@ -742,7 +1207,18 @@
         "#383926",
         "#f7f6f8"
       ],
-      "blur": "data:image/webp;base64,UklGRogAAABXRUJQVlA4IHwAAADwAwCdASoYAAsAPu1iqU2ppaQiMAgBMB2JQBOgBENIk2wqDHrK0qJQAP6xkXxuXu/DojCGK5rwfIgKvRbLvMFriV5XEBwBUZKC9HewZZXHRLlSNzsBPUrE0M/0R6k42LhCriSKQcLNNqRL+PO0IuMX+AEmOHBCIAd3oAAA"
+      "blur": "data:image/webp;base64,UklGRogAAABXRUJQVlA4IHwAAADwAwCdASoYAAsAPu1iqU2ppaQiMAgBMB2JQBOgBENIk2wqDHrK0qJQAP6xkXxuXu/DojCGK5rwfIgKvRbLvMFriV5XEBwBUZKC9HewZZXHRLlSNzsBPUrE0M/0R6k42LhCriSKQcLNNqRL+PO0IuMX+AEmOHBCIAd3oAAA",
+      "exif": {
+        "camera": "Fujifilm X-E4",
+        "lens": "XF 16-50mm f/2.8-4.8 R LM WR",
+        "focal": 50,
+        "focal35": 75,
+        "f": 9,
+        "shutter": "1/320s",
+        "iso": 320,
+        "ev": 0.3,
+        "date": "2025-10-12"
+      }
     },
     {
       "file": "dscf8002",
@@ -760,7 +1236,18 @@
         "#e8ecf5",
         "#766c63"
       ],
-      "blur": "data:image/webp;base64,UklGRtwAAABXRUJQVlA4INAAAADQBQCdASoYACAAPu1qq08ppiOiMBgIATAdiWcACwABJx0+xX3QmR6WWuCXKBXUHB0bh0QBkR6kAP7LdVKAfreTOCjn593l1kWENrr2PB6b/EqA5UUumKPetMWOvR/ELlytsI3lix2q+4kSrTYVky2DDEtpka5K4GRbqKTxQMS7MwfzmbdQnJysuwTtXaya7FPt0aSzRulLVQm5hVCNMybwS840iCUca0EAKz/JJFPTcLhZnraA+liP/RQrx74e1gE7qpcnJQsaHeBiaEFDQAAA"
+      "blur": "data:image/webp;base64,UklGRtwAAABXRUJQVlA4INAAAADQBQCdASoYACAAPu1qq08ppiOiMBgIATAdiWcACwABJx0+xX3QmR6WWuCXKBXUHB0bh0QBkR6kAP7LdVKAfreTOCjn593l1kWENrr2PB6b/EqA5UUumKPetMWOvR/ELlytsI3lix2q+4kSrTYVky2DDEtpka5K4GRbqKTxQMS7MwfzmbdQnJysuwTtXaya7FPt0aSzRulLVQm5hVCNMybwS840iCUca0EAKz/JJFPTcLhZnraA+liP/RQrx74e1gE7qpcnJQsaHeBiaEFDQAAA",
+      "exif": {
+        "camera": "Fujifilm X-E4",
+        "lens": "XF 16-50mm f/2.8-4.8 R LM WR",
+        "focal": 20,
+        "focal35": 29,
+        "f": 5,
+        "shutter": "1/150s",
+        "iso": 320,
+        "ev": -0.3,
+        "date": "2025-10-12"
+      }
     },
     {
       "file": "dscf8004-2",
@@ -778,7 +1265,18 @@
         "#b7d7f9",
         "#b59865"
       ],
-      "blur": "data:image/webp;base64,UklGRswAAABXRUJQVlA4IMAAAAAQBgCdASoYACIAPuViqU2pJaQmMAqpIByJYgC7MyZC/E0bVEgENrRy2Lu6j+vBXLiNHrnIv9ubeiAA/rM/OOJjhjLt43eUKIpZmA5YaQvJMmK6g7DY6whg4FLQVYHIOKnMRE/MnUXjWFdLrKCFIaHF5Gile37tpmd+f8CnFuUIFnYTf8uFrp1uQhUWhfYCdBuWMLyZCYknXvqmcL1qNhVRxqBSTXeEemGTtdwQwBaSLZL4QyBTwaLmzK7oAPRAAAA="
+      "blur": "data:image/webp;base64,UklGRswAAABXRUJQVlA4IMAAAAAQBgCdASoYACIAPuViqU2pJaQmMAqpIByJYgC7MyZC/E0bVEgENrRy2Lu6j+vBXLiNHrnIv9ubeiAA/rM/OOJjhjLt43eUKIpZmA5YaQvJMmK6g7DY6whg4FLQVYHIOKnMRE/MnUXjWFdLrKCFIaHF5Gile37tpmd+f8CnFuUIFnYTf8uFrp1uQhUWhfYCdBuWMLyZCYknXvqmcL1qNhVRxqBSTXeEemGTtdwQwBaSLZL4QyBTwaLmzK7oAPRAAAA=",
+      "exif": {
+        "camera": "Fujifilm X-E4",
+        "lens": "XF 16-50mm f/2.8-4.8 R LM WR",
+        "focal": 45,
+        "focal35": 67,
+        "f": 5,
+        "shutter": "1/500s",
+        "iso": 320,
+        "ev": -0.7,
+        "date": "2025-10-12"
+      }
     },
     {
       "file": "dscf8032",
@@ -796,7 +1294,17 @@
         "#d7e8f7",
         "#766848"
       ],
-      "blur": "data:image/webp;base64,UklGRogAAABXRUJQVlA4IHwAAADQAwCdASoYAAsAPu1iqU2ppaOiMAgBMB2JYgCsACHdiYxyxq6RJfgA/us1kH4rlEjnmxsrvqJaQt81lxowviMiExrQLXBR7AvEyJpYTxS9UVdPJBz4H6A8Pjd63vuBHHDGqt+NovsPgwxc6uOPBaSYpuWmzrS++T+Np4AA"
+      "blur": "data:image/webp;base64,UklGRogAAABXRUJQVlA4IHwAAADQAwCdASoYAAsAPu1iqU2ppaOiMAgBMB2JYgCsACHdiYxyxq6RJfgA/us1kH4rlEjnmxsrvqJaQt81lxowviMiExrQLXBR7AvEyJpYTxS9UVdPJBz4H6A8Pjd63vuBHHDGqt+NovsPgwxc6uOPBaSYpuWmzrS++T+Np4AA",
+      "exif": {
+        "camera": "Fujifilm X-E4",
+        "lens": "XF 16-50mm f/2.8-4.8 R LM WR",
+        "focal": 50,
+        "focal35": 75,
+        "f": 9,
+        "shutter": "1/340s",
+        "iso": 320,
+        "date": "2025-10-18"
+      }
     },
     {
       "file": "dscf8041",
@@ -814,7 +1322,17 @@
         "#caa975",
         "#79664a"
       ],
-      "blur": "data:image/webp;base64,UklGRpoAAABXRUJQVlA4II4AAACQBACdASoYAA0APu1kqU2ppaQiMAgBMB2JaACdMoMgpn/AeT7SqHGZE6Jx/kwA/uc0rYl/Gluur5N6yfmo3fxzJD8IomfpLzi3bHfn7liFT1c/Xo8Jl5yZtEZlNt+8WZesmv6xPgU2ujsYFhk978im7YsGLHvoqU3PCDAn9LCWvzmgBebOt0xzZrgEVfAA"
+      "blur": "data:image/webp;base64,UklGRpoAAABXRUJQVlA4II4AAACQBACdASoYAA0APu1kqU2ppaQiMAgBMB2JaACdMoMgpn/AeT7SqHGZE6Jx/kwA/uc0rYl/Gluur5N6yfmo3fxzJD8IomfpLzi3bHfn7liFT1c/Xo8Jl5yZtEZlNt+8WZesmv6xPgU2ujsYFhk978im7YsGLHvoqU3PCDAn9LCWvzmgBebOt0xzZrgEVfAA",
+      "exif": {
+        "camera": "Fujifilm X-E4",
+        "lens": "XF 16-50mm f/2.8-4.8 R LM WR",
+        "focal": 50,
+        "focal35": 75,
+        "f": 9,
+        "shutter": "1/350s",
+        "iso": 320,
+        "date": "2025-10-18"
+      }
     },
     {
       "file": "dscf8043",
@@ -832,7 +1350,18 @@
         "#464648",
         "#f6f8fa"
       ],
-      "blur": "data:image/webp;base64,UklGRoIAAABXRUJQVlA4IHYAAADwAwCdASoYAAsAPu1Ct1apoqakGAEwHYlAE6ANBX7zxYALbwX4wkkAAP77wWWPxyc+j7i6mTkiAamIYVqOYTEzDfnyO68FUHLYZ4zRClfVDhWkLM4R/KxB6S9bisrHKXr2/nuFSC3d0Jy7KHl4Gkvpb0f9nWAA"
+      "blur": "data:image/webp;base64,UklGRoIAAABXRUJQVlA4IHYAAADwAwCdASoYAAsAPu1Ct1apoqakGAEwHYlAE6ANBX7zxYALbwX4wkkAAP77wWWPxyc+j7i6mTkiAamIYVqOYTEzDfnyO68FUHLYZ4zRClfVDhWkLM4R/KxB6S9bisrHKXr2/nuFSC3d0Jy7KHl4Gkvpb0f9nWAA",
+      "exif": {
+        "camera": "Fujifilm X-E4",
+        "lens": "XF 16-50mm f/2.8-4.8 R LM WR",
+        "focal": 26,
+        "focal35": 39,
+        "f": 9,
+        "shutter": "1/210s",
+        "iso": 320,
+        "ev": 0.7,
+        "date": "2025-10-18"
+      }
     },
     {
       "file": "dscf8050",
@@ -850,7 +1379,18 @@
         "#39444a",
         "#796b64"
       ],
-      "blur": "data:image/webp;base64,UklGRuYAAABXRUJQVlA4INoAAAAQBQCdASoYAB0APu1wsFIppiSiqAgBMB2JagCdHXiBJR891NEygGhG7VFdef16TwIAAP70/SmKwsvmw3uf02Pp61qJi4s/xI3qVdU7nd3ZasWGQpX8hLW2FL/HzoxrmAOLmxkbp0OPpVy0HvaGdvRgkifsnjPqYX7lqdXi6SNva7vM8RMxlj+34YR/gndh9j6MU+JYyXhwX9uxj2i91p/PFSRs0SoYwOdvKEhxnXyMEQEGzczSMwQi3/ywCcpyw0TMe7vTM+lIcfxMcpf0TJc3tREZGX9znGs8AA=="
+      "blur": "data:image/webp;base64,UklGRuYAAABXRUJQVlA4INoAAAAQBQCdASoYAB0APu1wsFIppiSiqAgBMB2JagCdHXiBJR891NEygGhG7VFdef16TwIAAP70/SmKwsvmw3uf02Pp61qJi4s/xI3qVdU7nd3ZasWGQpX8hLW2FL/HzoxrmAOLmxkbp0OPpVy0HvaGdvRgkifsnjPqYX7lqdXi6SNva7vM8RMxlj+34YR/gndh9j6MU+JYyXhwX9uxj2i91p/PFSRs0SoYwOdvKEhxnXyMEQEGzczSMwQi3/ywCcpyw0TMe7vTM+lIcfxMcpf0TJc3tREZGX9znGs8AA==",
+      "exif": {
+        "camera": "Fujifilm X-E4",
+        "lens": "XF 16-50mm f/2.8-4.8 R LM WR",
+        "focal": 23,
+        "focal35": 35,
+        "f": 8,
+        "shutter": "1/340s",
+        "iso": 320,
+        "ev": 0.3,
+        "date": "2025-10-18"
+      }
     },
     {
       "file": "dscf8657",
@@ -868,7 +1408,18 @@
         "#594834",
         "#979489"
       ],
-      "blur": "data:image/webp;base64,UklGRnIAAABXRUJQVlA4IGYAAAAQBACdASoYAAoAPu1iqk2ppaQiMAgBMB2JYwCdACHetHpHrW8tbgRQAAD+xF2DSyjKy2CpCpeQjCMMh+VOUvnDIIA7MZlwmH0M7aqF87EPNpXajn+4IpbS8355ThpH3dfGv0gLYAA="
+      "blur": "data:image/webp;base64,UklGRnIAAABXRUJQVlA4IGYAAAAQBACdASoYAAoAPu1iqk2ppaQiMAgBMB2JYwCdACHetHpHrW8tbgRQAAD+xF2DSyjKy2CpCpeQjCMMh+VOUvnDIIA7MZlwmH0M7aqF87EPNpXajn+4IpbS8355ThpH3dfGv0gLYAA=",
+      "exif": {
+        "camera": "Fujifilm X-E4",
+        "lens": "XF 16-50mm f/2.8-4.8 R LM WR",
+        "focal": 50,
+        "focal35": 75,
+        "f": 11,
+        "shutter": "1/600s",
+        "iso": 320,
+        "ev": 1,
+        "date": "2026-01-31"
+      }
     },
     {
       "file": "dscf8723",
@@ -886,7 +1437,18 @@
         "#d6dadc",
         "#a58767"
       ],
-      "blur": "data:image/webp;base64,UklGRngAAABXRUJQVlA4IGwAAAAQBACdASoYAAsAPu1iqk2ppaQiMAgBMB2JQBOmUGVsiTLN062BjRc4AAD+8drYlO6ieKeYw3lC7kj5gNWOGhzPLrS/y6fW2Ds8eWHLjWmHnmDYuqbX1BaLc77xP0OqLxy4k7mxWN15JEIAAAA="
+      "blur": "data:image/webp;base64,UklGRngAAABXRUJQVlA4IGwAAAAQBACdASoYAAsAPu1iqk2ppaQiMAgBMB2JQBOmUGVsiTLN062BjRc4AAD+8drYlO6ieKeYw3lC7kj5gNWOGhzPLrS/y6fW2Ds8eWHLjWmHnmDYuqbX1BaLc77xP0OqLxy4k7mxWN15JEIAAAA=",
+      "exif": {
+        "camera": "Fujifilm X-E4",
+        "lens": "XF 16-50mm f/2.8-4.8 R LM WR",
+        "focal": 50,
+        "focal35": 75,
+        "f": 8,
+        "shutter": "1/680s",
+        "iso": 640,
+        "ev": 0.7,
+        "date": "2026-02-01"
+      }
     },
     {
       "file": "dscf8751",
@@ -904,7 +1466,18 @@
         "#151a2b",
         "#d75959"
       ],
-      "blur": "data:image/webp;base64,UklGRpYAAABXRUJQVlA4IIoAAABwBQCdASoYABMAPuFgqU2opaQiMAwBEBwJagCdMwyUABFdRofd6S/R7DshHN/iz8ePdHIAAP4izZjJ3S/T6uEzQ0IzYn77uns3El7+GYfpQiZT5Ule6UgqUdiYX5AW4Pe+vseu/m8260FueHYD0cYLMGJK62jRGSIRK77qU9P82jzgDPNQcvAAAAA="
+      "blur": "data:image/webp;base64,UklGRpYAAABXRUJQVlA4IIoAAABwBQCdASoYABMAPuFgqU2opaQiMAwBEBwJagCdMwyUABFdRofd6S/R7DshHN/iz8ePdHIAAP4izZjJ3S/T6uEzQ0IzYn77uns3El7+GYfpQiZT5Ule6UgqUdiYX5AW4Pe+vseu/m8260FueHYD0cYLMGJK62jRGSIRK77qU9P82jzgDPNQcvAAAAA=",
+      "exif": {
+        "camera": "Fujifilm X-E4",
+        "lens": "XF 16-50mm f/2.8-4.8 R LM WR",
+        "focal": 50,
+        "focal35": 75,
+        "f": 6.4,
+        "shutter": "1/70s",
+        "iso": 640,
+        "ev": -1,
+        "date": "2026-02-15"
+      }
     },
     {
       "file": "dscf8849",
@@ -922,7 +1495,18 @@
         "#856a57",
         "#1a140c"
       ],
-      "blur": "data:image/webp;base64,UklGRngAAABXRUJQVlA4IGwAAACwAwCdASoYAA0APu1iqU2ppaOiMAgBMB2JQBYdgqi0DSFKjfi/CAD681N+pBJGUMaarCRQVV4PGiu68v+KR1betFkLsClXsSReKm5PHFZ/oB6LNnr2Uoy5VLHk/aajbHlZu/OpQOhAoNr3MAA="
+      "blur": "data:image/webp;base64,UklGRngAAABXRUJQVlA4IGwAAACwAwCdASoYAA0APu1iqU2ppaOiMAgBMB2JQBYdgqi0DSFKjfi/CAD681N+pBJGUMaarCRQVV4PGiu68v+KR1betFkLsClXsSReKm5PHFZ/oB6LNnr2Uoy5VLHk/aajbHlZu/OpQOhAoNr3MAA=",
+      "exif": {
+        "camera": "Fujifilm X-E4",
+        "lens": "XF 16-50mm f/2.8-4.8 R LM WR",
+        "focal": 50,
+        "focal35": 75,
+        "f": 5.6,
+        "shutter": "1/950s",
+        "iso": 400,
+        "ev": -0.7,
+        "date": "2026-03-28"
+      }
     },
     {
       "file": "dscf8854",
@@ -940,7 +1524,18 @@
         "#665946",
         "#96836b"
       ],
-      "blur": "data:image/webp;base64,UklGRnwAAABXRUJQVlA4IHAAAADwAwCdASoYAA0APu1iqU2ppaOiMAgBMB2JZQCdACBziUoFhXt51BIAAP4yko+sKufuaEINELet2tbblH7U1h/pGGUPJGj8f5UYMF6iBMgWh3UFiHIV+4hlAvkzO+uwG5R4xaWfiPKCLAcMQC8hsAAA"
+      "blur": "data:image/webp;base64,UklGRnwAAABXRUJQVlA4IHAAAADwAwCdASoYAA0APu1iqU2ppaOiMAgBMB2JZQCdACBziUoFhXt51BIAAP4yko+sKufuaEINELet2tbblH7U1h/pGGUPJGj8f5UYMF6iBMgWh3UFiHIV+4hlAvkzO+uwG5R4xaWfiPKCLAcMQC8hsAAA",
+      "exif": {
+        "camera": "Fujifilm X-E4",
+        "lens": "XF 16-50mm f/2.8-4.8 R LM WR",
+        "focal": 37,
+        "focal35": 56,
+        "f": 6.4,
+        "shutter": "1/1100s",
+        "iso": 640,
+        "ev": -1.3,
+        "date": "2026-03-28"
+      }
     },
     {
       "file": "dscf8856",
@@ -958,7 +1553,18 @@
         "#d8e4f2",
         "#655b45"
       ],
-      "blur": "data:image/webp;base64,UklGRvYAAABXRUJQVlA4IOoAAAAQBgCdASoYACMAPu1qrVCppaQipWzJMB2JZQCw7AqIqW7WrxaTxcy29D3u8I66noG+jC5fNTGxScAA/sj3IHmfRsgTjqjY+t+68HDJSp1VxxWh5VNMTQXEJxHlTsbGTGs6ofpHwMzdTKiJv5UzLasSuKe5L1RxSmddp1e2p0kfWN1lg2jZHc5FqdN9I996jps3rB/JxEgMJArdjiFeP2ivbVuiPBaRBaZf2Sia8ZHJi4qNzvOs/07dnFHuJQ3WTQUUaB/nA0C//CEP7PvrEzLWEhpAolrYnzWHW8lsKeiZhVsJ0kAljEOgAAA="
+      "blur": "data:image/webp;base64,UklGRvYAAABXRUJQVlA4IOoAAAAQBgCdASoYACMAPu1qrVCppaQipWzJMB2JZQCw7AqIqW7WrxaTxcy29D3u8I66noG+jC5fNTGxScAA/sj3IHmfRsgTjqjY+t+68HDJSp1VxxWh5VNMTQXEJxHlTsbGTGs6ofpHwMzdTKiJv5UzLasSuKe5L1RxSmddp1e2p0kfWN1lg2jZHc5FqdN9I996jps3rB/JxEgMJArdjiFeP2ivbVuiPBaRBaZf2Sia8ZHJi4qNzvOs/07dnFHuJQ3WTQUUaB/nA0C//CEP7PvrEzLWEhpAolrYnzWHW8lsKeiZhVsJ0kAljEOgAAA=",
+      "exif": {
+        "camera": "Fujifilm X-E4",
+        "lens": "XF 16-50mm f/2.8-4.8 R LM WR",
+        "focal": 39,
+        "focal35": 58,
+        "f": 5.6,
+        "shutter": "1/850s",
+        "iso": 400,
+        "ev": -0.7,
+        "date": "2026-03-28"
+      }
     },
     {
       "file": "dscf8858",
@@ -976,7 +1582,17 @@
         "#665b45",
         "#ccd9e9"
       ],
-      "blur": "data:image/webp;base64,UklGRuIAAABXRUJQVlA4INYAAAAQBgCdASoYACQAPu1oqE8ppiOiKqwBMB2JZQC2FBQ2jQNvmfFPyYgeI0RjNia3yrxT9090r+0tIWAA/tcs+hOWAM1dHvMEnu4x/1xNqhJDGUZWei1dcAmAjieS4HcTB+rYVd4mH0P3h8EEwlOtsRV1XbR+5EN85AZz8O8JDd4N0P/jE/XWtRGDOnPxG92TMD09Nhe0qZhctkLO5J8AYLKIg2VHAH3pFpXs+5mXNOhB3KzssRvxsn0W7hYW+cX+Y7tek2xxNUmKw8KN1g4ePJUZemDVRgAA"
+      "blur": "data:image/webp;base64,UklGRuIAAABXRUJQVlA4INYAAAAQBgCdASoYACQAPu1oqE8ppiOiKqwBMB2JZQC2FBQ2jQNvmfFPyYgeI0RjNia3yrxT9090r+0tIWAA/tcs+hOWAM1dHvMEnu4x/1xNqhJDGUZWei1dcAmAjieS4HcTB+rYVd4mH0P3h8EEwlOtsRV1XbR+5EN85AZz8O8JDd4N0P/jE/XWtRGDOnPxG92TMD09Nhe0qZhctkLO5J8AYLKIg2VHAH3pFpXs+5mXNOhB3KzssRvxsn0W7hYW+cX+Y7tek2xxNUmKw8KN1g4ePJUZemDVRgAA",
+      "exif": {
+        "camera": "Fujifilm X-E4",
+        "lens": "XF 16-50mm f/2.8-4.8 R LM WR",
+        "focal": 39,
+        "focal35": 58,
+        "f": 5.6,
+        "shutter": "1/950s",
+        "iso": 640,
+        "date": "2026-03-28"
+      }
     },
     {
       "file": "dscf8860",
@@ -994,7 +1610,18 @@
         "#c8d7e9",
         "#99835a"
       ],
-      "blur": "data:image/webp;base64,UklGRvYAAABXRUJQVlA4IOoAAACQBgCdASoYACQAPu1mqlCppSOiqrgMATAdiWUAtOsvmbE7N/w2heaXzsMQHikcz/BSeac82p64YlZQeyiAAMyhCLnOCVEF0VIS0dOpyKJarwiQ7MbT2xAL9M3nDE1SgRv1M01BGiiTLwBjVPsc4U16TbxXPO6LEK+TrdSuOBzgyF8kJrjIcnZ2Kiez4vyDWTnU1190wDjm66tDHHH7d8xiBq6ant9N3SW98bVp9KsbHAuY1H115YEEqsUJyIbkNsjE9oWCvfvgiSP9J1Rtt583jowk/uuf882fw4Td92AOjenF3coRm6k4AAA="
+      "blur": "data:image/webp;base64,UklGRvYAAABXRUJQVlA4IOoAAACQBgCdASoYACQAPu1mqlCppSOiqrgMATAdiWUAtOsvmbE7N/w2heaXzsMQHikcz/BSeac82p64YlZQeyiAAMyhCLnOCVEF0VIS0dOpyKJarwiQ7MbT2xAL9M3nDE1SgRv1M01BGiiTLwBjVPsc4U16TbxXPO6LEK+TrdSuOBzgyF8kJrjIcnZ2Kiez4vyDWTnU1190wDjm66tDHHH7d8xiBq6ant9N3SW98bVp9KsbHAuY1H115YEEqsUJyIbkNsjE9oWCvfvgiSP9J1Rtt583jowk/uuf882fw4Td92AOjenF3coRm6k4AAA=",
+      "exif": {
+        "camera": "Fujifilm X-E4",
+        "lens": "XF 16-50mm f/2.8-4.8 R LM WR",
+        "focal": 43,
+        "focal35": 65,
+        "f": 7.1,
+        "shutter": "1/1400s",
+        "iso": 400,
+        "ev": -1,
+        "date": "2026-03-28"
+      }
     },
     {
       "file": "dscf9013",
@@ -1012,7 +1639,18 @@
         "#798567",
         "#b5a857"
       ],
-      "blur": "data:image/webp;base64,UklGRqQAAABXRUJQVlA4IJgAAADwBACdASoYACMAPt1apE2opSOiNUgBEBuJZgC7M3JFew1F4eoIe3/LbWnXMbEtmAAA/tpb/PipEShr9oR9yjqfWr3wHLqHr0RZBkWRpUzZ95l9IsIjFry9sHyWl3Qx2rm7NGzqdViaCsu7hWTJ4MVZDZJPLu5dsgNF6CXWdcbObRXYrRsv39wbzAilVqG1ByaB++xYA1ywAA=="
+      "blur": "data:image/webp;base64,UklGRqQAAABXRUJQVlA4IJgAAADwBACdASoYACMAPt1apE2opSOiNUgBEBuJZgC7M3JFew1F4eoIe3/LbWnXMbEtmAAA/tpb/PipEShr9oR9yjqfWr3wHLqHr0RZBkWRpUzZ95l9IsIjFry9sHyWl3Qx2rm7NGzqdViaCsu7hWTJ4MVZDZJPLu5dsgNF6CXWdcbObRXYrRsv39wbzAilVqG1ByaB++xYA1ywAA==",
+      "exif": {
+        "camera": "Fujifilm X-E4",
+        "lens": "XF 16-50mm f/2.8-4.8 R LM WR",
+        "focal": 26,
+        "focal35": 38,
+        "f": 5.6,
+        "shutter": "1/1250s",
+        "iso": 400,
+        "ev": 0.3,
+        "date": "2026-04-04"
+      }
     },
     {
       "file": "dscf9017",
@@ -1030,7 +1668,18 @@
         "#5598cb",
         "#395a75"
       ],
-      "blur": "data:image/webp;base64,UklGRmgAAABXRUJQVlA4IFwAAADQAwCdASoYABAAPu1iqU2ppaOiMAgBMB2JZgCdMoABFAvR9kqyNIAAyq1Bi8mlz4zlJD6KbjYamKbPhJf61tAIX69XXGAmD7fzNScInTVm7GyJuJ3nSRxkyBS4AA=="
+      "blur": "data:image/webp;base64,UklGRmgAAABXRUJQVlA4IFwAAADQAwCdASoYABAAPu1iqU2ppaOiMAgBMB2JZgCdMoABFAvR9kqyNIAAyq1Bi8mlz4zlJD6KbjYamKbPhJf61tAIX69XXGAmD7fzNScInTVm7GyJuJ3nSRxkyBS4AA==",
+      "exif": {
+        "camera": "Fujifilm X-E4",
+        "lens": "XF 16-50mm f/2.8-4.8 R LM WR",
+        "focal": 27,
+        "focal35": 41,
+        "f": 6.4,
+        "shutter": "1/1400s",
+        "iso": 400,
+        "ev": -0.3,
+        "date": "2026-04-04"
+      }
     },
     {
       "file": "dscf9024",
@@ -1048,7 +1697,17 @@
         "#496889",
         "#594c43"
       ],
-      "blur": "data:image/webp;base64,UklGRnQAAABXRUJQVlA4IGgAAACQAwCdASoYAAkAPu1kqk4ppaQiMAgBMB2JYgCdMoABdOJzvW8AAP0fiF627mqlL/nM856MpC+SLG60d81jE1aHrBSyTFXWll6wR4gnZH777xLHOB2L9OXOaoNwUFOGLOxKiD6xGSvAAA=="
+      "blur": "data:image/webp;base64,UklGRnQAAABXRUJQVlA4IGgAAACQAwCdASoYAAkAPu1kqk4ppaQiMAgBMB2JYgCdMoABdOJzvW8AAP0fiF627mqlL/nM856MpC+SLG60d81jE1aHrBSyTFXWll6wR4gnZH777xLHOB2L9OXOaoNwUFOGLOxKiD6xGSvAAA==",
+      "exif": {
+        "camera": "Fujifilm X-E4",
+        "lens": "XF 16-50mm f/2.8-4.8 R LM WR",
+        "focal": 35,
+        "focal35": 53,
+        "f": 6.4,
+        "shutter": "1/1600s",
+        "iso": 400,
+        "date": "2026-04-04"
+      }
     },
     {
       "file": "dscf9049",
@@ -1066,7 +1725,18 @@
         "#566927",
         "#8a855a"
       ],
-      "blur": "data:image/webp;base64,UklGRtwAAABXRUJQVlA4INAAAACwBQCdASoYABgAPu1oqk+ppaOiKA1RMB2JZAC2zaglHAcpV0T+Vt8lqUFyn9P+zRBbs9tU4cAAzumotajUG/ofDUNHVMwWz8Xv5AVcsgMIxbwW0tPS3Zlnxoq5/N2wU/Jjm7ndQ2eMVD58xynJ3VLCrmlSjOAOqZ04nPwh0/gkpxXAwii5ziTejGhIl3xaJhX6M5cyfuFoK3xml5jkNYcYDGq52xGMirCaIZacoSACQ7mWUrwcz00+fgUs8AR7zNB7skkryZsX4hqAKm2rAAAA"
+      "blur": "data:image/webp;base64,UklGRtwAAABXRUJQVlA4INAAAACwBQCdASoYABgAPu1oqk+ppaOiKA1RMB2JZAC2zaglHAcpV0T+Vt8lqUFyn9P+zRBbs9tU4cAAzumotajUG/ofDUNHVMwWz8Xv5AVcsgMIxbwW0tPS3Zlnxoq5/N2wU/Jjm7ndQ2eMVD58xynJ3VLCrmlSjOAOqZ04nPwh0/gkpxXAwii5ziTejGhIl3xaJhX6M5cyfuFoK3xml5jkNYcYDGq52xGMirCaIZacoSACQ7mWUrwcz00+fgUs8AR7zNB7skkryZsX4hqAKm2rAAAA",
+      "exif": {
+        "camera": "Fujifilm X-E4",
+        "lens": "XF 16-50mm f/2.8-4.8 R LM WR",
+        "focal": 34,
+        "focal35": 51,
+        "f": 5.6,
+        "shutter": "1/400s",
+        "iso": 400,
+        "ev": -0.3,
+        "date": "2026-04-04"
+      }
     },
     {
       "file": "dscf9062",
@@ -1084,7 +1754,18 @@
         "#e7a800",
         "#b77801"
       ],
-      "blur": "data:image/webp;base64,UklGRnQBAABXRUJQVlA4IGgBAAAwCACdASoYACQAPu1cq02ppKQiMBqqqTAdiWwAsR9tPT2qBpgaZJpQJqPxVnFT27m060psbqp7q0nH9Rx8yQdo9CH/0JJELp+8OADieMNhga3kxXbwlIaWKqSlvr8xSGiHN/2T+EwJWk5LYdqeFd6mHAcZgixCbtMS9xEGT7/8W2/lrd7lnCP+RPN7U+YsEnd2zV7Wc23syduRQLUxDDfGJA40ACmhBefVLArkW4Hw74TerzrVutx19UEOvfKb8Aq4eiSy+KUI2IMeOlaytuYLsH2YyJiRsW3dC29O/MEBvwdUCCy1GYG2KhtEKcnGSf7NBrWARU5AN2W9jCVfziR7TPzL+PYd3yBylq/uW9+bi8ASz2sqQVZl9RRZJ13n2cG/snwQVzgpgoAcyt6ozEGoAqQsF55ceZKGf7KSgDBHVXogOqLs7dKxndimOSaKhA9LqIPG5bysq1zMV95td03pP6O9rMWOQAA="
+      "blur": "data:image/webp;base64,UklGRnQBAABXRUJQVlA4IGgBAAAwCACdASoYACQAPu1cq02ppKQiMBqqqTAdiWwAsR9tPT2qBpgaZJpQJqPxVnFT27m060psbqp7q0nH9Rx8yQdo9CH/0JJELp+8OADieMNhga3kxXbwlIaWKqSlvr8xSGiHN/2T+EwJWk5LYdqeFd6mHAcZgixCbtMS9xEGT7/8W2/lrd7lnCP+RPN7U+YsEnd2zV7Wc23syduRQLUxDDfGJA40ACmhBefVLArkW4Hw74TerzrVutx19UEOvfKb8Aq4eiSy+KUI2IMeOlaytuYLsH2YyJiRsW3dC29O/MEBvwdUCCy1GYG2KhtEKcnGSf7NBrWARU5AN2W9jCVfziR7TPzL+PYd3yBylq/uW9+bi8ASz2sqQVZl9RRZJ13n2cG/snwQVzgpgoAcyt6ozEGoAqQsF55ceZKGf7KSgDBHVXogOqLs7dKxndimOSaKhA9LqIPG5bysq1zMV95td03pP6O9rMWOQAA=",
+      "exif": {
+        "camera": "Fujifilm X-E4",
+        "lens": "XF 16-50mm f/2.8-4.8 R LM WR",
+        "focal": 50,
+        "focal35": 75,
+        "f": 5.6,
+        "shutter": "1/1250s",
+        "iso": 400,
+        "ev": -0.7,
+        "date": "2026-04-04"
+      }
     },
     {
       "file": "dscf9095",
@@ -1102,7 +1783,18 @@
         "#976901",
         "#e7aa03"
       ],
-      "blur": "data:image/webp;base64,UklGRvIAAABXRUJQVlA4IOYAAAAQBQCdASoYAA8APu1iqU2ppaOiMAgBMB2JbACdMoMYJnbFrmu24LvuNvlQH+Am581AAM44vhavDPs9xfMe+ykzLOONgL5gmqoJ/nn/WSv+k/d1QPTkh6rSv7r+DNkALvsJgwZFqLf06Bc+kO5cfrnhz65W11dGO6IYuEf8ZRZxz0hXB+jK4l+ES+Swrg2wQff9mGXxsnTq8wcEwXZedwy4Gun6ak6Y/Bpr+6lW1lOWeVmI3/+Aedc+QyE9S4y1jEqaxM5cJLs2ElE9VLEfuxKwqXFGP4H1VRv+VdLG/kHfCNLuF+hwAA=="
+      "blur": "data:image/webp;base64,UklGRvIAAABXRUJQVlA4IOYAAAAQBQCdASoYAA8APu1iqU2ppaOiMAgBMB2JbACdMoMYJnbFrmu24LvuNvlQH+Am581AAM44vhavDPs9xfMe+ykzLOONgL5gmqoJ/nn/WSv+k/d1QPTkh6rSv7r+DNkALvsJgwZFqLf06Bc+kO5cfrnhz65W11dGO6IYuEf8ZRZxz0hXB+jK4l+ES+Swrg2wQff9mGXxsnTq8wcEwXZedwy4Gun6ak6Y/Bpr+6lW1lOWeVmI3/+Aedc+QyE9S4y1jEqaxM5cJLs2ElE9VLEfuxKwqXFGP4H1VRv+VdLG/kHfCNLuF+hwAA==",
+      "exif": {
+        "camera": "Fujifilm X-E4",
+        "lens": "XF 16-50mm f/2.8-4.8 R LM WR",
+        "focal": 39,
+        "focal35": 58,
+        "f": 5.6,
+        "shutter": "1/340s",
+        "iso": 200,
+        "ev": -0.3,
+        "date": "2026-04-04"
+      }
     },
     {
       "file": "dscf9099",
@@ -1120,7 +1812,18 @@
         "#fdd701",
         "#795600"
       ],
-      "blur": "data:image/webp;base64,UklGRhoBAABXRUJQVlA4IA4BAACwBgCdASoYABgAPu1mq08ppaOiKA1RMB2JbACdMtSIKo7H4BpL2cgvwml4ck9oCLr/Q9g0j9qU56rUFm/vAAD+8qGyO7Chk2b0XNqF6FdBEL3CZYnlFsZTjWwE9zhFCQKe1k4GPNe++KiMuXqSrKOl8KIrRS8Dz3QYPaESt872/1WgE2G7cI/9nYuMCb2hq5XytFLoM0V1vPt2OmIJoCg1V+qouBLqjrnvnCCW1n6BQtqRZz66ox26XTApBik3xRUZ2I3duXqRh5uhrSTN5iPKlAwpxdhw8Xb3bqGRIAcsB7zDkhwtRCFZ5vjEq8YrShFd+rBd2COx7DO1Ttv0r5C1Z+fxNIdktmJ0dMBUAAA="
+      "blur": "data:image/webp;base64,UklGRhoBAABXRUJQVlA4IA4BAACwBgCdASoYABgAPu1mq08ppaOiKA1RMB2JbACdMtSIKo7H4BpL2cgvwml4ck9oCLr/Q9g0j9qU56rUFm/vAAD+8qGyO7Chk2b0XNqF6FdBEL3CZYnlFsZTjWwE9zhFCQKe1k4GPNe++KiMuXqSrKOl8KIrRS8Dz3QYPaESt872/1WgE2G7cI/9nYuMCb2hq5XytFLoM0V1vPt2OmIJoCg1V+qouBLqjrnvnCCW1n6BQtqRZz66ox26XTApBik3xRUZ2I3duXqRh5uhrSTN5iPKlAwpxdhw8Xb3bqGRIAcsB7zDkhwtRCFZ5vjEq8YrShFd+rBd2COx7DO1Ttv0r5C1Z+fxNIdktmJ0dMBUAAA=",
+      "exif": {
+        "camera": "Fujifilm X-E4",
+        "lens": "XF 16-50mm f/2.8-4.8 R LM WR",
+        "focal": 46,
+        "focal35": 69,
+        "f": 5.6,
+        "shutter": "1/850s",
+        "iso": 200,
+        "ev": -1,
+        "date": "2026-04-04"
+      }
     },
     {
       "file": "dscf9106",
@@ -1138,7 +1841,18 @@
         "#796537",
         "#475658"
       ],
-      "blur": "data:image/webp;base64,UklGRoYAAABXRUJQVlA4IHoAAAAQBACdASoYAA4APu1iqU2ppaOiMAgBMB2JbACdMoACdpolV8iKZojx0AD+cvVWZVchfdGGhW3wN556/+sc7/gfEDdrAVBWDnV63OjYX+8rgk92+16R6Yi5hRYbw/IK1AiNthtwLh8E1n+oCmXts8ioaAVALGyHdAMcAA=="
+      "blur": "data:image/webp;base64,UklGRoYAAABXRUJQVlA4IHoAAAAQBACdASoYAA4APu1iqU2ppaOiMAgBMB2JbACdMoACdpolV8iKZojx0AD+cvVWZVchfdGGhW3wN556/+sc7/gfEDdrAVBWDnV63OjYX+8rgk92+16R6Yi5hRYbw/IK1AiNthtwLh8E1n+oCmXts8ioaAVALGyHdAMcAA==",
+      "exif": {
+        "camera": "Fujifilm X-E4",
+        "lens": "XF 16-50mm f/2.8-4.8 R LM WR",
+        "focal": 50,
+        "focal35": 75,
+        "f": 5.6,
+        "shutter": "1/1000s",
+        "iso": 200,
+        "ev": -0.3,
+        "date": "2026-04-04"
+      }
     },
     {
       "file": "dscf9114",
@@ -1156,7 +1870,17 @@
         "#886738",
         "#484649"
       ],
-      "blur": "data:image/webp;base64,UklGRoYAAABXRUJQVlA4IHoAAABwBACdASoYAAwAPu1iqU2ppaQiMAgBMB2JbACdMoMYAEJCsSOc15iWR6ltyADhmbVjyKEiK0zO6naXVjJtkDgqzzSYLQtZM1rQZJI41qLESNf2h8De99bs5Rxd8lzgsAOt3xe0919YLH9zxTIzPMcEGcTmwJgZVt/AAA=="
+      "blur": "data:image/webp;base64,UklGRoYAAABXRUJQVlA4IHoAAABwBACdASoYAAwAPu1iqU2ppaQiMAgBMB2JbACdMoMYAEJCsSOc15iWR6ltyADhmbVjyKEiK0zO6naXVjJtkDgqzzSYLQtZM1rQZJI41qLESNf2h8De99bs5Rxd8lzgsAOt3xe0919YLH9zxTIzPMcEGcTmwJgZVt/AAA==",
+      "exif": {
+        "camera": "Fujifilm X-E4",
+        "lens": "XC 50-230mm f/4.5-6.7 OIS II",
+        "focal": 85,
+        "focal35": 127,
+        "f": 5.6,
+        "shutter": "1/600s",
+        "iso": 200,
+        "date": "2026-04-05"
+      }
     },
     {
       "file": "dscf9125",
@@ -1174,7 +1898,17 @@
         "#796628",
         "#384447"
       ],
-      "blur": "data:image/webp;base64,UklGRnoAAABXRUJQVlA4IG4AAABQBACdASoYABAAPu1iqU2ppaOiMAgBMB2JbACdMoMYAEHB4qJ+nO+5kOwIAPpgvqNi0BQy52eXO7aOlhZl1PG0uqWLqT987gWTTWsfrH8dcAMCmE9OA2lZc/1i7uATCIBQjTWXEnJb07KGjgAAAA=="
+      "blur": "data:image/webp;base64,UklGRnoAAABXRUJQVlA4IG4AAABQBACdASoYABAAPu1iqU2ppaOiMAgBMB2JbACdMoMYAEHB4qJ+nO+5kOwIAPpgvqNi0BQy52eXO7aOlhZl1PG0uqWLqT987gWTTWsfrH8dcAMCmE9OA2lZc/1i7uATCIBQjTWXEnJb07KGjgAAAA==",
+      "exif": {
+        "camera": "Fujifilm X-E4",
+        "lens": "XC 50-230mm f/4.5-6.7 OIS II",
+        "focal": 53,
+        "focal35": 80,
+        "f": 5.6,
+        "shutter": "1/1100s",
+        "iso": 200,
+        "date": "2026-04-05"
+      }
     },
     {
       "file": "dscf9134",
@@ -1192,7 +1926,17 @@
         "#887864",
         "#c7a968"
       ],
-      "blur": "data:image/webp;base64,UklGRggBAABXRUJQVlA4IPwAAADQBgCdASoYACsAPu1iqlEppKOiqrgMATAdiWIAqSeThtbvrcEkJ+no+PwIZN33BvMfSLbEfLq2rsVr1zUpduAA/Hw/CXW87NmVLFUEPvRymYq7Stg2qda7i4yrn+6qLzUAhrImhF66TF3KpZr0RofGlZqLvHS4DoErat9Q1jAzTQZvknDCY32lzcnDK+kVei0Dy9f0c7Ajd/txWDL5ROxEcaSN9teohj2tz1WCOWu7xVqf4JDJTGc1DGFtSJTseCqYMI/qEZrg1te5JuuZB4kXg0eWab2EaKIbZGFNndCmm9FYfYwMSs6H2UNRznNLAlClirQuaebjAEkAAAA="
+      "blur": "data:image/webp;base64,UklGRggBAABXRUJQVlA4IPwAAADQBgCdASoYACsAPu1iqlEppKOiqrgMATAdiWIAqSeThtbvrcEkJ+no+PwIZN33BvMfSLbEfLq2rsVr1zUpduAA/Hw/CXW87NmVLFUEPvRymYq7Stg2qda7i4yrn+6qLzUAhrImhF66TF3KpZr0RofGlZqLvHS4DoErat9Q1jAzTQZvknDCY32lzcnDK+kVei0Dy9f0c7Ajd/txWDL5ROxEcaSN9teohj2tz1WCOWu7xVqf4JDJTGc1DGFtSJTseCqYMI/qEZrg1te5JuuZB4kXg0eWab2EaKIbZGFNndCmm9FYfYwMSs6H2UNRznNLAlClirQuaebjAEkAAAA=",
+      "exif": {
+        "camera": "Fujifilm X-E4",
+        "lens": "XC 50-230mm f/4.5-6.7 OIS II",
+        "focal": 71,
+        "focal35": 107,
+        "f": 5.6,
+        "shutter": "1/300s",
+        "iso": 200,
+        "date": "2026-04-05"
+      }
     },
     {
       "file": "dscf9164",
@@ -1210,7 +1954,18 @@
         "#988568",
         "#574c45"
       ],
-      "blur": "data:image/webp;base64,UklGRmIAAABXRUJQVlA4IFYAAAAwBACdASoYAAwAPu1mq04ppaQiMAgBMB2JYgCw7CP6cRMCJEkb/Y+Q6gAA/lm97KTFbrg9aDTBhPLsBmeyr1NLInz8x4PDtDthFasiBigzQ3xVtg0AAA=="
+      "blur": "data:image/webp;base64,UklGRmIAAABXRUJQVlA4IFYAAAAwBACdASoYAAwAPu1mq04ppaQiMAgBMB2JYgCw7CP6cRMCJEkb/Y+Q6gAA/lm97KTFbrg9aDTBhPLsBmeyr1NLInz8x4PDtDthFasiBigzQ3xVtg0AAA==",
+      "exif": {
+        "camera": "Fujifilm X-E4",
+        "lens": "XF 16-50mm f/2.8-4.8 R LM WR",
+        "focal": 50,
+        "focal35": 75,
+        "f": 5.6,
+        "shutter": "1/800s",
+        "iso": 200,
+        "ev": -0.7,
+        "date": "2026-04-18"
+      }
     },
     {
       "file": "dscf9166-2",
@@ -1228,7 +1983,17 @@
         "#787654",
         "#85aac7"
       ],
-      "blur": "data:image/webp;base64,UklGRnIAAABXRUJQVlA4IGYAAADwAwCdASoYAAoAPu1iqU2ppaOiMAgBMB2JQBfnA9GTNDC4F9ZXsgwAAP7I/nqBZWJmJVqPFXEsKqDbzHDIfoQCJU0tii2zHw4wh1cHn0uA10znBBMFMhkfXGyMGTPRv4MDWWQ/4AA="
+      "blur": "data:image/webp;base64,UklGRnIAAABXRUJQVlA4IGYAAADwAwCdASoYAAoAPu1iqU2ppaOiMAgBMB2JQBfnA9GTNDC4F9ZXsgwAAP7I/nqBZWJmJVqPFXEsKqDbzHDIfoQCJU0tii2zHw4wh1cHn0uA10znBBMFMhkfXGyMGTPRv4MDWWQ/4AA=",
+      "exif": {
+        "camera": "Fujifilm X-E4",
+        "lens": "XF 16-50mm f/2.8-4.8 R LM WR",
+        "focal": 50,
+        "focal35": 75,
+        "f": 5.6,
+        "shutter": "1/900s",
+        "iso": 200,
+        "date": "2026-04-18"
+      }
     },
     {
       "file": "dscf9179",
@@ -1246,7 +2011,18 @@
         "#5a99c6",
         "#c4d6e8"
       ],
-      "blur": "data:image/webp;base64,UklGRrAAAABXRUJQVlA4IKQAAAAQBQCdASoYACMAPu1urVIppiQipWsxMB2JYgC90Bob/iDKYKnJBf1YtPgzy9mt17+AANaM/CRSMS4EN5k1qwh/4u2i0x0X/OHdnnRC43VKMpkwjJwzQTssK7KfiCgH7T/DY9/UskgKQIZ+A0qlN3K5nYB6n6XZzeKDjL3Po82AofQThK3w4gXm2Juenbzd0zHAyGtiqVt7zzxZh5FopFbq6huAAA=="
+      "blur": "data:image/webp;base64,UklGRrAAAABXRUJQVlA4IKQAAAAQBQCdASoYACMAPu1urVIppiQipWsxMB2JYgC90Bob/iDKYKnJBf1YtPgzy9mt17+AANaM/CRSMS4EN5k1qwh/4u2i0x0X/OHdnnRC43VKMpkwjJwzQTssK7KfiCgH7T/DY9/UskgKQIZ+A0qlN3K5nYB6n6XZzeKDjL3Po82AofQThK3w4gXm2Juenbzd0zHAyGtiqVt7zzxZh5FopFbq6huAAA==",
+      "exif": {
+        "camera": "Fujifilm X-E4",
+        "lens": "XF 16-50mm f/2.8-4.8 R LM WR",
+        "focal": 42,
+        "focal35": 63,
+        "f": 5.6,
+        "shutter": "1/800s",
+        "iso": 200,
+        "ev": 0.3,
+        "date": "2026-04-18"
+      }
     },
     {
       "file": "dscf9193",
@@ -1264,7 +2040,18 @@
         "#fbfbfb",
         "#756b4a"
       ],
-      "blur": "data:image/webp;base64,UklGRpgAAABXRUJQVlA4IIwAAAAQBACdASoYABAAPu1iqU2ppaOiMAgBMB2JYwC0+f/l2AMjoxGnGO0qAAD7nKcnOz4NWJQwSZPT1/fx6bxTynn4rj6Ok5aFaOyzuAkZO0zLo2dQBxI8KAP9NNGrpWGJdygA9P4IP2FLKZG7ijee5vieVJEjEUUMnGYM8taEvFrAsitBFlQ0vvctGYAAAA=="
+      "blur": "data:image/webp;base64,UklGRpgAAABXRUJQVlA4IIwAAAAQBACdASoYABAAPu1iqU2ppaOiMAgBMB2JYwC0+f/l2AMjoxGnGO0qAAD7nKcnOz4NWJQwSZPT1/fx6bxTynn4rj6Ok5aFaOyzuAkZO0zLo2dQBxI8KAP9NNGrpWGJdygA9P4IP2FLKZG7ijee5vieVJEjEUUMnGYM8taEvFrAsitBFlQ0vvctGYAAAA==",
+      "exif": {
+        "camera": "Fujifilm X-E4",
+        "lens": "XF 16-50mm f/2.8-4.8 R LM WR",
+        "focal": 50,
+        "focal35": 75,
+        "f": 5.6,
+        "shutter": "1/900s",
+        "iso": 200,
+        "ev": -0.7,
+        "date": "2026-04-18"
+      }
     },
     {
       "file": "dscf9196",
@@ -1282,7 +2069,17 @@
         "#574636",
         "#86754b"
       ],
-      "blur": "data:image/webp;base64,UklGRnQAAABXRUJQVlA4IGgAAACwAwCdASoYAA0APu1mqk4ppaOiMAgBMB2JYwC7ACFmeIO2YxylgAD+1zo0BreeH0rAY8Sa6Xlllk7dXyGp1QJV3EB4qEcYs1TEZiOlJ65FB2bheXuNIDXmvxSj5I29HyRs+9s4Q/8AAA=="
+      "blur": "data:image/webp;base64,UklGRnQAAABXRUJQVlA4IGgAAACwAwCdASoYAA0APu1mqk4ppaOiMAgBMB2JYwC7ACFmeIO2YxylgAD+1zo0BreeH0rAY8Sa6Xlllk7dXyGp1QJV3EB4qEcYs1TEZiOlJ65FB2bheXuNIDXmvxSj5I29HyRs+9s4Q/8AAA==",
+      "exif": {
+        "camera": "Fujifilm X-E4",
+        "lens": "XF 16-50mm f/2.8-4.8 R LM WR",
+        "focal": 26,
+        "focal35": 38,
+        "f": 5.6,
+        "shutter": "1/750s",
+        "iso": 200,
+        "date": "2026-04-18"
+      }
     },
     {
       "file": "dscf9199-2",
@@ -1300,7 +2097,18 @@
         "#475716",
         "#768726"
       ],
-      "blur": "data:image/webp;base64,UklGRq4AAABXRUJQVlA4IKIAAAAwBACdASoYABAAPu1iqU2ppaOiMAgBMB2JaAAD5SovH7M05pXbPVHs8sAA/tyzRhIk7CMG2XMurWr0wutL8mcVX56N6u/oon/TSR/lWEEbHb7ASZ9IhdkOPLRo5YP/VVOrHzEoKYT5kqNiubNgY0MOEMy6u/mvbtRjMjnELY/FRXWt7nemMVXlANfQ5OpFjNTHwzc0m3rLYDlpwmnwR6po4AA="
+      "blur": "data:image/webp;base64,UklGRq4AAABXRUJQVlA4IKIAAAAwBACdASoYABAAPu1iqU2ppaOiMAgBMB2JaAAD5SovH7M05pXbPVHs8sAA/tyzRhIk7CMG2XMurWr0wutL8mcVX56N6u/oon/TSR/lWEEbHb7ASZ9IhdkOPLRo5YP/VVOrHzEoKYT5kqNiubNgY0MOEMy6u/mvbtRjMjnELY/FRXWt7nemMVXlANfQ5OpFjNTHwzc0m3rLYDlpwmnwR6po4AA=",
+      "exif": {
+        "camera": "Fujifilm X-E4",
+        "lens": "XF 16-50mm f/2.8-4.8 R LM WR",
+        "focal": 50,
+        "focal35": 75,
+        "f": 5.6,
+        "shutter": "1/900s",
+        "iso": 200,
+        "ev": -1,
+        "date": "2026-04-18"
+      }
     }
   ]
 }

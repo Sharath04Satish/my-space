@@ -1,6 +1,7 @@
 import { useCallback, useEffect, useRef, useState } from "react";
 import { imageUrl, maxWidth, type GalleryPhoto } from "../lib/images";
 import { topColors } from "../lib/colors";
+import { exifParts } from "../lib/exif";
 
 type Props = { photos: GalleryPhoto[]; index: number; onIndex: (i: number) => void; onClose: () => void };
 
@@ -9,6 +10,7 @@ export default function Lightbox({ photos, index, onIndex, onClose }: Props) {
   const imgRef = useRef<HTMLImageElement>(null);
   const [colors, setColors] = useState<string[]>(p.colors ?? []);
   const [copied, setCopied] = useState<string | null>(null);
+  const exif = exifParts(p.exif);
 
   const step = useCallback((d: number) => onIndex((index + d + photos.length) % photos.length), [index, photos.length, onIndex]);
 
@@ -40,8 +42,9 @@ export default function Lightbox({ photos, index, onIndex, onClose }: Props) {
     });
   }, [index, photos]);
 
-  // Swipe
-  const x0 = useRef<number | null>(null);
+  // Touch gestures: swipe left/right = previous/next, swipe down = close. Two-finger pinches and
+  // swipes while the page is pinch-zoomed are left to the browser (zooming into a photo's detail).
+  const touch0 = useRef<{ x: number; y: number } | null>(null);
 
   const copy = (hex: string) => {
     navigator.clipboard?.writeText(hex);
@@ -55,12 +58,19 @@ export default function Lightbox({ photos, index, onIndex, onClose }: Props) {
       role="dialog"
       aria-modal="true"
       aria-label={p.title}
-      onTouchStart={(e) => (x0.current = e.touches[0].clientX)}
+      onTouchStart={(e) => {
+        touch0.current = e.touches.length === 1 ? { x: e.touches[0].clientX, y: e.touches[0].clientY } : null;
+      }}
+      onTouchCancel={() => (touch0.current = null)}
       onTouchEnd={(e) => {
-        if (x0.current === null) return;
-        const dx = e.changedTouches[0].clientX - x0.current;
-        if (Math.abs(dx) > 50) step(dx < 0 ? 1 : -1);
-        x0.current = null;
+        const s = touch0.current;
+        touch0.current = null;
+        if (!s || e.changedTouches.length !== 1) return;
+        if ((window.visualViewport?.scale ?? 1) > 1.05) return;
+        const dx = e.changedTouches[0].clientX - s.x;
+        const dy = e.changedTouches[0].clientY - s.y;
+        if (Math.abs(dx) > 50 && Math.abs(dx) > Math.abs(dy) * 1.5) step(dx < 0 ? 1 : -1);
+        else if (dy > 90 && dy > Math.abs(dx) * 1.5) onClose();
       }}
     >
       <button className="lb-btn lb-close" aria-label="Close" onClick={onClose}>✕</button>
@@ -70,19 +80,24 @@ export default function Lightbox({ photos, index, onIndex, onClose }: Props) {
         <img ref={imgRef} key={p.file} src={imageUrl(p.project, p, maxWidth(p))} alt={p.title} onLoad={onLoad} />
       </div>
       <div className="lb-bar">
-        <span className="t">{p.title} · {p.projectTitle}</span>
-        <span className="sw">
-          {colors.map((hex) => (
-            <button
-              key={hex}
-              className={"sq" + (copied === hex ? " copied" : "")}
-              style={{ background: hex }}
-              title={`${hex} — click to copy`}
-              onClick={() => copy(hex)}
-            />
-          ))}
-        </span>
-        <span className="n">{index + 1} / {photos.length}</span>
+        <div className="lb-info">
+          <span className="t">{p.title} · {p.projectTitle}</span>
+          {exif.length > 0 && <span className="meta">{exif.join(" · ")}</span>}
+        </div>
+        <div className="lb-side">
+          <span className="sw">
+            {colors.map((hex) => (
+              <button
+                key={hex}
+                className={"sq" + (copied === hex ? " copied" : "")}
+                style={{ background: hex }}
+                title={`${hex} — click to copy`}
+                onClick={() => copy(hex)}
+              />
+            ))}
+          </span>
+          <span className="n">{index + 1} / {photos.length}</span>
+        </div>
       </div>
     </div>
   );
