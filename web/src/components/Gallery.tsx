@@ -70,7 +70,7 @@ export default function Gallery({ photos, layout = "masonry", columns = 2, hero 
     <figure
       key={p.project + p.file}
       className={"ph" + (isHero ? " hero" : "")}
-      style={{ ["--ar" as string]: (p.w / p.h).toFixed(3), backgroundImage: p.blur ? `url(${p.blur})` : undefined }}
+      style={{ ["--ar" as string]: (p.w / p.h).toFixed(3), backgroundImage: p.blur ? `url(${p.blur})` : undefined, order: i }}
       onClick={() => setOpen(i)}
     >
       <img
@@ -94,7 +94,7 @@ export default function Gallery({ photos, layout = "masonry", columns = 2, hero 
   );
 
   const HERO_SIZES = "(min-width:1500px) 1436px, 100vw";
-  const GRID_SIZES = "(min-width:720px) 33vw, 50vw";
+  const GRID_SIZES = "(min-width:721px) 33vw, 100vw"; // one photo per row on phones
 
   return (
     <div className="rows">
@@ -104,7 +104,7 @@ export default function Gallery({ photos, layout = "masonry", columns = 2, hero 
           <div className="mcols">
             {shortestColumns(photos, columns, heroIndex).map((col, ci) => (
               <div className="mcol" key={ci}>
-                {col.map((i) => fig(photos[i], i, `(min-width:1500px) ${Math.round(1436 / columns)}px, ${Math.round(100 / columns)}vw`))}
+                {col.map((i) => fig(photos[i], i, `(max-width:720px) 100vw, (min-width:1500px) ${Math.round(1436 / columns)}px, ${Math.round(100 / columns)}vw`))}
               </div>
             ))}
           </div>

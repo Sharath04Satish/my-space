@@ -149,6 +149,8 @@ The site is static: Cloudflare Pages builds it from this GitHub repo, and the ph
 **Live setup**
 - **Photos:** R2 bucket with the custom domain `images.sharathsatish.me`. All photo copies are uploaded (`npm run photos:upload` skips anything already there).
 - **Site:** Cloudflare Pages project connected to the GitHub repo `Sharath04Satish/my-space`.
+- **Addresses:** `https://sharathsatish.me` and `https://www.sharathsatish.me` are both attached to the Pages project (Custom domains), and the default `https://my-space-6c7.pages.dev` also works. Cloudflare manages their DNS records. Add a domain through the Pages "Custom domains" screen and let it create the record; creating the record by hand first can give a 522 error. `images.sharathsatish.me` belongs to the R2 bucket, so leave it alone.
+- **A new address "can't be found" on your own computer** right after you add it: the computer remembered "that doesn't exist" from an earlier lookup (up to about 30 minutes). Check it from your phone on mobile data. To clear it on a Mac: `sudo dscacheutil -flushcache; sudo killall -HUP mDNSResponder`, then restart the browser.
 
 **Cloudflare Pages build settings**
 
@@ -202,7 +204,7 @@ The site is built phone-first in its details (all of this lives in `src/styles/g
 - **Tap targets:** on any touch screen (phones *and* tablets) the logo, main nav and Photography tabs are at least 44px tall, the size Apple and Google recommend for fingers. The three colour squares in the full-screen view grow to 28px.
 - **Hover only for mouse users:** the zoom-on-hover and caption effects only apply when the device really has hover (`(hover:hover)`). On a phone they would otherwise stick after a tap.
 - **Notch and home indicator:** the page uses `viewport-fit=cover` and `env(safe-area-inset-*)` so the header, footer and full-screen view clear the status bar, notch and home bar. (Desktop browsers and the in-app preview report zero insets, so this can only be seen on a real notched phone.)
-- **Phone layouts:** Gear is two per row, About has a square portrait with a tappable (`mailto:`) email, and the lead photo and photo grids sit tighter under the header.
+- **Phone layouts:** the Highlights and collection photo grids are one photo per row, each the full width of the screen, in the same order as on desktop (the Highlights' two desktop columns are flattened back into list order with CSS `order`). Gear is two per row, About has a square portrait with a tappable (`mailto:`) email, and the lead photo and photo grids sit tighter under the header.
 - **Header on phones:** it scrolls away with the page instead of staying pinned (on desktop and tablets it stays pinned), so photos get the whole screen while you scroll. Scroll back to the top, or tap the status bar on an iPhone, to reach the navigation again.
 - **Sideways phones / short windows (under 500px tall):** the header is not pinned either, and the full-screen view uses a compact one-row footer, so the photo gets about 80% of the screen height.
 - **Full-screen view gestures:** swipe left/right for the next/previous photo, swipe down to close, and a two-finger pinch is left to the browser so you can zoom into detail. Arrow keys and Esc still work on desktop.

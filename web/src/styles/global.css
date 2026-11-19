@@ -126,7 +126,10 @@ footer{padding:64px 32px calc(40px + env(safe-area-inset-bottom,0px));color:var(
 @media (max-width:720px){
   :root{--row:170px}
   body{font-size:14px;line-height:1.5}
-  .masonry{columns:2}
+  /* photo grids: one photo per row, each the full width of the screen */
+  .masonry{columns:1}
+  .mcols{flex-direction:column;align-items:stretch}
+  .mcol{display:contents} /* drop the two separate columns; the photos' own list order (set inline) decides the sequence */
 
   /* header: compact, but every link is still at least 44px tall to tap */
   header.site{position:static;padding:calc(4px + env(safe-area-inset-top,0px)) 18px 4px} /* scrolls away on phones: more room for photos */
