@@ -265,9 +265,9 @@ async function build() {
 
   writeJson(STATE_FILE, state);
 
-  // local serving: public/img -> .cache/images, so PUBLIC_IMAGE_BASE=/img works in dev
+  // local serving: public/img -> .cache/images, so PUBLIC_IMAGE_BASE=/img works in dev (only created when that is the setting)
   const link = path.resolve("public/img");
-  if (!fs.existsSync(link) && OUT === path.resolve(".cache/images")) {
+  if (!fs.existsSync(link) && OUT === path.resolve(".cache/images") && (process.env.PUBLIC_IMAGE_BASE ?? "").startsWith("/")) {
     fs.mkdirSync(path.dirname(link), { recursive: true });
     fs.mkdirSync(OUT, { recursive: true });
     fs.symlinkSync(path.relative(path.dirname(link), OUT), link);

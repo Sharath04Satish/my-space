@@ -142,6 +142,40 @@ All image URLs go through `src/lib/images.ts`:
 
 Copy `.env.example` to `.env` and fill it in. It holds `PUBLIC_IMAGE_BASE` and the R2 keys (`R2_ACCOUNT_ID`, `R2_ACCESS_KEY_ID`, `R2_SECRET_ACCESS_KEY`, `R2_BUCKET`). `.env` is gitignored.
 
+## Deploying
+
+The site is static: Cloudflare Pages builds it from this GitHub repo, and the photos are served separately from an R2 bucket on your own subdomain.
+
+**Live setup**
+- **Photos:** R2 bucket with the custom domain `images.sharathsatish.me`. All photo copies are uploaded (`npm run photos:upload` skips anything already there).
+- **Site:** Cloudflare Pages project connected to the GitHub repo `Sharath04Satish/my-space`.
+
+**Cloudflare Pages build settings**
+
+| Setting | Value |
+|---|---|
+| Root directory | `web` (the app lives in a subfolder of the repo) |
+| Build command | `npm run build` |
+| Build output directory | `dist` |
+| Environment variable | `PUBLIC_IMAGE_BASE` = `https://images.sharathsatish.me` (no trailing slash) |
+| Environment variable | `NODE_VERSION` = `22` (`web/.nvmrc` says the same) |
+
+`PUBLIC_IMAGE_BASE` is baked into the pages when they are built, so changing it needs a rebuild (Pages > Deployments > Retry, or push a commit).
+
+**Day to day:** add photos to `photos/<collection>/`, run `npm run photos:sync`, commit the changed data files in `src/data/`, and push. Pages rebuilds and publishes by itself.
+
+**What goes where:** the repo holds only code and the small data files; originals (`photos/`) and generated copies (`.cache/`) never go to GitHub, and `.env` (with the R2 keys) is gitignored. The built site is about 2 MB. The repo is public, so anything committed is public.
+
+**Files that exist for deployment**
+- `web/.nvmrc`: Node version for the host.
+- `web/src/pages/404.astro`: the "Page not found" page. Without one, Cloudflare Pages treats the site as a single-page app and shows the home page for every bad address.
+- `web/public/_headers`: caches the built CSS and JS for a year.
+- `web/public/robots.txt`: allows search engines.
+- `site` in `web/astro.config.mjs`: the site's own address (`https://sharathsatish.me`).
+- Old addresses (`/collections/...`, `/projects/...`) forward to `/photography/collections/...`.
+
+**Checking a build before pushing:** `PUBLIC_IMAGE_BASE=https://images.sharathsatish.me npm run build`, then `npm run preview`. The local preview link `public/img` is only created when `PUBLIC_IMAGE_BASE` starts with `/`, so a normal build stays small.
+
 ## Project layout
 
 ```text

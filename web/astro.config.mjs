@@ -5,6 +5,7 @@ import react from '@astrojs/react';
 
 // https://astro.build/config
 export default defineConfig({
+  site: "https://sharathsatish.me",
   integrations: [react()],
   redirects: {
     // Old URLs keep working: /collections moved under /photography, and "projects" was the earlier name.

@@ -1680,35 +1680,6 @@
       }
     },
     {
-      "file": "dscf9575",
-      "title": "Dscf9575",
-      "w": 3868,
-      "h": 5789,
-      "widths": [
-        600,
-        1200,
-        2400
-      ],
-      "v": "0c9d8825",
-      "colors": [
-        "#7b8587",
-        "#3a4727",
-        "#697544"
-      ],
-      "blur": "data:image/webp;base64,UklGRuIAAABXRUJQVlA4INYAAACwBgCdASoYACQAPu1irFAppSQiqrgMATAdiWMAvgO+b4mG4TwikehKIrbkyuBmqUlv21DhvpRHXqs2R9K4AAD+wAY1bFfSgN9g04aOJcOAinRuruNR7D4SpBE0YLHdcD69iXTwsg4gBjcE2lBeeeeTtKV9YRdNj8w3/Uf23frkG3UPwV2vkZ27t2DVfNxgO6lEV+sSfh0B3kQjKQpHJwrtgXh9PXskQBdtrJus4+hYahMQpNBlE3YqX/XRoBzmFW8jq/QqXhdTJIQdFLAxNW/QUzC71GAA",
-      "exif": {
-        "camera": "Fujifilm X-E4",
-        "lens": "XF 16-50mm f/2.8-4.8 R LM WR",
-        "focal": 26,
-        "focal35": 39,
-        "f": 5,
-        "shutter": "1/50s",
-        "iso": 1600,
-        "ev": -0.7,
-        "date": "2026-04-26"
-      }
-    },
-    {
       "file": "dscf9747",
       "title": "Dscf9747",
       "w": 5449,
@@ -1734,35 +1705,6 @@
         "shutter": "1/280s",
         "iso": 640,
         "ev": 0.7,
-        "date": "2026-04-26"
-      }
-    },
-    {
-      "file": "dscf9819",
-      "title": "Dscf9819",
-      "w": 4075,
-      "h": 6240,
-      "widths": [
-        600,
-        1200,
-        2400
-      ],
-      "v": "8d8a37cf",
-      "colors": [
-        "#89836a",
-        "#5a5518",
-        "#b4a885"
-      ],
-      "blur": "data:image/webp;base64,UklGRh4BAABXRUJQVlA4IBIBAADQBgCdASoYACUAPu1uq08ppqOiKrgMATAdiWIAvV22ZUbawh1hKqcgC/IU+s7z3ueWBKR04yiKZjQ9kZuxgPAA/htf9PR3ugwykZtSm9KkDcv0Ii/+3fK6leltw717Ra5ydOuyi7100oma7+W05NBpNgcasoHsWhWzqPBRB+uMTPDjhH+jj/TBOLQOxTXL4Z/uxI2UoJimJtyjriVixUP13mu/oH4/YrfP+xpnk7ZjCPGB/c1zutWEJ6/xKiCo1G0I/Q8VMb2qnmSYWq1iID6WUb/Qdj/gvAuZTRSq4Y8gACIR9ac8wgHXgnvVn9DvJd/znZw3QasJwEC90dSsPUS3P7kfa3YQRZZe98rxRkXQAAAA",
-      "exif": {
-        "camera": "Fujifilm X-E4",
-        "lens": "XF 16-50mm f/2.8-4.8 R LM WR",
-        "focal": 16,
-        "focal35": 24,
-        "f": 2.8,
-        "shutter": "1/600s",
-        "iso": 1250,
-        "ev": 0.3,
         "date": "2026-04-26"
       }
     }
